@@ -42,11 +42,11 @@ extension PumpOpsError: LocalizedError {
         case .couldNotDecode(rx: let data, during: let during):
             return String(format: LocalizedString("Invalid response during %1$@: %2$@", comment: "Format string for failure reason. (1: The operation being performed) (2: The response data)"), String(describing: during), data.hexadecimalString)
         case .crosstalk:
-            return LocalizedString("Comms with another pump detected", comment: "")
+            return LocalizedString("Comms with another pump detected", comment: "Description for PumpOpsError.crosstalk")
         case .noResponse:
-            return LocalizedString("Pump did not respond", comment: "")
+            return LocalizedString("Pump did not respond", comment: "Description for PumpOpsError.noResponse")
         case .pumpSuspended:
-            return LocalizedString("Pump is suspended", comment: "")
+            return LocalizedString("Pump is suspended", comment: "Description for PumpOpsError.pumpSuspended")
         case .rfCommsFailure(let msg):
             return msg
         case .unexpectedResponse(let response, _):

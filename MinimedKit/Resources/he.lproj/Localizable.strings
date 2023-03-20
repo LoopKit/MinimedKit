@@ -126,7 +126,7 @@
 "Temporary Basal: %1$.3f U/hour" = "Temporary Basal: %1$.3f U/hour";
 
 /* The format string description of a TempBasalDurationPumpEvent. (1: The duration of the temp basal in minutes) */
-"Temporary Basal: %1$d min" = "Temporary Basal: %1$d min";
+"Temporary Basal: %1$d min" = "בזאלי זמני: %1$d דקות";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in percent) */
 "Temporary Basal: %1$d%%" = "Temporary Basal: %1$d%%";

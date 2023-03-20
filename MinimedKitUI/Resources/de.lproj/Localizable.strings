@@ -1,9 +1,6 @@
 /* Unit format string for an RSSI value in decibles */
 "%@ dB" = "%@ dB";
 
-/* Unit format string for an value in percent */
-"%@%%" = "%@%%";
-
 /* Format string for reservoir volume. (1: The localized volume) */
 "%@U" = "%@U";
 
@@ -19,7 +16,7 @@
 /* Accessibility format string for (1: localized volume)(2: time) */
 "%1$@ units remaining at %2$@" = "%1$@ IE verbleibend bei %2$@";
 
-/* The format string for displaying an offset from a time zone: (1: GMT)(2: -)(3: 4:00) */
+/* String format for value with units (1: value, 2: separator, 3: units) */
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Text indicating ongoing pump time synchronization */
@@ -28,17 +25,8 @@
 /* Instructions on selecting battery chemistry type */
 "Alkaline and Lithium batteries decay at differing rates. Alkaline tend to have a linear voltage drop over time whereas lithium cell batteries tend to maintain voltage until halfway through their lifespan. Under normal usage in a Non-MySentry compatible Minimed (x22/x15) insulin pump running Loop, Alkaline batteries last approximately 4 to 5 days. Lithium batteries last between 1-2 weeks. This selection will use different battery voltage decay rates for each of the battery chemistry types and alert the user when a battery is approximately 8 to 10 hours from failure." = "Alkali- und Lithiumbatterien zerfallen unterschiedlich schnell. Alkaline neigen dazu, einen linearen Spannungsabfall im Laufe der Zeit zu haben, während Lithium-Zellen-Batterien neigen dazu, die Spannung bis zur Hälfte ihrer Lebensdauer beizubehalten. Bei normaler Verwendung in einer Nicht-MySentry-kompatiblen Minimed (x22 / x15) Insulinpumpe, die Loop läuft, halten Alkali-Batterien etwa 4 bis 5 Tage. Lithium-Batterien halten zwischen 1-2 Wochen. Diese Auswahl verwendet unterschiedliche Batteriespannungs-Abnahmeraten für jeden der Batteriechemietypen und warnt den Benutzer, wenn eine Batterie ungefähr 8 bis 10 Stunden nach einem Fehler liegt.";
 
-/* Confirmation message for deleting a pump */
-"Are you sure you want to delete this pump?" = "Sind Sie sicher dass sie diese Pumpe loeschen wollen?";
-
 /* Text to confirm delete this pump */
 "Are you sure you want to delete this Pump?" = "Sind Sie sicher, dass Sie diese Pumpe löschen wollen?";
-
-/* The title of the cell describing an awake radio */
-"Awake Until" = "Aktiv bis";
-
-/* The title text for the basal rate schedule */
-"Basal Rates" = "Basalrate";
 
 /* The format string describing pump battery voltage: (1: battery voltage) */
 "Battery: %1$@ volts\n" = "Batterie: %1$@ Volt\n";
@@ -49,17 +37,11 @@
 /* The format string describing pump bolusing state: (1: bolusing) */
 "Bolusing: %1$@\n" = "Bolusing: %1$@\n";
 
-/* The title of the cancel action in an action sheet */
+/* Cancel button title */
 "Cancel" = "Abbrechen";
 
 /* Title text for suspend resume button when temp basal canceling */
 "Canceling Temp Basal" = "Temporäre Basalrate abbrechen";
-
-/* The title of the command to change pump time */
-"Change Time" = "Zeit ändern";
-
-/* The title of the command to change pump time zone */
-"Change Time Zone" = "Zeitzone ändern";
 
 /* Text shown in basal rate space when basal is changing */
 "Changing" = "Wechselt";
@@ -70,48 +52,24 @@
 /* Instructions on selecting battery chemistry type */
 "Choose the type of battery you are using in your pump for better alerting about low battery conditions." = "Wählen Sie den Batterietyp, den Sie in Ihrer Pumpe verwenden, um besser über einen niedrigen Batteriestand informiert zu werden.";
 
-/* The title of the section describing commands */
-"Commands" = "Befehle";
-
-/* The title of the configuration section in settings */
+/* The title of the configuration section in MinimedPumpManager settings */
 "Configuration" = "Konfiguration";
 
 /* Button title to connect to pump during setup */
 "Connect" = "Verbinden";
 
-/* The title of the cell showing BLE connection state */
-"Connection State" = "Verbindungsstatus";
-
 /* Text for continue button */
 "Continue" = "Weiter";
 
-/* Button title to delete pump
-   Title text for the button to remove a pump from Loop */
+/* Button label for removing Pump
+   Text to delete pump */
 "Delete Pump" = "Pumpe löschen";
-
-/* Title text for delivery limits */
-"Delivery Limits" = "Abgabelimits";
-
-/* The title of the section describing the device */
-"Device" = "Gerät";
 
 /* Header for devices section of RileyLinkSetupView */
 "Devices" = "Geräte";
 
-/* The title of the command to discover commands */
-"Discover Commands" = "Befehle entdecken";
-
-/* Progress message for discovering commands. */
-"Discovering commands…" = "Befehle werden entdeckt…";
-
 /* Description for option to not use MySentry */
 "Do not use MySentry" = "MySentry nicht verwenden";
-
-/* The title of the command to enable diagnostic LEDs */
-"Enable Diagnostic LEDs" = "Diagnostische LEDs aktivieren";
-
-/* Progress message for enabling diagnostic LEDs */
-"Enabled Diagnostic LEDs" = "Diagnostische LEDs aktiviert";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Fehler beim Fortfahren";
@@ -122,12 +80,6 @@
 /* The alert title for an error while synching time */
 "Error Syncing Time" = "Fehler beim Synchronisieren der Zeit";
 
-/* The title of the command to fetch recent glucose */
-"Fetch Enlite Glucose" = "Enlite-Glukosewert einlesen";
-
-/* The title of the command to fetch recent history */
-"Fetch Recent History" = "Aktueller Verlauf abrufen";
-
 /* Progress message for fetching pump glucose. */
 "Fetching glucose…" = "Glukosewerte abrufen…";
 
@@ -137,17 +89,8 @@
 /* Progress message for fetching pump model. */
 "Fetching pump model…" = "Pumpenmodell abrufen…";
 
-/* The title of the cell showing firmware version */
-"Firmware" = "Firmware";
-
 /* The title of the cell showing the pump firmware version */
 "Firmware Version" = "Firmware Version";
-
-/* The title of the command to get pump model */
-"Get Pump Model" = "Pumpmodell erhalten";
-
-/* Progress message for getting statistics. */
-"Get Statistics…" = "Lade Statistiken…";
 
 /* Text shown in insulin delivery space when insulin suspended */
 "Insulin\nSuspended" = "Insulinabgabe\nunterbrochen";
@@ -164,23 +107,11 @@
 /* Text for confidence reminders navigation link */
 "Insulin Type" = "Insulintyp";
 
-/* The title of the cell describing an awake radio */
-"Last Awake" = "Zuletzt aktiv";
-
-/* The title of the cell describing no radio awake data */
-"Listening Off" = "Signal aus";
-
 /* Format string fof navigation bar title for MinimedPumpSettingsView (1: model number) */
 "Medtronic %1$@" = "Medtronic %1$@";
 
 /* Instructions on selecting setting for MySentry */
 "Medtronic pump models 523, 723, 554, and 754 have a feature called 'MySentry' that periodically broadcasts the reservoir and pump battery levels.  Listening for these broadcasts allows Loop to communicate with the pump less frequently, which can increase pump battery life.  However, when using this feature the RileyLink stays awake more of the time and uses more of its own battery.  Enabling this may lengthen pump battery life, while disabling it may lengthen RileyLink battery life. This setting is ignored for other pump models." = "Die Medtronic-Pumpenmodelle 523, 723, 554 und 754 verfügen über eine Funktion namens \"MySentry\", die in regelmäßigen Abständen den Füllstand des Reservoirs und der Pumpenbatterie meldet.  Das Abhören dieser Übertragungen ermöglicht es Loop, weniger häufig mit der Pumpe zu kommunizieren, was die Lebensdauer der Pumpenbatterie verlängern kann.  Bei Verwendung dieser Funktion bleibt Ihr RileyLink jedoch länger wach und verbraucht mehr von der eigenen Batterie.  Die Aktivierung dieser Funktion kann die Lebensdauer der Pumpenbatterie verlängern, während die Deaktivierung der Funktion die Lebensdauer der RileyLink-Batterie verlängern kann. Diese Einstellung wird bei anderen Pumpenmodellen ignoriert.";
-
-/* The title of the command to pair with mysentry */
-"MySentry Pair" = "Verbinden MySentry";
-
-/* The title of the cell showing device name */
-"Name" = "Name";
 
 /* Value string for MySentry config when MySentry is not being used */
 "No" = "Nein";
@@ -191,42 +122,25 @@
 /* Button text to cancel pump time sync */
 "No, Keep Pump As Is" = "Nein, Pumpe so lassen wie sie ist";
 
-/* The title of the cell showing the last idle */
-"On Idle" = "im Leerlauf";
-
 /* Pump find device instruction */
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
 
-/* The title text for the preferred insulin data source config */
+/* navigation title for pump battery type selection
+   Text for medtronic pump preferred data source */
 "Preferred Data Source" = "Bevorzugte Datenquelle";
-
-/* The title of the section describing the pump */
-"Pump" = "Pumpe";
 
 /* Text for medtronic pump battery percent remaining */
 "Pump Battery Remaining" = "Verbleibende Pumpenbatterie";
 
-/* The title text for the battery type value */
+/* navigation title for pump battery type selection
+   Text for medtronic pump battery type */
 "Pump Battery Type" = "Typ Pumpenbatterie";
 
-/* The title of the cell showing pump ID
-   The title text for the pump ID config value */
+/* The title text for the pump ID config value */
 "Pump ID" = "Pumpen-ID";
-
-/* The title of the cell showing the pump model number */
-"Pump Model" = "Pumpenmodell";
-
-/* Title of the pump settings view controller */
-"Pump Settings" = "Pumpeneinstellungen";
 
 /* The title of the command to change pump time zone */
 "Pump Time" = "Uhrzeit der Pumpe";
-
-/* The title of the command to read basal schedule */
-"Read Basal Schedule" = "Basalzeitplan lesen";
-
-/* The title of the command to read pump status */
-"Read Pump Status" = "Pumpenstatus lesen";
 
 /* Progress message for reading basal schedule */
 "Reading basal schedule…" = "Basalzeitplan lesen…";
@@ -246,27 +160,14 @@
 /* Button title to retry sentry setup */
 "Retry" = "Wiederholen";
 
-/* The title of the command to fetch RileyLink statistics */
-"RileyLink Statistics" = "RileyLink Statistik";
-
-/* Title of button to save basal profile to pump
-   Title of button to save delivery limit settings to pump */
-"Save to Pump…" = "In der Pumpe abspeichern…";
-
 /* Title of insulin delivery section */
 "Scheduled Basal" = "Geplante Basalrate";
 
 /* Title text for insulin type confirmation page */
 "Select the type of insulin that you will be using in this pump." = "Wählen Sie die Art des Insulins aus, die Sie in dieser Pumpe verwenden möchten.";
 
-/* The title of the command to send a button press */
-"Send Button Press" = "Sende-Taste drücken";
-
 /* Progress message for sending button press to pump. */
 "Sending button press…" = "Sende Knopfdruck…";
-
-/* The title of the cell showing BLE signal strength (RSSI) */
-"Signal Strength" = "Signalstärke";
 
 /* Title text for suspend resume button when temp basal starting */
 "Starting Temp Basal" = "Starten der temporären Basalrate";
@@ -295,9 +196,6 @@
 /* The label indicating the results of each frequency trial */
 "Trials" = "Versuche";
 
-/* The title of the command to re-tune the radio */
-"Tune Radio Frequency" = "Stellen Sie die Sendefrequenz ein";
-
 /* Progress message for tuning radio */
 "Tuning radio…" = "Frequenz abstimmen…";
 
@@ -307,19 +205,15 @@
 /* Text to indicate battery percentage is unknown */
 "unknown" = "unbekannt";
 
-/* The detail text for an unknown pump model */
+/* Text shown in basal rate space when delivery status is unknown */
 "Unknown" = "Unbekannt";
-
-/* The title of the cell showing uptime */
-"Uptime" = "Betriebszeit";
 
 /* Description for option to use MySentry
    navigation title for pump battery type selection
    Text for medtronic pump to use MySentry */
 "Use MySentry" = "MySentry verwenden";
 
-/* Value string for MySentry config when MySentry is being used
-   Value string for MySentry config when MySentry is not being used */
+/* Value string for MySentry config when MySentry is being used */
 "Yes" = "Ja";
 
 /* Button text to confirm pump time sync */
