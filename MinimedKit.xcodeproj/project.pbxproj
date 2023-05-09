@@ -2044,6 +2044,7 @@
 		C1E3491929C7A866009A50A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -2072,6 +2073,7 @@
 		C1E3491A29C7A866009A50A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
