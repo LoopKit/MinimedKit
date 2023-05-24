@@ -52,7 +52,7 @@ class MockPumpManagerDelegate: PumpManagerDelegate {
 
     func pumpManagerDidUpdateState(_ pumpManager: PumpManager) {}
     
-    func pumpManager(_ pumpManager: PumpManager, didUpdateBasalRateSchedule basalRateSchedule: BasalRateSchedule) {}
+    func pumpManager(_ pumpManager: PumpManager, didRequestBasalRateScheduleChange basalRateSchedule: BasalRateSchedule, completion: @escaping (Error?) -> Void) { }
 
     func startDateToFilterNewPumpEvents(for manager: PumpManager) -> Date {
         return historyFetchStartDate
