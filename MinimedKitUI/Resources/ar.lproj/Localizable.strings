@@ -13,6 +13,9 @@
 /* Button title to retry sentry setup */
 "Retry" = "أعد المحاولة";
 
+/* The format string describing pump suspended state: (1: suspended) */
+"Suspended: %1$@\n" = "معلق: %1$@\n";
+
 /* Units for showing temp basal rate */
 "U/hr" = "وحدة لكل ساعة";
 

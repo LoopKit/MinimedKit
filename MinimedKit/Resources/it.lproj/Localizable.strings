@@ -71,7 +71,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Comando negato";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Comunicazione con un altro microinfusore rilevata";
 
 /* Error description */
@@ -167,13 +167,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Batteria Microinfusore bassa";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Il microinfusore non risponde";
 
 /* Error description */
 "Pump Error" = "Errore Mincroinfusore";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Il microinfusore è sospeso";
 
 /* Error description when failure due to pump suspended */
