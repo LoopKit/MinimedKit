@@ -112,7 +112,8 @@ extension Collection where Element == TimestampedHistoryEvent {
                 eventType = .prime
 
                 if prime.primeType == .fixed {
-                    events.append(NewPumpEvent(date: event.date, dose: nil, raw: event.pumpEvent.rawData, title: "Set Change", type: .replaceComponent(componentType:
+                    let setChangeRaw = "SetChange\(event.date)".data(using: .utf8)!
+                    events.append(NewPumpEvent(date: event.date, dose: nil, raw: setChangeRaw, title: "Set Change (fixed prime)", type: .replaceComponent(componentType:
                             .infusionSet)))
                 }
 
