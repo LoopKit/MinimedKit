@@ -107,9 +107,14 @@ extension Collection where Element == TimestampedHistoryEvent {
                  */
                 dose = DoseEntry(suspendDate: event.date)
                 isRewound = true
-            case is PrimePumpEvent:
+            case let prime as PrimePumpEvent:
                 title = LocalizedString("Prime", comment: "Event title for prime pump event")
                 eventType = .prime
+
+                if prime.primeType == .fixed {
+                    events.append(NewPumpEvent(date: event.date, dose: nil, raw: event.pumpEvent.rawData, title: "Set Change", type: .replaceComponent(componentType:
+                            .infusionSet)))
+                }
 
                 if isRewound {
                     isRewound = false
