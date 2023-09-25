@@ -17,7 +17,9 @@ public protocol MinimedPumpManagerStateObserver: AnyObject {
 
 public class MinimedPumpManager: RileyLinkPumpManager {
     
-    public static let pluginIdentifier = "Minimed500"
+    public static let managerIdentifier = "Minimed500"
+    
+    public var pluginIdentifier: String { Self.managerIdentifier }
 
     // Primarily used for testing
     public let dateGenerator: () -> Date
@@ -28,7 +30,7 @@ public class MinimedPumpManager: RileyLinkPumpManager {
         self.dateGenerator = dateGenerator
 
         self.hkDevice = HKDevice(
-            name: MinimedPumpManager.pluginIdentifier,
+            name: MinimedPumpManager.managerIdentifier,
             manufacturer: "Medtronic",
             model: state.pumpModel.rawValue,
             hardwareVersion: nil,
@@ -489,7 +491,7 @@ extension MinimedPumpManager {
     }
     
     private static var pumpBatteryLowAlertIdentifier: Alert.Identifier {
-        return Alert.Identifier(managerIdentifier: pluginIdentifier, alertIdentifier: "PumpBatteryLow")
+        return Alert.Identifier(managerIdentifier: managerIdentifier, alertIdentifier: "PumpBatteryLow")
     }
 
     private var pumpBatteryLowAlert: Alert {
@@ -554,7 +556,7 @@ extension MinimedPumpManager {
     }
 
     private static var pumpReservoirEmptyAlertIdentifier: Alert.Identifier {
-        return Alert.Identifier(managerIdentifier: pluginIdentifier, alertIdentifier: "PumpReservoirEmpty")
+        return Alert.Identifier(managerIdentifier: managerIdentifier, alertIdentifier: "PumpReservoirEmpty")
     }
 
     private var pumpReservoirEmptyAlert: Alert {
@@ -565,7 +567,7 @@ extension MinimedPumpManager {
     }
 
     private static var pumpReservoirLowAlertIdentifier: Alert.Identifier {
-        return Alert.Identifier(managerIdentifier: pluginIdentifier, alertIdentifier: "PumpReservoirLow")
+        return Alert.Identifier(managerIdentifier: managerIdentifier, alertIdentifier: "PumpReservoirLow")
     }
 
     private func pumpReservoirLowAlertForAmount(_ units: Double, andTimeRemaining remaining: TimeInterval?) -> Alert {
