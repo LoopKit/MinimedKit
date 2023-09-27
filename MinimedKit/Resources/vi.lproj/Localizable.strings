@@ -41,7 +41,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Lệnh bị từ chối";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Comms cho bơm khác được phát hiện.";
 
 /* Error description */
@@ -86,13 +86,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Pin của bơm thấp";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Bơm không phản hồi";
 
 /* Error description */
 "Pump Error" = "Bơm lỗi";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Bơm đang được tạm ngưng";
 
 /* The notification title for an empty pump reservoir */

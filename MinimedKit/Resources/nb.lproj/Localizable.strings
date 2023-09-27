@@ -80,7 +80,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Kommando avvist";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Oppdaget kommunikasjon med en annen pumpe";
 
 /* Error description */
@@ -182,13 +182,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Lavt pumpebatteri";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Pumpa svarte ikke";
 
 /* Error description */
 "Pump Error" = "Pumpefeil";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Pumpe er pauset";
 
 /* Error description when failure due to pump suspended */

@@ -47,7 +47,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Kommandot avvisades";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Kommunikation med en annan pump upptäcktes.";
 
 /* Error description */
@@ -107,13 +107,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Låg batterinivå i pump";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Pumpen svarade inte";
 
 /* Error description */
 "Pump Error" = "Pumpfel";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Pumpen är pausad";
 
 /* The notification title for an empty pump reservoir */

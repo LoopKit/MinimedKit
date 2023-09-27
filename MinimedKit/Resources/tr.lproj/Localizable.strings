@@ -56,6 +56,12 @@
 /* Event title for temp basal cancel */
 "Cancel Temp Basal" = "Geçici Bazalı İptal Et";
 
+/* Event title for ChangeBasalProfilePatternPumpEvent */
+"Change Basal Profile Schedule" = "Bazal Profil Programını Değiştir";
+
+/* Event title for ChangeBasalProfilePumpEvent */
+"Change Basal Schedule" = "Bazal Programını Değiştir";
+
 /* The notification alert describing a low pump battery */
 "Change the pump battery immediately" = "Pompa pilini hemen değiştirin";
 
@@ -68,10 +74,13 @@
 /* Suggestions for diagnosing a command refused pump error */
 "Check that the pump is not suspended or priming, or has a percent temp basal type" = "Pompanın askıya alınmadığını, dolum aşamasında olmadığını veya yüzde geçici bazal tipine sahip olmadığını kontrol edin.";
 
+/* Event title for clear alarm pump event */
+"Clear Alarm" = "Alarmı Temizle";
+
 /* Pump error code returned when command refused */
 "Command refused" = "Komut reddedildi";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Başka bir pompa algılandı.";
 
 /* Error description */
@@ -143,6 +152,9 @@
 /* Generic title of the minimed pump manager */
 "Minimed 500/700 Series" = "Minimed 500/700 Series";
 
+/* Event title for NewTimePumpEvent */
+"New Time" = "Yeni Zaman";
+
 /* Title for PumpAlarmType.noDelivery */
 "No Delivery Alarm" = "İletim Alarmı Yok";
 
@@ -170,13 +182,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Pompa Pili Düşük";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Pompa yanıt vermedi";
 
 /* Error description */
 "Pump Error" = "Pompa Hatası";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Pompa askıya alındı";
 
 /* Error description when failure due to pump suspended */

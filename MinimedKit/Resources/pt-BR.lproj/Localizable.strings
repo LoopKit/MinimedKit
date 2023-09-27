@@ -41,7 +41,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Comando recusado";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Comunicação com outra bomba detectada.";
 
 /* Error description */
@@ -86,13 +86,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Batteria da Bomba Fraca";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "A bomba não respondeu";
 
 /* Error description */
 "Pump Error" = "Erro na Bomba";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Bomba suspensa";
 
 /* The notification title for an empty pump reservoir */

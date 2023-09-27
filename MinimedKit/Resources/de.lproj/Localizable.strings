@@ -57,22 +57,22 @@
 "Cancel Temp Basal" = "Temporäre Basalrate abbrechen";
 
 /* Event title for ChangeBasalProfilePatternPumpEvent */
-"Change Basal Profile Schedule" = "Zeitplan für das Basalratenprofil ändern";
+"Change Basal Profile Schedule" = "Zeitplan für das Basalraten Profil ändern";
 
 /* Event title for ChangeBasalProfilePumpEvent */
-"Change Basal Schedule" = "Basalratenzeitplan ändern";
+"Change Basal Schedule" = "Basalraten Plan ändern";
 
 /* The notification alert describing a low pump battery */
-"Change the pump battery immediately" = "Wechseln Sie sofort die Pumpenbatterie";
+"Change the pump battery immediately" = "Wechsel sofort die Pumpenbatterie";
 
 /* The notification alert describing an empty pump reservoir */
-"Change the pump reservoir now" = "Wechseln Sie jetzt das Pumpenreservoir";
+"Change the pump reservoir now" = "Wechsel jetzt das Pumpenreservoir";
 
 /* Event title for ChangeTimePumpEvent */
 "Change Time" = "Zeit ändern";
 
 /* Suggestions for diagnosing a command refused pump error */
-"Check that the pump is not suspended or priming, or has a percent temp basal type" = "Überprüfen Sie, ob die Pumpe nicht unterbrochen wurde oder sich im Füllmodus befindet, oder prozentual temporären Basalraten aktiviert sind";
+"Check that the pump is not suspended or priming, or has a percent temp basal type" = "Überprüfe, ob die Pumpe nicht unterbrochen wurde oder sich im Füllmodus befindet, oder prozentual temporären Basalraten aktiviert sind";
 
 /* Event title for clear alarm pump event */
 "Clear Alarm" = "Alarm löschen";
@@ -80,7 +80,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Befehl verweigert";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Kommunikation mit einer anderen Pumpe festgestellt";
 
 /* Error description */
@@ -105,7 +105,7 @@
 "Glucose page failed crc check" = "Glukoseseite fehlgeschlagen crc-Prüfung";
 
 /* Recovery suggestion for MinimedPumpManagerError.insulinTypeNotConfigured */
-"Go to pump settings and select insulin type" = "Gehen Sie zu den Pumpeneinstellungen und wählen Sie den Insulintyp";
+"Go to pump settings and select insulin type" = "Gehe zu den Pumpeneinstellungen und wählen den Insulintyp aus";
 
 /* Pump error code when invalid history page is requested */
 "History page does not exist" = "Verlaufsseite ist nicht vorhanden";
@@ -138,7 +138,7 @@
 "Low RileyLink Battery" = "Niedriger RileyLink Batteriestatus";
 
 /* Recovery suggestion */
-"Make sure your RileyLink is nearby and powered on" = "Stellen Sie sicher, dass sich Ihr RileyLink in der Nähe befindet und eingeschaltet ist";
+"Make sure your RileyLink is nearby and powered on" = "Stelle sicher, dass sich Dein RileyLink in der Nähe befindet und eingeschaltet ist";
 
 /* Pump error code describing max setting exceeded */
 "Max setting exceeded" = "Max Einstellung überschritten";
@@ -174,7 +174,7 @@
 "Percent Temp Basal" = "Prozentuale temporäre Basalrate";
 
 /* recoverySuggestion for uncertain bolus */
-"Please check your pump bolus history to determine if the bolus was delivered." = "Bitte überprüfen Sie den Bolusverlauf Ihrer Pumpe, um festzustellen, ob der Bolus abgegeben wurde.";
+"Please check your pump bolus history to determine if the bolus was delivered." = "Bitte überprüfe den Bolusverlauf Deiner Pumpe, um festzustellen, ob der Bolus abgegeben wurde.";
 
 /* Event title for prime pump event */
 "Prime" = "Befüllen";
@@ -182,13 +182,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Pumpenbatterie schwach";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Pumpe hat nicht geantwortet";
 
 /* Error description */
 "Pump Error" = "Pumpenfehler";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Pumpe ist gesperrt";
 
 /* Error description when failure due to pump suspended */
@@ -240,7 +240,7 @@
 "Temp Basal" = "Temporäre Basalrate";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in minutes) */
-"Temporary Basal: %1$.3f U/hour" = "Temporäre Basalrate: %1$.3f E/St";
+"Temporary Basal: %1$.3f U/hour" = "Temporäre Basalrate: %1$.3f IE/h";
 
 /* The format string description of a TempBasalDurationPumpEvent. (1: The duration of the temp basal in minutes) */
 "Temporary Basal: %1$d min" = "Temporäre Basalrate: %1$d min";
@@ -252,7 +252,7 @@
 "Unable to store pump data" = "Pumpendaten können nicht gespeichert werden";
 
 /* Format string for an unexpectedResponse. (2: The response) */
-"Unexpected response %1$@" = "Unerwartete Antwort vom Pod";
+"Unexpected response %1$@" = "Unerwartete Antwort vom Pod %1$@";
 
 /* Title for PumpAlarmType.unknownType */
 "Unknown Alarm" = "Unbekannter Alarm";

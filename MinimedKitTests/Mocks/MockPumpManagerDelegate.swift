@@ -30,7 +30,7 @@ class MockPumpManagerDelegate: PumpManagerDelegate {
 
     var reportedPumpEvents: [(events: [NewPumpEvent], lastReconciliation: Date?)] = []
     
-    func pumpManager(_ pumpManager: PumpManager, hasNewPumpEvents events: [NewPumpEvent], lastReconciliation: Date?, completion: @escaping (Error?) -> Void) {
+    func pumpManager(_ pumpManager: PumpManager, hasNewPumpEvents events: [NewPumpEvent], lastReconciliation: Date?, replacePendingEvents: Bool, completion: @escaping (Error?) -> Void) {
         reportedPumpEvents.append((events: events, lastReconciliation: lastReconciliation))
         completion(nil)
     }

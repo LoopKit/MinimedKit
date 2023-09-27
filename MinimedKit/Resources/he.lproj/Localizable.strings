@@ -41,7 +41,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Command refused";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Comms with another pump detected.";
 
 /* Error description */
@@ -89,13 +89,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Pump Battery Low";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Pump did not respond";
 
 /* Error description */
 "Pump Error" = "Pump Error";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Pump is suspended";
 
 /* The notification title for an empty pump reservoir */
@@ -129,7 +129,7 @@
 "Temporary Basal: %1$d min" = "בזאלי זמני: %1$d דקות";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in percent) */
-"Temporary Basal: %1$d%%" = "Temporary Basal: %1$d%%";
+"Temporary Basal: %1$d%%" = "בזאלי זמני: %1$d%%";
 
 /* The format string description of an unknown pump error code. (1: The specific error code raw value) */
 "Unknown pump error code: %1$@" = "Unknown pump error code: %1$@";

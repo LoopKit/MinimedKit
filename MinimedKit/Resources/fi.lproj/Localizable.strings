@@ -47,7 +47,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Komento hylättiin";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Toisen pumpun viestintää havaittu.";
 
 /* Error description */
@@ -107,13 +107,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Pumpun paristo vähissä";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Pumppu ei vastannut";
 
 /* Error description */
 "Pump Error" = "Pumpun virhe";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Pumppu on pysäytetty";
 
 /* The notification title for an empty pump reservoir */
