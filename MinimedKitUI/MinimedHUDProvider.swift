@@ -15,7 +15,7 @@ import SwiftUI
 class MinimedHUDProvider: HUDProvider {
 
     var managerIdentifier: String {
-        return MinimedPumpManager.pluginIdentifier
+        return MinimedPumpManager.managerIdentifier
     }
 
     private var state: MinimedPumpManagerState {
