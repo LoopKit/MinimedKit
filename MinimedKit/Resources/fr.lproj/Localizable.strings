@@ -56,6 +56,9 @@
 /* Event title for temp basal cancel */
 "Cancel Temp Basal" = "Annulation du débit basal temporaire";
 
+/* Event title for ChangeBasalProfilePumpEvent */
+"Change Basal Schedule" = "Modifier le programme basal";
+
 /* The notification alert describing a low pump battery */
 "Change the pump battery immediately" = "Changer immédiatement la pile de la pompe";
 
@@ -71,7 +74,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Commande refusée";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Communications avec une autre pompe détectée";
 
 /* Error description */
@@ -134,11 +137,17 @@
 /* Pump error code describing max setting exceeded */
 "Max setting exceeded" = "Réglage maximum dépassé";
 
+/* Event title for JournalEntryMealMarkerPumpEvent */
+"Meal" = "Repas";
+
 /* Pump title (1: model number) */
 "Minimed %@" = "Minimed %@";
 
 /* Generic title of the minimed pump manager */
 "Minimed 500/700 Series" = "Serié Minimed 500/700";
+
+/* Event title for NewTimePumpEvent */
+"New Time" = "Nouvelle heure";
 
 /* Title for PumpAlarmType.noDelivery */
 "No Delivery Alarm" = "Alarme: Pas d'administration";
@@ -167,13 +176,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Batterie de la pompe faible";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "La pompe n’a pas répondu";
 
 /* Error description */
 "Pump Error" = "Erreur détectée";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "La pompe est suspendue";
 
 /* Error description when failure due to pump suspended */
@@ -209,6 +218,9 @@
 
 /* Event title for starting scheduled basal */
 "Scheduled Basal" = "Basal programmé";
+
+/* Event title for SelectBasalProfilePumpEvent */
+"Select Profile" = "Sélectionner un profil";
 
 /* Status highlight when communications with the pod haven't happened recently. */
 "Signal Loss" = "Perte de signal";

@@ -80,7 +80,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Odmowa wykonania polecenia";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Wykryto połączenie z inną pompą.";
 
 /* Error description */
@@ -93,7 +93,7 @@
 "Device Reset" = "Resetowanie urządzenia";
 
 /* Default alert dismissal */
-"Dismiss" = "Odrzucać";
+"Dismiss" = "Rozumiem";
 
 /* Title for PumpAlarmType.emptyReservoir */
 "Empty Reservoir" = "Pusty zbiorniczek";
@@ -114,7 +114,7 @@
 "History page failed crc check" = "Strona historii nie przeszła kontroli crc.";
 
 /* Status highlight that insulin delivery was suspended. */
-"Insulin Suspended" = "Podawanie insuliny zawieszone";
+"Insulin Suspended" = "Podawanie Zawieszone";
 
 /* Error description for MinimedPumpManagerError.insulinTypeNotConfigured */
 "Insulin Type is not configured" = "Nie skonfigurowano rodzaju insuliny";
@@ -182,13 +182,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Niski poziom baterii w pompie";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Pompa nie odpowiada";
 
 /* Error description */
 "Pump Error" = "Błąd pompy";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Pompa jest zawieszona";
 
 /* Error description when failure due to pump suspended */
@@ -204,7 +204,7 @@
 "Pump responded unexpectedly" = "Pompa odpowiedziała w nieoczekiwany sposób";
 
 /* The format string describing a pump message. (1: The packet type)(2: The message type)(3: The message address)(4: The message data */
-"PumpMessage(%1$@, %2$@, %3$@, %4$@)" = "Wiadomość od pompy(%1$@, %2$@, %3$@, %4$@)";
+"PumpMessage(%1$@, %2$@, %3$@, %4$@)" = "Wiadomość z pompy (%1$@, %2$@, %3$@, %4$@)";
 
 /* Title for PumpAlarmType.reprogramError */
 "Reprogram Error" = "Błąd przeprogramowania";
@@ -214,7 +214,7 @@
 
 /* Event title for resume
    Pump Event title for UnfinalizedDose with doseType of .resume */
-"Resume" = "Wznów";
+"Resume" = "Wznowiono";
 
 /* Event title for rewind */
 "Rewind" = "Przewiń";
@@ -233,14 +233,14 @@
 
 /* Event title for suspend
    Pump Event title for UnfinalizedDose with doseType of .suspend */
-"Suspend" = "Wstrzymaj";
+"Suspend" = "Wstrzymano";
 
 /* Event title for temporary basal rate start
    Pump Event title for UnfinalizedDose with doseType of .tempBasal */
-"Temp Basal" = "Tymczasowa dawka podstawowa";
+"Temp Basal" = "Tymczasowa dawka podst.";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in minutes) */
-"Temporary Basal: %1$.3f U/hour" = "Baza tymczasowa: %1$.3f J/godz";
+"Temporary Basal: %1$.3f U/hour" = "Baza tymczasowa: %1$.3f J/godzinę";
 
 /* The format string description of a TempBasalDurationPumpEvent. (1: The duration of the temp basal in minutes) */
 "Temporary Basal: %1$d min" = "Baza tymczasowa: %1$d min";

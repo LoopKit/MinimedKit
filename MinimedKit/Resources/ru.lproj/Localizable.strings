@@ -80,7 +80,7 @@
 /* Pump error code returned when command refused */
 "Command refused" = "Отказ в выполнении команды";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.crosstalk */
 "Comms with another pump detected" = "Обнаружена коммуникация с другой помпой";
 
 /* Error description */
@@ -182,13 +182,13 @@
 /* The notification title for a low pump battery */
 "Pump Battery Low" = "Батарея помпы разряжена";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.noResponse */
 "Pump did not respond" = "Помпа не отвечает";
 
 /* Error description */
 "Pump Error" = "Ошибка помпы";
 
-/* No comment provided by engineer. */
+/* Description for PumpOpsError.pumpSuspended */
 "Pump is suspended" = "Помпа остановлена";
 
 /* Error description when failure due to pump suspended */

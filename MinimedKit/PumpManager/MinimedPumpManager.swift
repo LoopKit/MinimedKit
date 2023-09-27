@@ -774,7 +774,7 @@ extension MinimedPumpManager {
 
                         self.log.default("Reporting new pump events: %{public}@", String(describing: remainingHistoryEvents + pendingEvents))
 
-                        delegate.pumpManager(self, hasNewPumpEvents: remainingHistoryEvents + pendingEvents, lastReconciliation: self.state.lastReconciliation, completion: { (error) in
+                        delegate.pumpManager(self, hasNewPumpEvents: remainingHistoryEvents + pendingEvents, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true) { (error) in
                             // Called on an unknown queue by the delegate
                             if error == nil {
                                 self.recents.lastAddedPumpEvents = self.dateGenerator()
@@ -795,7 +795,7 @@ extension MinimedPumpManager {
                                 })
                             }
                             completion(error)
-                        })
+                        }
                     })
                 } catch let error {
                     self.troubleshootPumpComms(using: device)
@@ -817,7 +817,7 @@ extension MinimedPumpManager {
                 preconditionFailure("pumpManagerDelegate cannot be nil")
             }
 
-            delegate.pumpManager(self, hasNewPumpEvents: events, lastReconciliation: self.state.lastReconciliation, completion: { (error) in
+            delegate.pumpManager(self, hasNewPumpEvents: events, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true) { (error) in
                 // Called on an unknown queue by the delegate
                 if let error = error {
                     self.log.error("Pump event storage failed: %{public}@", String(describing: error))
@@ -825,7 +825,7 @@ extension MinimedPumpManager {
                 } else {
                     completion(nil)
                 }
-            })
+            }
         })
     }
 
