@@ -20,7 +20,7 @@
 "Alkaline" = "Alkaline";
 
 /* Title for PumpAlarmType.autoOff */
-"Auto-Off Alarm" = "Automatisch Uit Alarm";
+"Auto-Off Alarm" = "Alarm Automatisch Uit";
 
 /* The format string description of a BasalProfileStartPumpEvent. (1: The index of the profile)(2: The basal rate) */
 "Basal Profile %1$@: %2$@ U/hour" = "Basaal profiel %1$@: %2$@ E/uur";
