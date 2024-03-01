@@ -757,9 +757,11 @@ extension MinimedPumpManager {
                     
                     // During reconciliation, some pump events may be reconciled as pending doses and removed. Remaining events should be annotated with current insulinType
                     let remainingHistoryEvents = self.reconcilePendingDosesWith(newPumpEvents, fetchedAt: self.dateGenerator()).map { (event) -> NewPumpEvent in
+                        var dose = event.dose
+                        dose?.insulinType = insulinType
                         return NewPumpEvent(
                             date: event.date,
-                            dose: event.dose?.annotated(with: insulinType),
+                            dose: dose,
                             raw: event.raw,
                             title: event.title,
                             type: event.type)
