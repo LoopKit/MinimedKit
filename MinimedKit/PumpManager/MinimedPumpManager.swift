@@ -1452,6 +1452,9 @@ extension MinimedPumpManager: PumpManager {
                 guard let session = session else {
                     throw PumpManagerError.connection(MinimedPumpManagerError.noRileyLink)
                 }
+                guard self.state.unfinalizedBolus == nil else {
+                    throw PumpManagerError.configuration(MinimedPumpManagerError.bolusInProgress)
+                }
                 try session.setTimeToNow(in: .current)
                 completion(nil)
             } catch let error {
