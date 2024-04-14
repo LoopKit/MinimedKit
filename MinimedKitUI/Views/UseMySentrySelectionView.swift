@@ -11,6 +11,7 @@ import MinimedKit
 import LoopKitUI
 
 struct UseMySentrySelectionView: View {
+    @Environment(\.appName) private var appName
 
     @Binding var mySentryConfig: MySentryConfig
 
@@ -24,7 +25,7 @@ struct UseMySentrySelectionView: View {
                 }
                 .pickerStyle(.inline)
                 Section(content: {}, footer: {
-                    Text(LocalizedString("Medtronic pump models 523, 723, 554, and 754 have a feature called 'MySentry' that periodically broadcasts the reservoir and pump battery levels.  Listening for these broadcasts allows Loop to communicate with the pump less frequently, which can increase pump battery life.  However, when using this feature the RileyLink stays awake more of the time and uses more of its own battery.  Enabling this may lengthen pump battery life, while disabling it may lengthen RileyLink battery life. This setting is ignored for other pump models.", comment: "Instructions on selecting setting for MySentry"))
+                    Text(String(format: LocalizedString("Medtronic pump models 523, 723, 554, and 754 have a feature called 'MySentry' that periodically broadcasts the reservoir and pump battery levels.  Listening for these broadcasts allows %1$@ to communicate with the pump less frequently, which can increase pump battery life.  However, when using this feature the RileyLink stays awake more of the time and uses more of its own battery.  Enabling this may lengthen pump battery life, while disabling it may lengthen RileyLink battery life. This setting is ignored for other pump models.", comment: "Instructions on selecting setting for MySentry (1: appName)"), self.appName))
                 })
             }
         }
