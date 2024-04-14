@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B69083572BCC35A000F26B88 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69083552BCC359800F26B88 /* Bundle.swift */; };
 		C1229C2229C7ECA70066A89C /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1229C2129C7ECA70066A89C /* TimeInterval.swift */; };
 		C1229C2429C7ECEB0066A89C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1229C2329C7ECEB0066A89C /* Data.swift */; };
 		C13CC33529C7B6A9007F25DE /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E34B6729C7AD62009A50A5 /* LoopKit.framework */; };
@@ -352,6 +353,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B69083552BCC359800F26B88 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		C1229C2129C7ECA70066A89C /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
 		C1229C2329C7ECEB0066A89C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C13CC34129C7B73A007F25DE /* MinimedKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimedKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1184,6 +1186,7 @@
 		C1E34B0929C7ABF2009A50A5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B69083552BCC359800F26B88 /* Bundle.swift */,
 				C1E34B0A29C7ABF2009A50A5 /* Image.swift */,
 				C1E34B8729C7B292009A50A5 /* Comparable.swift */,
 				C1E34B8B29C7B334009A50A5 /* IdentifiableClass.swift */,
@@ -1726,6 +1729,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E34B2829C7ABF3009A50A5 /* MinimedPumpSetupCompleteViewController.swift in Sources */,
+				B69083572BCC35A000F26B88 /* Bundle.swift in Sources */,
 				C1E34B8829C7B292009A50A5 /* Comparable.swift in Sources */,
 				C1E34B8A29C7B2FC009A50A5 /* LocalisedString.swift in Sources */,
 				C1E34B2429C7ABF3009A50A5 /* Image.swift in Sources */,
