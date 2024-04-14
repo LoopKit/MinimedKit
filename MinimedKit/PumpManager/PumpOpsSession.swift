@@ -9,7 +9,7 @@
 import Foundation
 import LoopKit
 import RileyLinkBLEKit
-
+import SwiftUI
 
 public protocol PumpOpsSessionDelegate: AnyObject {
     func pumpOpsSession(_ session: PumpOpsSession, didChange state: PumpState)
@@ -42,11 +42,13 @@ extension SetBolusError: LocalizedError {
     }
 
     public var helpAnchor: String? {
+        // ToDo: convert to @Environment(\.appName)
+        let appName: String = "the app"
         switch self {
         case .certain(let error):
             return error.errorDescription
         case .uncertain:
-            return LocalizedString("Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports.", comment: "Help anchor for uncertain bolus")
+            return String(format: LocalizedString("%1$@ sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, %2$@ will assume the bolus was delivered. When %3$@ eventually fetches history from the pump, and the estimated bolus finish time is passed, %4$@ will update its records of delivery to match what the pump reports.", comment: "Help anchor for uncertain bolus (1: appName) (2: appName) (3: appName) (4: appName)"), appName, appName, appName, appName)
         }
     }
 }
