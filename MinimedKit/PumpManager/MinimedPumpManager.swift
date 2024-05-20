@@ -1404,8 +1404,9 @@ extension MinimedPumpManager: PumpManager {
             do {
                 let newSchedule = BasalSchedule(repeatingScheduleValues: scheduleItems)
                 try session.setBasalSchedule(newSchedule, for: .standard)
-
-
+                self.setState { (state) in
+                    state.basalSchedule = newSchedule
+                }
                 completion(.success(BasalRateSchedule(dailyItems: scheduleItems, timeZone: session.pump.timeZone)!))
             } catch let error {
                 self.log.error("Save basal profile failed: %{public}@", String(describing: error))
