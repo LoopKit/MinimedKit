@@ -67,6 +67,24 @@ extension MinimedPumpManager: PumpManagerUI {
     }
 }
 
+    public enum MinimedStatusBadge: DeviceStatusBadge {
+        case timeSyncNeeded
+
+        public var image: UIImage? {
+            switch self {
+            case .timeSyncNeeded:
+                return UIImage(systemName: "clock.fill")
+            }
+        }
+
+        public var state: DeviceStatusBadgeState {
+            switch self {
+            case .timeSyncNeeded:
+                return .warning
+            }
+        }
+    }
+
 // MARK: - PumpStatusIndicator
 extension MinimedPumpManager {
     
@@ -79,6 +97,10 @@ extension MinimedPumpManager {
     }
     
     public var pumpStatusBadge: DeviceStatusBadge? {
-        return nil
+        if isClockOffset {
+            return MinimedStatusBadge.timeSyncNeeded
+        } else {
+            return nil
+        }
     }
 }
