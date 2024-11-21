@@ -7,14 +7,13 @@
 //
 
 import Foundation
-import HealthKit
 import LoopKit
 import LoopAlgorithm
 
 struct EnliteSensorDisplayable: Equatable, GlucoseDisplayable {
     public let isStateValid: Bool
     public let trendType: LoopKit.GlucoseTrend?
-    public let trendRate: HKQuantity?
+    public let trendRate: LoopQuantity?
     public let isLocal: Bool
     
     // TODO Placeholder. This functionality will come with LOOP-1311
@@ -50,7 +49,7 @@ extension MinimedKit.RelativeTimestampedGlucoseEvent {
         return nil
     }
 
-    var trendRate: HKQuantity? {
+    var trendRate: LoopQuantity? {
         return nil
     }
 

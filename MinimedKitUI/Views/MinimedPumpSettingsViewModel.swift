@@ -11,7 +11,7 @@ import MinimedKit
 import LoopKit
 import SwiftUI
 import LoopKitUI
-import HealthKit
+import LoopAlgorithm
 
 
 enum MinimedSettingsViewAlert: Identifiable {
@@ -96,7 +96,7 @@ class MinimedPumpSettingsViewModel: ObservableObject {
     }()
 
     let reservoirVolumeFormatter = {
-        let formatter = QuantityFormatter(for: .internationalUnit())
+        let formatter = QuantityFormatter(for: .internationalUnit)
         formatter.numberFormatter.maximumFractionDigits = 1
         return formatter
     }()
@@ -225,7 +225,7 @@ class MinimedPumpSettingsViewModel: ObservableObject {
     }
 
     func reservoirText(for units: Double) -> String {
-        let quantity = HKQuantity(unit: .internationalUnit(), doubleValue: units)
+        let quantity = LoopQuantity(unit: .internationalUnit, doubleValue: units)
         return reservoirVolumeFormatter.string(from: quantity) ?? ""
     }
 

@@ -6,7 +6,7 @@
 //  Copyright © 2016 Nathan Racklyeft. All rights reserved.
 //
 
-import HealthKit
+import LoopAlgorithm
 import LoopKit
 
 
@@ -39,7 +39,7 @@ extension MySentryPumpStatusMessageBody: GlucoseDisplayable {
         }
     }
 
-    public var trendRate: HKQuantity? {
+    public var trendRate: LoopQuantity? {
         return nil
     }
 

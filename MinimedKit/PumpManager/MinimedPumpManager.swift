@@ -6,6 +6,7 @@
 //
 
 import HealthKit
+import LoopAlgorithm
 import LoopKit
 import RileyLinkKit
 import RileyLinkBLEKit
@@ -430,7 +431,7 @@ extension MinimedPumpManager {
             if let date = glucoseDateComponents?.date {
                 let sample = NewGlucoseSample(
                     date: date,
-                    quantity: HKQuantity(unit: .milligramsPerDeciliter, doubleValue: Double(glucose)),
+                    quantity: LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: Double(glucose)),
                     condition: nil,
                     trend: status.glucoseTrend.loopKitGlucoseTrend,
                     trendRate: nil,
@@ -1430,13 +1431,13 @@ extension MinimedPumpManager: PumpManager {
                     try session.setMaxBasalRate(unitsPerHour: maxBasalRate)
                 }
 
-                if let maxBolus = deliveryLimits.maximumBolus?.doubleValue(for: .internationalUnit()) {
+                if let maxBolus = deliveryLimits.maximumBolus?.doubleValue(for: .internationalUnit) {
                     try session.setMaxBolus(units: maxBolus)
                 }
 
                 let settings = try session.getSettings()
-                let storedDeliveryLimits = DeliveryLimits(maximumBasalRate: HKQuantity(unit: .internationalUnitsPerHour, doubleValue: settings.maxBasal),
-                                                          maximumBolus: HKQuantity(unit: .internationalUnit(), doubleValue: settings.maxBolus))
+                let storedDeliveryLimits = DeliveryLimits(maximumBasalRate: LoopQuantity(unit: .internationalUnitsPerHour, doubleValue: settings.maxBasal),
+                                                          maximumBolus: LoopQuantity(unit: .internationalUnit, doubleValue: settings.maxBolus))
                 completion(.success(storedDeliveryLimits))
             } catch let error {
                 self.log.error("Save delivery limit settings failed: %{public}@", String(describing: error))
@@ -1556,13 +1557,13 @@ extension MinimedPumpManager: CGMManager {
                         self.recents.sensorState = EnliteSensorDisplayable(latestSensorEvent)
                     }
 
-                    let unit = HKUnit.milligramsPerDeciliter
+                    let unit = LoopUnit.milligramsPerDeciliter
                     let glucoseValues: [NewGlucoseSample] = events
                         // TODO: Is the { $0.date > latestGlucoseDate } filter duplicative?
                         .filter({ $0.glucoseEvent is SensorValueGlucoseEvent && $0.date > latestGlucoseDate })
                         .map {
                             let glucoseEvent = $0.glucoseEvent as! SensorValueGlucoseEvent
-                            let quantity = HKQuantity(unit: unit, doubleValue: Double(glucoseEvent.sgv))
+                            let quantity = LoopQuantity(unit: unit, doubleValue: Double(glucoseEvent.sgv))
                             return NewGlucoseSample(date: $0.date, quantity: quantity, condition: nil, trend: glucoseEvent.trendType, trendRate: glucoseEvent.trendRate, isDisplayOnly: false, wasUserEntered: false, syncIdentifier: glucoseEvent.glucoseSyncIdentifier ?? UUID().uuidString, device: self.device)
                     }
 
