@@ -285,7 +285,6 @@
 		C1E34B7D29C7B075009A50A5 /* RileyLinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E34B7C29C7B075009A50A5 /* RileyLinkKit.framework */; };
 		C1E34B8129C7B155009A50A5 /* PumpOpsSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B8029C7B155009A50A5 /* PumpOpsSession.swift */; };
 		C1E34B8329C7B1AB009A50A5 /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B8229C7B1AB009A50A5 /* TimeZone.swift */; };
-		C1E34B8529C7B1D4009A50A5 /* HKUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B8429C7B1D4009A50A5 /* HKUnit.swift */; };
 		C1E34B8829C7B292009A50A5 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B8729C7B292009A50A5 /* Comparable.swift */; };
 		C1E34B8A29C7B2FC009A50A5 /* LocalisedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B8929C7B2FC009A50A5 /* LocalisedString.swift */; };
 		C1E34B8C29C7B334009A50A5 /* IdentifiableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B8B29C7B334009A50A5 /* IdentifiableClass.swift */; };
@@ -695,7 +694,6 @@
 		C1E34B7C29C7B075009A50A5 /* RileyLinkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RileyLinkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E34B8029C7B155009A50A5 /* PumpOpsSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PumpOpsSession.swift; sourceTree = "<group>"; };
 		C1E34B8229C7B1AB009A50A5 /* TimeZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZone.swift; sourceTree = "<group>"; };
-		C1E34B8429C7B1D4009A50A5 /* HKUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKUnit.swift; sourceTree = "<group>"; };
 		C1E34B8729C7B292009A50A5 /* Comparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
 		C1E34B8929C7B2FC009A50A5 /* LocalisedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisedString.swift; sourceTree = "<group>"; };
 		C1E34B8B29C7B334009A50A5 /* IdentifiableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableClass.swift; sourceTree = "<group>"; };
@@ -1147,7 +1145,6 @@
 				C1E34B7829C7AFF7009A50A5 /* TimeInterval.swift */,
 				C1E34B7A29C7B044009A50A5 /* OSLog.swift */,
 				C1E34B8229C7B1AB009A50A5 /* TimeZone.swift */,
-				C1E34B8429C7B1D4009A50A5 /* HKUnit.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1580,7 +1577,6 @@
 				C1E34AC329C7A98F009A50A5 /* DataFrameMessageBody.swift in Sources */,
 				C1E34A7629C7A98F009A50A5 /* ChangeSensorRateOfChangeAlertSetupPumpEvent.swift in Sources */,
 				C1E34AA929C7A98F009A50A5 /* MySentryAlertType.swift in Sources */,
-				C1E34B8529C7B1D4009A50A5 /* HKUnit.swift in Sources */,
 				C1E34ABC29C7A98F009A50A5 /* ChangeMaxBolusMessageBody.swift in Sources */,
 				C1E34A4229C7A98F009A50A5 /* PumpSettings.swift in Sources */,
 				C1E34AA129C7A98F009A50A5 /* DeviceLinkMessageBody.swift in Sources */,
