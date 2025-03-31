@@ -941,6 +941,10 @@ extension MinimedPumpManager: PumpManager {
         return state.pumpModel.supportedBasalRates
     }
 
+    public func roundToSupportedBasalRate(unitsPerHour: Double) -> Double {
+        return supportedBasalRates.last(where: { $0 <= unitsPerHour }) ?? 0
+    }
+
     public var supportedBolusVolumes: [Double] {
         return state.pumpModel.supportedBolusVolumes
     }
@@ -1321,13 +1325,16 @@ extension MinimedPumpManager: PumpManager {
             
             self.recents.tempBasalEngageState = .engaging
 
-            let result = session.setTempBasal(unitsPerHour, duration: duration)
-            
+            // Round to nearest supported rate
+            let rate = self.roundToSupportedBasalRate(unitsPerHour: unitsPerHour)
+
+            let result = session.setTempBasal(rate, duration: duration)
+
             switch result {
             case .success:
                 let now = self.dateGenerator()
 
-                let dose = UnfinalizedDose(tempBasalRate: unitsPerHour, startTime: now, duration: duration, insulinType: insulinType, automatic: true)
+                let dose = UnfinalizedDose(tempBasalRate: rate, startTime: now, duration: duration, insulinType: insulinType, automatic: true)
                 
                 self.recents.tempBasalEngageState = .stable
                 
