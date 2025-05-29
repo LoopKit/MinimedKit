@@ -10,6 +10,8 @@ import Foundation
 import LoopKit
 
 class MockPumpManagerDelegate: PumpManagerDelegate {
+    var automatedTreatmentState: LoopKit.AutomatedTreatmentState?
+    
     var automaticDosingEnabled = true
 
     var historyFetchStartDate = Date()
