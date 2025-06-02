@@ -73,7 +73,7 @@ class MinimedPumpManagerTests: XCTestCase {
 
     func testBolusWithInvalidResponse() {
         let exp = expectation(description: "enactBolus callback")
-        pumpManager.enactBolus(units: 2.3, activationType: .manualNoRecommendation) { error in
+        pumpManager.enactBolus(decisionId: nil, units: 2.3, activationType: .manualNoRecommendation) { error in
             XCTAssertNotNil(error)
             exp.fulfill()
         }
@@ -87,7 +87,7 @@ class MinimedPumpManagerTests: XCTestCase {
         ]
 
         let exp = expectation(description: "enactBolus callback")
-        pumpManager.enactBolus(units: 2.3, activationType: .manualNoRecommendation) { error in
+        pumpManager.enactBolus(decisionId: nil, units: 2.3, activationType: .manualNoRecommendation) { error in
             XCTAssertNotNil(error)
             exp.fulfill()
         }
@@ -109,7 +109,7 @@ class MinimedPumpManagerTests: XCTestCase {
         ]
 
         var exp = expectation(description: "enactBolus callback")
-        pumpManager.enactBolus(units: 3.2, activationType: .manualNoRecommendation) { error in
+        pumpManager.enactBolus(decisionId: nil, units: 3.2, activationType: .manualNoRecommendation) { error in
             XCTAssertNil(error)
             exp.fulfill()
         }

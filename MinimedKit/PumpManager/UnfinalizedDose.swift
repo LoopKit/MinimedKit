@@ -29,6 +29,8 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
     var uuid: UUID
     let insulinType: InsulinType?
     let automatic: Bool?
+    
+    var decisionId: UUID?
 
     var finishTime: Date {
         get {
@@ -64,7 +66,8 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         return units
     }
 
-    init(bolusAmount: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool, isReconciledWithHistory: Bool = false) {
+    init(decisionId: UUID?, bolusAmount: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool, isReconciledWithHistory: Bool = false) {
+        self.decisionId = decisionId
         self.doseType = .bolus
         self.units = bolusAmount
         self.startTime = startTime
@@ -76,7 +79,8 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         self.automatic = automatic
     }
 
-    init(tempBasalRate: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool = true, isReconciledWithHistory: Bool = false) {
+    init(decisionId: UUID?, tempBasalRate: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool = true, isReconciledWithHistory: Bool = false) {
+        self.decisionId = decisionId
         self.doseType = .tempBasal
         self.units = tempBasalRate * duration.hours
         self.startTime = startTime
@@ -195,6 +199,10 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         self.units = units
         self.startTime = startTime
         self.duration = duration
+        
+        if let decisionIdString = rawValue["decisionId"] as? String {
+            self.decisionId = UUID(uuidString: decisionIdString)!
+        }
 
         if let scheduledUnits = rawValue["scheduledUnits"] as? Double {
             self.programmedUnits = scheduledUnits
@@ -236,6 +244,10 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
             "isReconciledWithHistory": isReconciledWithHistory,
             "uuid": uuid.uuidString,
         ]
+        
+        if let decisionId {
+            rawValue["decisionId"] = decisionId.uuidString
+        }
 
         if let scheduledUnits = programmedUnits {
             rawValue["scheduledUnits"] = scheduledUnits
@@ -283,10 +295,10 @@ extension DoseEntry {
     init (_ dose: UnfinalizedDose, forceFinalization: Bool = false) {
         switch dose.doseType {
         case .bolus:
-            self = DoseEntry(type: .bolus, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedUnits ?? dose.units, unit: .units, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: !dose.isReconciledWithHistory && !forceFinalization)
+            self = DoseEntry(type: .bolus, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedUnits ?? dose.units, unit: .units, decisionId: dose.decisionId, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: !dose.isReconciledWithHistory && !forceFinalization)
         case .tempBasal:
             let isMutable = !forceFinalization && (!dose.isReconciledWithHistory || !dose.isFinished)
-            self = DoseEntry(type: .tempBasal, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedTempRate ?? dose.rate, unit: .unitsPerHour, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: isMutable)
+            self = DoseEntry(type: .tempBasal, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedTempRate ?? dose.rate, unit: .unitsPerHour, decisionId: dose.decisionId, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: isMutable)
         case .suspend:
             self = DoseEntry(suspendDate: dose.startTime, isMutable: !dose.isReconciledWithHistory)
         case .resume:
