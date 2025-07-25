@@ -38,7 +38,7 @@
 "BatteryIssue21" = "Problema21 batteria";
 
 /* Event title for bolus
-   Pump Event title for UnfinalizedDose with doseType of .bolus */
+Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Bolus" = "Bolo";
 
 /* Pump error code when bolus is in progress */
@@ -146,6 +146,9 @@
 /* Event title for JournalEntryMealMarkerPumpEvent */
 "Meal" = "Pasto";
 
+/* Generic title of the minimed pump manager */
+"Minimed" = "Minimed";
+
 /* Pump title (1: model number) */
 "Minimed %@" = "Minimed %@";
 
@@ -213,7 +216,7 @@
 "Reservoir" = "Serbatoio";
 
 /* Event title for resume
-   Pump Event title for UnfinalizedDose with doseType of .resume */
+Pump Event title for UnfinalizedDose with doseType of .resume */
 "Resume" = "Riprendi";
 
 /* Event title for rewind */
@@ -232,11 +235,11 @@
 "Signal Loss" = "Perdita Segnale";
 
 /* Event title for suspend
-   Pump Event title for UnfinalizedDose with doseType of .suspend */
+Pump Event title for UnfinalizedDose with doseType of .suspend */
 "Suspend" = "Blocco Erogazione";
 
 /* Event title for temporary basal rate start
-   Pump Event title for UnfinalizedDose with doseType of .tempBasal */
+Pump Event title for UnfinalizedDose with doseType of .tempBasal */
 "Temp Basal" = "Basale Temporanea";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in minutes) */

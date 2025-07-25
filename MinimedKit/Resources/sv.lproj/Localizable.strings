@@ -20,7 +20,7 @@
 "Basal Profile %1$@: %2$@ U/hour" = "Basalprofil %1$@: %2$@ E/h";
 
 /* Event title for bolus
-   Pump Event title for UnfinalizedDose with doseType of .bolus */
+Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Bolus" = "Bolus";
 
 /* Pump error code when bolus is in progress */
@@ -138,7 +138,7 @@
 "Scheduled Basal" = "Schemalagd basal";
 
 /* Event title for temporary basal rate start
-   Pump Event title for UnfinalizedDose with doseType of .tempBasal */
+Pump Event title for UnfinalizedDose with doseType of .tempBasal */
 "Temp Basal" = "Temporär basal";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in minutes) */

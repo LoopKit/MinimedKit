@@ -20,7 +20,7 @@
 "Basal Profile %1$@: %2$@ U/hour" = "Hồ sơ Basal %1$@: %2$@ U/giờ";
 
 /* Event title for bolus
-   Pump Event title for UnfinalizedDose with doseType of .bolus */
+Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Bolus" = "Bolus";
 
 /* Pump error code when bolus is in progress */

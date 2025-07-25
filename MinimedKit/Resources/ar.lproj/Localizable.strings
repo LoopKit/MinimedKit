@@ -5,7 +5,7 @@
 "%1$@ U left: %2$@" = "%1$@ وحدة متبقية: %2$@";
 
 /* Event title for bolus
-   Pump Event title for UnfinalizedDose with doseType of .bolus */
+Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Bolus" = "Bolus";
 
 /* The notification alert describing a low pump battery */
