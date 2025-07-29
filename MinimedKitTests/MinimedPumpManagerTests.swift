@@ -38,6 +38,7 @@ class MinimedPumpManagerTests: XCTestCase {
     }
 
 
+    @MainActor
     override func setUpWithError() throws {
         let device = MockRileyLinkDevice()
         
@@ -80,6 +81,7 @@ class MinimedPumpManagerTests: XCTestCase {
         waitForExpectations(timeout: 2)
     }
 
+    @MainActor
     func testBolusWithUncertainResponseIsReported() {
         mockMessageSender.responses = [
             .readPumpStatus: [mockMessageSender.makeMockResponse(.readPumpStatus, ReadPumpStatusMessageBody(bolusing: false, suspended: false))],
@@ -101,6 +103,7 @@ class MinimedPumpManagerTests: XCTestCase {
         XCTAssertEqual(event.dose!.deliveredUnits, 2.3)
     }
 
+    @MainActor
     func testPendingBolusRemovedIfMissingFromHistory() {
 
         mockMessageSender.responses = [

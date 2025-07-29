@@ -267,7 +267,9 @@ public class MinimedPumpManager: RileyLinkPumpManager {
                 let identifier = Alert.Identifier(managerIdentifier: self.pluginIdentifier, alertIdentifier: "lowRLBattery")
                 let alertBody = String(format: LocalizedString("\"%1$@\" has a low battery", comment: "Format string for low battery alert body for RileyLink. (1: device name)"), device.name ?? "unnamed")
                 let content = Alert.Content(title: LocalizedString("Low RileyLink Battery", comment: "Title for RileyLink low battery alert"), body: alertBody, acknowledgeActionButtonLabel: LocalizedString("OK", comment: "Acknowledge button label for RileyLink low battery alert"))
-                delegate?.issueAlert(Alert(identifier: identifier, foregroundContent: content, backgroundContent: content, trigger: .immediate))
+                Task {
+                    await delegate?.issueAlert(Alert(identifier: identifier, foregroundContent: content, backgroundContent: content, trigger: .immediate))
+                }
             }
         }
     }
@@ -510,13 +512,17 @@ extension MinimedPumpManager {
         }
         if oldBatteryPercentage != newBatteryPercentage, newBatteryPercentage == 0 {
             pumpDelegate.notify { (delegate) in
-                delegate?.issueAlert(self.pumpBatteryLowAlert)
+                Task {
+                    await delegate?.issueAlert(self.pumpBatteryLowAlert)
+                }
             }
         }
         
         if let oldBatteryPercentage = oldBatteryPercentage, newBatteryPercentage - oldBatteryPercentage >= batteryReplacementDetectionThreshold {
             pumpDelegate.notify { (delegate) in
-                delegate?.retractAlert(identifier: Self.pumpBatteryLowAlertIdentifier)
+                Task {
+                    await delegate?.retractAlert(identifier: Self.pumpBatteryLowAlertIdentifier)
+                }
             }
         }
     }
@@ -600,7 +606,9 @@ extension MinimedPumpManager {
         if let previousVolume = lastValue?.unitVolume {
             guard newValue.unitVolume > 0 else {
                 pumpDelegate.notify { (delegate) in
-                    delegate?.issueAlert(self.pumpReservoirEmptyAlert)
+                    Task {
+                        await delegate?.issueAlert(self.pumpReservoirEmptyAlert)
+                    }
                 }
                 return
             }
@@ -610,7 +618,9 @@ extension MinimedPumpManager {
             for threshold in warningThresholds {
                 if newValue.unitVolume <= threshold && previousVolume > threshold {
                     pumpDelegate.notify { (delegate) in
-                        delegate?.issueAlert(self.pumpReservoirLowAlertForAmount(newValue.unitVolume, andTimeRemaining: nil))
+                        Task {
+                            await delegate?.issueAlert(self.pumpReservoirLowAlertForAmount(newValue.unitVolume, andTimeRemaining: nil))
+                        }
                     }
                     break
                 }
@@ -620,7 +630,9 @@ extension MinimedPumpManager {
                 // TODO: report this as a pump event, or?                //self.analyticsServicesManager.reservoirWasRewound()
 
                 pumpDelegate.notify { (delegate) in
-                    delegate?.retractAlert(identifier: Self.pumpReservoirLowAlertIdentifier)
+                    Task {
+                        await delegate?.retractAlert(identifier: Self.pumpReservoirLowAlertIdentifier)
+                    }
                 }
             }
         }
@@ -1577,9 +1589,7 @@ extension MinimedPumpManager: CGMManager {
 
 // MARK: - AlertResponder implementation
 extension MinimedPumpManager {
-    public func acknowledgeAlert(alertIdentifier: Alert.AlertIdentifier, completion: @escaping (Error?) -> Void) {
-        completion(nil)
-    }
+    public func acknowledgeAlert(alertIdentifier: LoopKit.Alert.AlertIdentifier) async throws { }
 }
 
 // MARK: - AlertSoundVendor implementation
