@@ -754,68 +754,68 @@ extension MinimedPumpManager {
             }
             
             self.pumpOps.runSession(withName: "Fetch Pump History", using: device) { (session) in
-                do {
-                    guard let startDate = self.pumpDelegate.call({ (delegate) in
-                        return delegate?.startDateToFilterNewPumpEvents(for: self)
-                    }) else {
-                        preconditionFailure("pumpManagerDelegate cannot be nil")
-                    }
-
-                    // Include events up to a minute before startDate, since pump event time and pending event time might be off
-                    self.log.default("Fetching history since %{public}@", String(describing: startDate.addingTimeInterval(.minutes(-1))))
-                    let (historyEvents, model) = try session.getHistoryEvents(since: startDate.addingTimeInterval(.minutes(-1)))
-                    
-                    // Reconcile history with pending doses
-                    let newPumpEvents = historyEvents.pumpEvents(from: model)
-                    
-                    // During reconciliation, some pump events may be reconciled as pending doses and removed. Remaining events should be annotated with current insulinType
-                    let remainingHistoryEvents = self.reconcilePendingDosesWith(newPumpEvents, fetchedAt: self.dateGenerator()).map { (event) -> NewPumpEvent in
-                        var dose = event.dose
-                        dose?.insulinType = insulinType
-                        return NewPumpEvent(
-                            date: event.date,
-                            dose: dose,
-                            raw: event.raw,
-                            title: event.title,
-                            type: event.type)
-                    }
-
-                    self.pumpDelegate.notify({ (delegate) in
-                        guard let delegate = delegate else {
+                Task {
+                    do {
+                        guard let startDate = await self.pumpDelegate.delegate?.startDateToFilterNewPumpEvents(for: self) else {
                             preconditionFailure("pumpManagerDelegate cannot be nil")
                         }
-                        
-                        let pendingEvents = (self.state.pendingDoses + [self.state.unfinalizedBolus, self.state.unfinalizedTempBasal]).compactMap({ $0?.newPumpEvent() })
 
-                        self.log.default("Reporting new pump events: %{public}@", String(describing: remainingHistoryEvents + pendingEvents))
+                        // Include events up to a minute before startDate, since pump event time and pending event time might be off
+                        self.log.default("Fetching history since %{public}@", String(describing: startDate.addingTimeInterval(.minutes(-1))))
+                        let (historyEvents, model) = try session.getHistoryEvents(since: startDate.addingTimeInterval(.minutes(-1)))
 
-                        delegate.pumpManager(self, hasNewPumpEvents: remainingHistoryEvents + pendingEvents, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true) { (error) in
-                            // Called on an unknown queue by the delegate
-                            if error == nil {
-                                self.recents.lastAddedPumpEvents = self.dateGenerator()
-                                self.setState({ (state) in
-                                    // Remove any pending doses that have been reconciled and are finished
-                                    if let bolus = state.unfinalizedBolus, bolus.isReconciledWithHistory, bolus.isFinished {
-                                        state.unfinalizedBolus = nil
-                                    }
-                                    if let tempBasal = state.unfinalizedTempBasal, tempBasal.isReconciledWithHistory, tempBasal.isFinished {
-                                        state.unfinalizedTempBasal = nil
-                                    }
-                                    state.pendingDoses.removeAll(where: { (dose) -> Bool in
-                                        if dose.isReconciledWithHistory && dose.isFinished {
-                                            print("Removing stored, finished, reconciled dose: \(dose)")
-                                        }
-                                        return dose.isReconciledWithHistory && dose.isFinished
-                                    })
-                                })
-                            }
-                            completion(error)
+                        // Reconcile history with pending doses
+                        let newPumpEvents = historyEvents.pumpEvents(from: model)
+
+                        // During reconciliation, some pump events may be reconciled as pending doses and removed. Remaining events should be annotated with current insulinType
+                        let remainingHistoryEvents = self.reconcilePendingDosesWith(newPumpEvents, fetchedAt: self.dateGenerator()).map { (event) -> NewPumpEvent in
+                            var dose = event.dose
+                            dose?.insulinType = insulinType
+                            return NewPumpEvent(
+                                date: event.date,
+                                dose: dose,
+                                raw: event.raw,
+                                title: event.title,
+                                type: event.type)
                         }
-                    })
-                } catch let error {
-                    self.troubleshootPumpComms(using: device)
 
-                    completion(PumpManagerError.communication(error as? LocalizedError))
+                        self.pumpDelegate.notify({ (delegate) in
+                            guard let delegate = delegate else {
+                                preconditionFailure("pumpManagerDelegate cannot be nil")
+                            }
+
+                            let pendingEvents = (self.state.pendingDoses + [self.state.unfinalizedBolus, self.state.unfinalizedTempBasal]).compactMap({ $0?.newPumpEvent() })
+
+                            self.log.default("Reporting new pump events: %{public}@", String(describing: remainingHistoryEvents + pendingEvents))
+
+                            delegate.pumpManager(self, hasNewPumpEvents: remainingHistoryEvents + pendingEvents, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true) { (error) in
+                                // Called on an unknown queue by the delegate
+                                if error == nil {
+                                    self.recents.lastAddedPumpEvents = self.dateGenerator()
+                                    self.setState({ (state) in
+                                        // Remove any pending doses that have been reconciled and are finished
+                                        if let bolus = state.unfinalizedBolus, bolus.isReconciledWithHistory, bolus.isFinished {
+                                            state.unfinalizedBolus = nil
+                                        }
+                                        if let tempBasal = state.unfinalizedTempBasal, tempBasal.isReconciledWithHistory, tempBasal.isFinished {
+                                            state.unfinalizedTempBasal = nil
+                                        }
+                                        state.pendingDoses.removeAll(where: { (dose) -> Bool in
+                                            if dose.isReconciledWithHistory && dose.isFinished {
+                                                print("Removing stored, finished, reconciled dose: \(dose)")
+                                            }
+                                            return dose.isReconciledWithHistory && dose.isFinished
+                                        })
+                                    })
+                                }
+                                completion(error)
+                            }
+                        })
+                    } catch let error {
+                        self.troubleshootPumpComms(using: device)
+
+                        completion(PumpManagerError.communication(error as? LocalizedError))
+                    }
                 }
             }
         }
