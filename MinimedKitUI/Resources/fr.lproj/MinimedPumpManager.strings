@@ -2,7 +2,7 @@
 "0MV-2k-Dty.title" = "Configuration de RileyLink";
 
 /* Class = "UILabel"; text = "Find Device"; ObjectID = "1fp-45-qWK"; */
-"1fp-45-qWK.text" = "Découvrir dispositif";
+"1fp-45-qWK.text" = "Rechercher un appareil";
 
 /* Class = "UILabel"; text = "Other Devices"; ObjectID = "A6i-Cb-baR"; */
 "A6i-Cb-baR.text" = "Autres dispositifs";
@@ -35,7 +35,7 @@
 "HuY-fE-vM8.text" = "Si vous voyagez dans un fuseau horaire différent pendant une période prolongée, vous pouvez modifier le fuseau horaire de la pompe à tout moment dans l’écran Paramètres de Loop.";
 
 /* Class = "UILabel"; text = "Loop will keep your pumpʼs clock synchronized with your phone in the time zone youʼre in now."; ObjectID = "IQ5-53-x9s"; */
-"IQ5-53-x9s.text" = "Loop gardera l’horloge de votre pompe synchronisée avec votre téléphone dans le fuseau horaire où vous vous trouvez maintenant.";
+"IQ5-53-x9s.text" = "Loop gardera l’horloge de votre pompe synchronisée avec votre téléphone dans le fuseau horaire où vous vous trouvez actuellement.";
 
 /* Class = "UITableViewSection"; footerTitle = "The pump region and color are denoted as the last 3 letters of the the model number (labeled as REF)."; ObjectID = "lGI-LD-xR7"; */
 "lGI-LD-xR7.footerTitle" = "La région et la couleur de la pompe sont désignées par les 3 dernières lettres du numéro de modèle (étiquetées REF).";

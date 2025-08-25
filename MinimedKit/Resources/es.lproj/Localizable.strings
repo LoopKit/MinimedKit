@@ -38,7 +38,7 @@
 "BatteryIssue21" = "Problema de bateria 21";
 
 /* Event title for bolus
-   Pump Event title for UnfinalizedDose with doseType of .bolus */
+Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Bolus" = "Bolo";
 
 /* Pump error code when bolus is in progress */
@@ -213,7 +213,7 @@
 "Reservoir" = "Reservorio";
 
 /* Event title for resume
-   Pump Event title for UnfinalizedDose with doseType of .resume */
+Pump Event title for UnfinalizedDose with doseType of .resume */
 "Resume" = "Reanudar";
 
 /* Event title for rewind */
@@ -232,11 +232,11 @@
 "Signal Loss" = "Pérdida de señal";
 
 /* Event title for suspend
-   Pump Event title for UnfinalizedDose with doseType of .suspend */
+Pump Event title for UnfinalizedDose with doseType of .suspend */
 "Suspend" = "Suspender";
 
 /* Event title for temporary basal rate start
-   Pump Event title for UnfinalizedDose with doseType of .tempBasal */
+Pump Event title for UnfinalizedDose with doseType of .tempBasal */
 "Temp Basal" = "Insulina basal temporal";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in minutes) */

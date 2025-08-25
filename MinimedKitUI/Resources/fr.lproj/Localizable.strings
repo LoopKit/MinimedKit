@@ -62,7 +62,7 @@
 "Continue" = "Continuer";
 
 /* Button label for removing Pump
-   Text to delete pump */
+Text to delete pump */
 "Delete Pump" = "Supprimer la pompe";
 
 /* Header for devices section of RileyLinkSetupView */
@@ -128,12 +128,15 @@
 /* Pump find device instruction */
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump preferred data source */
+/* Text for medtronic pump preferred data source
+navigation title for pump battery type selection */
 "Preferred Data Source" = "Source de données préférée";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump battery type */
+/* Text for medtronic pump battery percent remaining */
+"Pump Battery Remaining" = "Batterie de la pompe restante";
+
+/* Text for medtronic pump battery type
+navigation title for pump battery type selection */
 "Pump Battery Type" = "Type de pile dans la pompe";
 
 /* The title text for the pump ID config value */
@@ -209,8 +212,8 @@
 "Unknown" = "Inconnu";
 
 /* Description for option to use MySentry
-   navigation title for pump battery type selection
-   Text for medtronic pump to use MySentry */
+Text for medtronic pump to use MySentry
+navigation title for pump battery type selection */
 "Use MySentry" = "Utiliser MySentry";
 
 /* Value string for MySentry config when MySentry is being used */
