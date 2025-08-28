@@ -65,7 +65,7 @@
 "Continue" = "המשך";
 
 /* Button label for removing Pump
-   Text to delete pump */
+Text to delete pump */
 "Delete Pump" = "מחק משאבה";
 
 /* Header for devices section of RileyLinkSetupView */
@@ -131,15 +131,15 @@
 /* Pump find device instruction */
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "במשאבה שלך, מצא את מסך \"Find Device״ ולחץ עליו.\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump preferred data source */
+/* Text for medtronic pump preferred data source
+navigation title for pump battery type selection */
 "Preferred Data Source" = "מקור מידע מועדף";
 
 /* Text for medtronic pump battery percent remaining */
 "Pump Battery Remaining" = "סוללת משאבה שנותרה";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump battery type */
+/* Text for medtronic pump battery type
+navigation title for pump battery type selection */
 "Pump Battery Type" = "סוג סוללת משאבה";
 
 /* The title text for the pump ID config value */
@@ -215,8 +215,8 @@
 "Unknown" = "לא ידוע";
 
 /* Description for option to use MySentry
-   navigation title for pump battery type selection
-   Text for medtronic pump to use MySentry */
+Text for medtronic pump to use MySentry
+navigation title for pump battery type selection */
 "Use MySentry" = "השתמש ב-MySentry";
 
 /* Value string for MySentry config when MySentry is being used */

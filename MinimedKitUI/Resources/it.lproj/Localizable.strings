@@ -65,7 +65,7 @@
 "Continue" = "Continua";
 
 /* Button label for removing Pump
-   Text to delete pump */
+Text to delete pump */
 "Delete Pump" = "Cancella Microinfusore";
 
 /* Header for devices section of RileyLinkSetupView */
@@ -105,7 +105,7 @@
 "Insulin Delivery" = "Insulina Somministrata";
 
 /* Instructions on selecting an insulin data source */
-"Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "L'insulina somministrata può essere determinata dalla pompa sia interpretando la cronologia eventi o confrontando il volume del serbatoio nel tempo. La lettura della cronologia degli eventi consente una statistica più accurata e trasmette dati sempre aggiornati a Nightscout, a discapito di un maggiore consumo di batteria e con la possibilità di incorrere in un maggior tasso di errore di comunicazione rispetto alla sola lettura del volume del serbatoio. Se la sorgente selezionata non può essere utilizzata per qualsiasi ragione, il sistema tenterà di ripiegare sull'altra opzione.";
+"Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "L'insulina somministrata può essere determinata dal microinfusore sia interpretando la cronologia eventi o confrontando il volume del serbatoio nel tempo. La lettura della cronologia degli eventi consente una statistica più accurata e trasmette dati sempre aggiornati a Nightscout, a discapito di un maggiore consumo di batteria e con la possibilità di incorrere in un maggior tasso di errore di comunicazione rispetto alla sola lettura del volume del serbatoio. Se la sorgente selezionata non può essere utilizzata per qualsiasi ragione, il sistema tenterà di ripiegare sull'altra opzione.";
 
 /* Header for insulin remaining on pod settings screen */
 "Insulin Remaining" = "Insulina Rimanente";
@@ -117,7 +117,7 @@
 "Medtronic %1$@" = "Medtronic %1$@";
 
 /* Instructions on selecting setting for MySentry */
-"Medtronic pump models 523, 723, 554, and 754 have a feature called 'MySentry' that periodically broadcasts the reservoir and pump battery levels.  Listening for these broadcasts allows Loop to communicate with the pump less frequently, which can increase pump battery life.  However, when using this feature the RileyLink stays awake more of the time and uses more of its own battery.  Enabling this may lengthen pump battery life, while disabling it may lengthen RileyLink battery life. This setting is ignored for other pump models." = "I modelli di pompa Medtronic 523, 723, 554 e 754 dispongono di una funzione denominata \"MySentry\" che trasmette periodicamente i livelli della batteria del serbatoio e della pompa. L'ascolto di queste trasmissioni consente a Loop di comunicare meno frequentemente con il microinfusore, il che può aumentare la durata della batteria del microinfusore. Tuttavia, quando si utilizza questa funzione, RileyLink rimane sveglio per la maggior parte del tempo e utilizza più della propria batteria. Abilitare questa opzione può allungare la durata della batteria della pompa, mentre disabilitarla può allungare la durata della batteria di RileyLink. Questa impostazione viene ignorata per altri modelli di pompa.";
+"Medtronic pump models 523, 723, 554, and 754 have a feature called 'MySentry' that periodically broadcasts the reservoir and pump battery levels.  Listening for these broadcasts allows Loop to communicate with the pump less frequently, which can increase pump battery life.  However, when using this feature the RileyLink stays awake more of the time and uses more of its own battery.  Enabling this may lengthen pump battery life, while disabling it may lengthen RileyLink battery life. This setting is ignored for other pump models." = "I modelli di microinfusore Medtronic 523, 723, 554 e 754 dispongono di una funzione denominata \"MySentry\" che trasmette periodicamente i livelli della batteria del serbatoio e della microinfusore. L'ascolto di queste trasmissioni consente a Loop di comunicare meno frequentemente con il microinfusore, il che può aumentare la durata della batteria del microinfusore. Tuttavia, quando si utilizza questa funzione, RileyLink rimane sveglio per la maggior parte del tempo e utilizza più della propria batteria. Abilitare questa opzione può allungare la durata della batteria del microinfusore, mentre disabilitarla può allungare la durata della batteria di RileyLink. Questa impostazione viene ignorata per altri modelli di microinfusore.";
 
 /* Value string for MySentry config when MySentry is not being used */
 "No" = "No";
@@ -126,20 +126,20 @@
 "No response" = "Nessuna risposta";
 
 /* Button text to cancel pump time sync */
-"No, Keep Pump As Is" = "No, mantienere la pompa così com'è";
+"No, Keep Pump As Is" = "No, mantieni il microinfusore così com'è";
 
 /* Pump find device instruction */
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump preferred data source */
+/* Text for medtronic pump preferred data source
+navigation title for pump battery type selection */
 "Preferred Data Source" = "Fonte Dati";
 
 /* Text for medtronic pump battery percent remaining */
 "Pump Battery Remaining" = "Batteria rimanente del microinfusore";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump battery type */
+/* Text for medtronic pump battery type
+navigation title for pump battery type selection */
 "Pump Battery Type" = "Tipo Batteria Microinfusore";
 
 /* The title text for the pump ID config value */
@@ -215,8 +215,8 @@
 "Unknown" = "Sconosciuto";
 
 /* Description for option to use MySentry
-   navigation title for pump battery type selection
-   Text for medtronic pump to use MySentry */
+Text for medtronic pump to use MySentry
+navigation title for pump battery type selection */
 "Use MySentry" = "Accoppia MySentry";
 
 /* Value string for MySentry config when MySentry is being used */

@@ -35,7 +35,7 @@
 "Connect" = "连接";
 
 /* Button label for removing Pump
-   Text to delete pump */
+Text to delete pump */
 "Delete Pump" = "删除泵";
 
 /* The alert title for a resume error */
@@ -65,12 +65,12 @@
 /* Pump find device instruction */
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump preferred data source */
+/* Text for medtronic pump preferred data source
+navigation title for pump battery type selection */
 "Preferred Data Source" = "首选数据源";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump battery type */
+/* Text for medtronic pump battery type
+navigation title for pump battery type selection */
 "Pump Battery Type" = "胰岛素泵电池类型";
 
 /* The title text for the pump ID config value */

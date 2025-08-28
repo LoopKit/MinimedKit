@@ -62,7 +62,7 @@
 "Continue" = "Continuar";
 
 /* Button label for removing Pump
-   Text to delete pump */
+Text to delete pump */
 "Delete Pump" = "Eliminar Microinfusora";
 
 /* Header for devices section of RileyLinkSetupView */
@@ -125,12 +125,12 @@
 /* Pump find device instruction */
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump preferred data source */
+/* Text for medtronic pump preferred data source
+navigation title for pump battery type selection */
 "Preferred Data Source" = "Fuente de Datos Preferida";
 
-/* navigation title for pump battery type selection
-   Text for medtronic pump battery type */
+/* Text for medtronic pump battery type
+navigation title for pump battery type selection */
 "Pump Battery Type" = "Tipo de batería de microinfusora";
 
 /* The title text for the pump ID config value */
@@ -203,8 +203,8 @@
 "Unknown" = "Desconocido";
 
 /* Description for option to use MySentry
-   navigation title for pump battery type selection
-   Text for medtronic pump to use MySentry */
+Text for medtronic pump to use MySentry
+navigation title for pump battery type selection */
 "Use MySentry" = "Usar MySentry";
 
 /* Value string for MySentry config when MySentry is being used */
