@@ -191,7 +191,7 @@ navigation title for pump battery type selection */
 "Sync to Current Time" = "Synchroniser avec l'heure actuelle";
 
 /* Message for pod sync time action sheet */
-"The time on your pump is different from the current time. Do you want to update the time on your pump to the current time?" = "L'heure de votre pompe est différente de l'heure actuelle. Voulez vous mettre à jour l'heure de votre pompe avec l'heure actuelle ?";
+"The time on your pump is different from the current time. Do you want to update the time on your pump to the current time?" = "L'heure de votre pompe est différente de l'heure actuelle. Voulez vous mettre à jour l'heure de votre pompe avec l'heure actuelle?";
 
 /* Title for pod sync time action sheet. */
 "Time Change Detected" = "Changement d'heure détecté";

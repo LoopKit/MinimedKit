@@ -1,20 +1,20 @@
 /* Format string for low battery alert body for RileyLink. (1: device name) */
-"\"%1$@\" has a low battery" = "%1$@ ha la batteria quasi scarica";
+"\"%1$@\" has a low battery" = "\"%1$@\" ha la batteria scarica";
 
 /* Low reservoir alert format string. (1: Number of units remaining) */
-"%1$@ U left" = "%1$@ U sinistra";
+"%1$@ U left" = "%1$@ U rimaste";
 
 /* Low reservoir alert with time remaining format string. (1: Number of units remaining)(2: approximate time remaining) */
-"%1$@ U left: %2$@" = "%1$@ U sinistra: %2$@";
+"%1$@ U left: %2$@" = "%1$@ U rimaste: %2$@";
 
 /* Communications error for a bolus currently running */
 "A bolus is already in progress" = "Un bolo è già in esecuzione";
 
 /* The description of AlarmClockReminderPumpEvent */
-"AlarmClockReminder" = "Promemoria sveglia";
+"AlarmClockReminder" = "AlarmClockReminder";
 
 /* The description of AlarmSensorPumpEvent */
-"AlarmSensor" = "Allarme Sensori";
+"AlarmSensor" = "AlarmSensor";
 
 /* Describing the battery chemistry as Alkaline */
 "Alkaline" = "Alcalina";
@@ -29,13 +29,13 @@
 "Battery Depleted" = "Batteria scarica";
 
 /* Title for PumpAlarmType.batteryOutLimitExceeded */
-"Battery Out Limit" = "Batteria fuori limite";
+"Battery Out Limit" = "Battery Out Limit";
 
 /* Title for PumpAlarmType.deviceResetBatteryIssue17 */
-"BatteryIssue17" = "Problema17 batteria";
+"BatteryIssue17" = "BatteryIssue17";
 
 /* Title for PumpAlarmType.deviceResetBatteryIssue21 */
-"BatteryIssue21" = "Problema21 batteria";
+"BatteryIssue21" = "BatteryIssue21";
 
 /* Event title for bolus
 Pump Event title for UnfinalizedDose with doseType of .bolus */
@@ -57,61 +57,61 @@ Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Cancel Temp Basal" = "Annulla basale temporanea";
 
 /* Event title for ChangeBasalProfilePatternPumpEvent */
-"Change Basal Profile Schedule" = "Modificare la pianificazione del profilo basale";
+"Change Basal Profile Schedule" = "Modifica la pianificazione del profilo basale";
 
 /* Event title for ChangeBasalProfilePumpEvent */
-"Change Basal Schedule" = "Modificare il programma della basale";
+"Change Basal Schedule" = "Modifica il programma della basale";
 
 /* The notification alert describing a low pump battery */
-"Change the pump battery immediately" = "Cambiare immediatamente la batteria del microinfusore";
+"Change the pump battery immediately" = "Sostituisci immediatamente la batteria della pompa";
 
 /* The notification alert describing an empty pump reservoir */
-"Change the pump reservoir now" = "Cambiare subito il serbatoio del microinfusore";
+"Change the pump reservoir now" = "Cambia ora il serbatoio della pompa";
 
 /* Event title for ChangeTimePumpEvent */
-"Change Time" = "Cambia Orario";
+"Change Time" = "Cambia orario";
 
 /* Suggestions for diagnosing a command refused pump error */
-"Check that the pump is not suspended or priming, or has a percent temp basal type" = "Verificare che il microinfusore non sia sospeso o che stia riavvolgendo o che abbia un tipo basale impostato su percentuale";
+"Check that the pump is not suspended or priming, or has a percent temp basal type" = "Verifica che la pompa non sia sospesa o in fase di Priming, oppure che abbia un tipo di basale temporaneo percentuale";
 
 /* Event title for clear alarm pump event */
-"Clear Alarm" = "Cancella Allarme";
+"Clear Alarm" = "Cancella allarme";
 
 /* Pump error code returned when command refused */
-"Command refused" = "Comando negato";
+"Command refused" = "Comando rifiutato";
 
 /* Description for PumpOpsError.crosstalk */
-"Comms with another pump detected" = "Comunicazione con un altro microinfusore rilevata";
+"Comms with another pump detected" = "Comunicazione con un altra pompa rilevata.";
 
 /* Error description */
-"Decoding Error" = "Errore di Decodifica";
+"Decoding Error" = "Errore di decodifica";
 
 /* Error description */
-"Device Error" = "Errore del Dispositivo";
+"Device Error" = "Errore del dispositivo";
 
 /* Title for deviceReset */
-"Device Reset" = "Ripristino del Dispositivo";
+"Device Reset" = "Ripristino del dispositivo";
 
 /* Default alert dismissal */
 "Dismiss" = "OK";
 
 /* Title for PumpAlarmType.emptyReservoir */
-"Empty Reservoir" = "Serbatoio Vuoto";
+"Empty Reservoir" = "Serbatoio vuoto";
 
 /* Describing the pump history insulin data source */
-"Event History" = "Storia degli Eventi";
+"Event History" = "Cronologia degli eventi";
 
 /* Error description for glucose page failing crc check */
-"Glucose page failed crc check" = "Il registro dati della Glicemia ha fallito il controllo crc";
+"Glucose page failed crc check" = "La pagina della glicemia non ha superato il controllo CRC";
 
 /* Recovery suggestion for MinimedPumpManagerError.insulinTypeNotConfigured */
-"Go to pump settings and select insulin type" = "Andare nelle impostazioni del microinfusore e selezionare il tipo d'insulina";
+"Go to pump settings and select insulin type" = "Vai nelle impostazioni della pompa e seleziona il tipo d'insulina";
 
 /* Pump error code when invalid history page is requested */
-"History page does not exist" = "La pagina della storia non esiste";
+"History page does not exist" = "La pagina della cronologia non esiste";
 
 /* Error description for history page failing crc check */
-"History page failed crc check" = "La pagina della cronologia non ha superato il controllo crc";
+"History page failed crc check" = "La pagina della cronologia non ha superato il controllo CRC";
 
 /* Status highlight that insulin delivery was suspended. */
 "Insulin Suspended" = "Erogazione Insulina sospesa";
@@ -126,19 +126,19 @@ Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Lithium" = "Litio";
 
 /* Help anchor for uncertain bolus */
-"Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports." = "Loop ha inviato un comando di bolo al microinfusore, ma non è stato in grado di confermare che il microinfusore abbia ricevuto il comando. Per sicurezza, Loop presume che il bolo sia stato erogato. Quando alla fine Loop recupera la cronologia dal microinfusore e l'ora prevista per la fine del bolo, Loop aggiorna i propri record di erogazione in modo che corrispondano a quanto riportato dal microinfusore.";
+"Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports." = "Loop ha inviato un comando di bolo alla pompa, ma non è stato in grado di confermare che la pompa lo avesse ricevuto. Per motivi di sicurezza, Loop presumerà che il bolo sia stato effettivamente erogato. Quando Loop recupera la cronologia dalla pompa e l'ora stimata di fine bolo è passata, Loop aggiornerà i propri registri di erogazione in base a quanto riportato dalla pompa.";
 
 /* Event title for JournalEntryPumpLowBatteryPumpEvent */
-"Low Battery" = "Batteria Bassa";
+"Low Battery" = "Batteria scarica";
 
 /* Event title for JournalEntryPumpLowReservoirPumpEvent */
-"Low Reservoir" = "Livello Serbatoio basso";
+"Low Reservoir" = "Serbatoio scarico";
 
 /* Title for RileyLink low battery alert */
 "Low RileyLink Battery" = "Batteria Rileylink quasi scarica";
 
 /* Recovery suggestion */
-"Make sure your RileyLink is nearby and powered on" = "Assicurati che RileyLink si trovi nelle vicinanze e sia acceso";
+"Make sure your RileyLink is nearby and powered on" = "Assicurati che RileyLink si trovi nelle vicinanze e sia attivato";
 
 /* Pump error code describing max setting exceeded */
 "Max setting exceeded" = "Impostazione massima superata";
@@ -156,13 +156,13 @@ Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Minimed 500/700 Series" = "Minimed serie 500/700";
 
 /* Event title for NewTimePumpEvent */
-"New Time" = "Nuovo tempo";
+"New Time" = "Nuovo orario";
 
 /* Title for PumpAlarmType.noDelivery */
-"No Delivery Alarm" = "Allarme di non erogazione";
+"No Delivery Alarm" = "Nessun allarme di erogazione";
 
 /* Error description when no rileylink connected */
-"No RileyLink Connected" = "Nessun Rileylink Connesso";
+"No RileyLink Connected" = "Nessun RileyLink connesso";
 
 /* Describing the North America pump region */
 "North America" = "Nord America";
@@ -177,34 +177,34 @@ Pump Event title for UnfinalizedDose with doseType of .bolus */
 "Percent Temp Basal" = "Percentuale basale temporanea";
 
 /* recoverySuggestion for uncertain bolus */
-"Please check your pump bolus history to determine if the bolus was delivered." = "Controllare la cronologia dei boli del microinfusore per determinare se il bolo è stato erogato.";
+"Please check your pump bolus history to determine if the bolus was delivered." = "Controlla la cronologia dei boli della pompa per verificare se il bolo è stato erogato.";
 
 /* Event title for prime pump event */
-"Prime" = "Caricare ";
+"Prime" = "Prime";
 
 /* The notification title for a low pump battery */
-"Pump Battery Low" = "Batteria Microinfusore bassa";
+"Pump Battery Low" = "Batteria della pompa scarica";
 
 /* Description for PumpOpsError.noResponse */
-"Pump did not respond" = "Il microinfusore non risponde";
+"Pump did not respond" = "La pompa non ha risposto";
 
 /* Error description */
-"Pump Error" = "Errore Mincroinfusore";
+"Pump Error" = "Errore pompa";
 
 /* Description for PumpOpsError.pumpSuspended */
-"Pump is suspended" = "Il microinfusore è sospeso";
+"Pump is suspended" = "La pompa è sospesa";
 
 /* Error description when failure due to pump suspended */
-"Pump is Suspended" = "Il microinfusore è sospeso";
+"Pump is Suspended" = "La pompa è sospesa";
 
 /* The notification title for an empty pump reservoir */
-"Pump Reservoir Empty" = "Serbatoio microinfusore Vuoto";
+"Pump Reservoir Empty" = "Serbatoio della pompa vuoto";
 
 /* The notification title for a low pump reservoir */
-"Pump Reservoir Low" = "Serbatoio microinfusore Basso";
+"Pump Reservoir Low" = "Serbatoio della pompa scarico";
 
 /* No comment provided by engineer. */
-"Pump responded unexpectedly" = "Il microinfusore ha risposto inaspettatamente";
+"Pump responded unexpectedly" = "La pompa ha risposto in modo imprevisto";
 
 /* The format string describing a pump message. (1: The packet type)(2: The message type)(3: The message address)(4: The message data */
 "PumpMessage(%1$@, %2$@, %3$@, %4$@)" = "PumpMessage(%1$@, %2$@, %3$@, %4$@)";
@@ -226,17 +226,17 @@ Pump Event title for UnfinalizedDose with doseType of .resume */
 "RileyLink radio tune failed" = "Sintonizzazione radio RileyLink fallita";
 
 /* Event title for starting scheduled basal */
-"Scheduled Basal" = "Basale Programmata";
+"Scheduled Basal" = "Basale programmata";
 
 /* Event title for SelectBasalProfilePumpEvent */
 "Select Profile" = "Seleziona profilo";
 
 /* Status highlight when communications with the pod haven't happened recently. */
-"Signal Loss" = "Perdita Segnale";
+"Signal Loss" = "Perdita segnale";
 
 /* Event title for suspend
 Pump Event title for UnfinalizedDose with doseType of .suspend */
-"Suspend" = "Blocco Erogazione";
+"Suspend" = "Sospendi";
 
 /* Event title for temporary basal rate start
 Pump Event title for UnfinalizedDose with doseType of .tempBasal */
@@ -246,16 +246,16 @@ Pump Event title for UnfinalizedDose with doseType of .tempBasal */
 "Temporary Basal: %1$.3f U/hour" = "Basale temporanea: %1$.3f U/ora";
 
 /* The format string description of a TempBasalDurationPumpEvent. (1: The duration of the temp basal in minutes) */
-"Temporary Basal: %1$d min" = "Basale Temporanea: %1$d min";
+"Temporary Basal: %1$d min" = "Basale temporanea: %1$d min";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in percent) */
 "Temporary Basal: %1$d%%" = "Basale temporanea: %1$d%%";
 
 /* Error description when storage fails */
-"Unable to store pump data" = "Impossibile memorizzare i dati del Microinfusore";
+"Unable to store pump data" = "Impossibile memorizzare i dati della pompa";
 
 /* Format string for an unexpectedResponse. (2: The response) */
-"Unexpected response %1$@" = "Risposta inaspettata %1$@";
+"Unexpected response %1$@" = "Risposta imprevista %1$@";
 
 /* Title for PumpAlarmType.unknownType */
 "Unknown Alarm" = "Allarme sconosciuto";
@@ -267,10 +267,10 @@ Pump Event title for UnfinalizedDose with doseType of .tempBasal */
 "Unknown history record type: %$1@" = "Tipo di record storico sconosciuto: %$1@";
 
 /* The format string description of an unknown pump error code. (1: The specific error code raw value) */
-"Unknown pump error code: %1$@" = "Codice errore microinfusore sconosciuto: %1$@";
+"Unknown pump error code: %1$@" = "Codice di errore della pompa sconosciuto: %1$@";
 
 /* No comment provided by engineer. */
-"Unknown pump model: %@" = "Modello di microinfusore sconosciuto: %@";
+"Unknown pump model: %@" = "Modello di pompa sconosciuto: %@";
 
 /* Format string for an unknown response. (1: The operation being performed) (2: The response data) */
 "Unknown response during %1$@: %2$@" = "Risposta sconosciuta per %1$@: %2$@";
