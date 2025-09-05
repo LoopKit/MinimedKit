@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B66D1F7B2E6A84EA00471149 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B66D1F7A2E6A84EA00471149 /* Localizable.xcstrings */; };
+		B66D1F7E2E6A84EA00471149 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B66D1F7D2E6A84EA00471149 /* Localizable.xcstrings */; };
 		C1229C2229C7ECA70066A89C /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1229C2129C7ECA70066A89C /* TimeInterval.swift */; };
 		C1229C2429C7ECEB0066A89C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1229C2329C7ECEB0066A89C /* Data.swift */; };
 		C13CC33529C7B6A9007F25DE /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E34B6729C7AD62009A50A5 /* LoopKit.framework */; };
@@ -246,7 +248,6 @@
 		C1E34ADC29C7A98F009A50A5 /* ISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34A0D29C7A98E009A50A5 /* ISO8601DateFormatter.swift */; };
 		C1E34ADD29C7A98F009A50A5 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34A0E29C7A98E009A50A5 /* Int.swift */; };
 		C1E34ADE29C7A98F009A50A5 /* NSDateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34A0F29C7A98E009A50A5 /* NSDateComponents.swift */; };
-		C1E34AFB29C7A9BD009A50A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1E34AE429C7A9BC009A50A5 /* Localizable.strings */; };
 		C1E34B0429C7ABCB009A50A5 /* MinimedKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E34B0329C7ABCB009A50A5 /* MinimedKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1E34B2329C7ABF3009A50A5 /* MinimedKitUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E34B0829C7ABF2009A50A5 /* MinimedKitUI.xcassets */; };
 		C1E34B2429C7ABF3009A50A5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B0A29C7ABF2009A50A5 /* Image.swift */; };
@@ -271,7 +272,6 @@
 		C1E34B3829C7ABF3009A50A5 /* InsulinTypeConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B2029C7ABF3009A50A5 /* InsulinTypeConfirmation.swift */; };
 		C1E34B3929C7ABF3009A50A5 /* MinimedReservoirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B2129C7ABF3009A50A5 /* MinimedReservoirView.swift */; };
 		C1E34B3A29C7ABF3009A50A5 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B2229C7ABF3009A50A5 /* TimeView.swift */; };
-		C1E34B3E29C7AC0A009A50A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1E34B4029C7AC0A009A50A5 /* Localizable.strings */; };
 		C1E34B6429C7AD31009A50A5 /* MinimedKitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E34B6229C7AD31009A50A5 /* MinimedKitPlugin.swift */; };
 		C1E34B6829C7AD62009A50A5 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E34B6729C7AD62009A50A5 /* LoopKit.framework */; };
 		C1E34B6B29C7AD9C009A50A5 /* MinimedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E3491129C7A866009A50A5 /* MinimedKit.framework */; };
@@ -352,6 +352,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B66D1F7A2E6A84EA00471149 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B66D1F7C2E6A84EA00471149 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/MinimedPumpManager.xcstrings; sourceTree = "<group>"; };
+		B66D1F7D2E6A84EA00471149 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C1229C2129C7ECA70066A89C /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
 		C1229C2329C7ECEB0066A89C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C13CC34129C7B73A007F25DE /* MinimedKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimedKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -413,31 +416,7 @@
 		C13CC38629C7B757007F25DE /* PumpOpsSynchronousBuildFromFramesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PumpOpsSynchronousBuildFromFramesTests.swift; sourceTree = "<group>"; };
 		C13CC38729C7B757007F25DE /* ReconciliationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReconciliationTests.swift; sourceTree = "<group>"; };
 		C13CC3C229C7B8BC007F25DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MinimedPumpManager.storyboard; sourceTree = "<group>"; };
-		C13CC3C529C7B8D0007F25DE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3C629C7B8D4007F25DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3C729C7B8D8007F25DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MinimedPumpManager.strings"; sourceTree = "<group>"; };
-		C13CC3C829C7B8DA007F25DE /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3C929C7B8DB007F25DE /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3CA29C7B8DC007F25DE /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3CB29C7B8DD007F25DE /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3CC29C7B8DE007F25DE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3CD29C7B8DF007F25DE /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3CE29C7B8E0007F25DE /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3CF29C7B8E0007F25DE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D029C7B8E1007F25DE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D129C7B8E2007F25DE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D229C7B8E3007F25DE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D329C7B8E4007F25DE /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MinimedPumpManager.strings"; sourceTree = "<group>"; };
-		C13CC3D429C7B8E5007F25DE /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D529C7B8E5007F25DE /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D629C7B8E6007F25DE /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D729C7B8E7007F25DE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D829C7B8E9007F25DE /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3D929C7B8E9007F25DE /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
-		C13CC3DA29C7B8EB007F25DE /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/MinimedPumpManager.strings; sourceTree = "<group>"; };
 		C13CC3DC29C7BA48007F25DE /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
-		C1BF2DB929C8007300EB8987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1D2F16D2AE58C4500BF4457 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C1E3491129C7A866009A50A5 /* MinimedKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MinimedKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E3491429C7A866009A50A5 /* MinimedKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimedKit.h; sourceTree = "<group>"; };
 		C1E3492529C7A98B009A50A5 /* CalBGForGHGlucoseEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalBGForGHGlucoseEvent.swift; sourceTree = "<group>"; };
@@ -616,28 +595,6 @@
 		C1E34A0D29C7A98E009A50A5 /* ISO8601DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateFormatter.swift; sourceTree = "<group>"; };
 		C1E34A0E29C7A98E009A50A5 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		C1E34A0F29C7A98E009A50A5 /* NSDateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateComponents.swift; sourceTree = "<group>"; };
-		C1E34AE529C7A9BC009A50A5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AE629C7A9BC009A50A5 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AE729C7A9BC009A50A5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AE829C7A9BC009A50A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C1E34AE929C7A9BC009A50A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AEA29C7A9BC009A50A5 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AEB29C7A9BC009A50A5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AEC29C7A9BC009A50A5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AED29C7A9BC009A50A5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AEE29C7A9BC009A50A5 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AEF29C7A9BC009A50A5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF029C7A9BC009A50A5 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF129C7A9BC009A50A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF229C7A9BC009A50A5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF329C7A9BC009A50A5 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF429C7A9BC009A50A5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C1E34AF529C7A9BC009A50A5 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF629C7A9BC009A50A5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF729C7A9BC009A50A5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF829C7A9BC009A50A5 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AF929C7A9BC009A50A5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34AFA29C7A9BC009A50A5 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C1E34B0129C7ABCB009A50A5 /* MinimedKitUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MinimedKitUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E34B0329C7ABCB009A50A5 /* MinimedKitUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimedKitUI.h; sourceTree = "<group>"; };
 		C1E34B0829C7ABF2009A50A5 /* MinimedKitUI.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MinimedKitUI.xcassets; sourceTree = "<group>"; };
@@ -664,27 +621,6 @@
 		C1E34B2029C7ABF3009A50A5 /* InsulinTypeConfirmation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsulinTypeConfirmation.swift; sourceTree = "<group>"; };
 		C1E34B2129C7ABF3009A50A5 /* MinimedReservoirView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimedReservoirView.swift; sourceTree = "<group>"; };
 		C1E34B2229C7ABF3009A50A5 /* TimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
-		C1E34B4129C7AC4C009A50A5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4229C7AC4F009A50A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C1E34B4329C7AC51009A50A5 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4429C7AC54009A50A5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4529C7AC56009A50A5 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4629C7AC58009A50A5 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4729C7AC5B009A50A5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4829C7AC5D009A50A5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4929C7AC5F009A50A5 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4A29C7AC61009A50A5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4B29C7AC64009A50A5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4C29C7AC66009A50A5 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4D29C7AC68009A50A5 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B4E29C7AC69009A50A5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		C1E34B4F29C7AC6A009A50A5 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B5029C7AC6B009A50A5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B5129C7AC6C009A50A5 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B5229C7AC6D009A50A5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B5329C7AC6E009A50A5 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B5429C7AC6F009A50A5 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1E34B5529C7AC70009A50A5 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C1E34B5B29C7AD01009A50A5 /* MinimedKitPlugin.loopplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MinimedKitPlugin.loopplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E34B6229C7AD31009A50A5 /* MinimedKitPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimedKitPlugin.swift; sourceTree = "<group>"; };
 		C1E34B6329C7AD31009A50A5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1156,7 +1092,7 @@
 		C1E34AE329C7A9BC009A50A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C1E34AE429C7A9BC009A50A5 /* Localizable.strings */,
+				B66D1F7D2E6A84EA00471149 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1228,7 +1164,7 @@
 			children = (
 				C13CC3C129C7B8BC007F25DE /* MinimedPumpManager.storyboard */,
 				C1E34B0829C7ABF2009A50A5 /* MinimedKitUI.xcassets */,
-				C1E34B4029C7AC0A009A50A5 /* Localizable.strings */,
+				B66D1F7A2E6A84EA00471149 /* Localizable.xcstrings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1442,7 +1378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E34AFB29C7A9BD009A50A5 /* Localizable.strings in Resources */,
+				B66D1F7E2E6A84EA00471149 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1451,7 +1387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C13CC3C329C7B8BC007F25DE /* MinimedPumpManager.storyboard in Resources */,
-				C1E34B3E29C7AC0A009A50A5 /* Localizable.strings in Resources */,
+				B66D1F7B2E6A84EA00471149 /* Localizable.xcstrings in Resources */,
 				C1E34B3429C7ABF3009A50A5 /* ReservoirHUDView.xib in Resources */,
 				C1E34B2329C7ABF3009A50A5 /* MinimedKitUI.xcassets in Resources */,
 			);
@@ -1794,89 +1730,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				C13CC3C229C7B8BC007F25DE /* Base */,
-				C13CC3C529C7B8D0007F25DE /* ar */,
-				C13CC3C629C7B8D4007F25DE /* en */,
-				C13CC3C729C7B8D8007F25DE /* zh-Hans */,
-				C13CC3C829C7B8DA007F25DE /* cs */,
-				C13CC3C929C7B8DB007F25DE /* da */,
-				C13CC3CA29C7B8DC007F25DE /* nl */,
-				C13CC3CB29C7B8DD007F25DE /* fi */,
-				C13CC3CC29C7B8DE007F25DE /* fr */,
-				C13CC3CD29C7B8DF007F25DE /* de */,
-				C13CC3CE29C7B8E0007F25DE /* he */,
-				C13CC3CF29C7B8E0007F25DE /* it */,
-				C13CC3D029C7B8E1007F25DE /* ja */,
-				C13CC3D129C7B8E2007F25DE /* nb */,
-				C13CC3D229C7B8E3007F25DE /* pl */,
-				C13CC3D329C7B8E4007F25DE /* pt-BR */,
-				C13CC3D429C7B8E5007F25DE /* ro */,
-				C13CC3D529C7B8E5007F25DE /* ru */,
-				C13CC3D629C7B8E6007F25DE /* sk */,
-				C13CC3D729C7B8E7007F25DE /* es */,
-				C13CC3D829C7B8E9007F25DE /* sv */,
-				C13CC3D929C7B8E9007F25DE /* tr */,
-				C13CC3DA29C7B8EB007F25DE /* vi */,
+				B66D1F7C2E6A84EA00471149 /* mul */,
 			);
 			name = MinimedPumpManager.storyboard;
-			sourceTree = "<group>";
-		};
-		C1E34AE429C7A9BC009A50A5 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1E34AE529C7A9BC009A50A5 /* de */,
-				C1E34AE629C7A9BC009A50A5 /* he */,
-				C1E34AE729C7A9BC009A50A5 /* ar */,
-				C1E34AE829C7A9BC009A50A5 /* zh-Hans */,
-				C1E34AE929C7A9BC009A50A5 /* ja */,
-				C1E34AEA29C7A9BC009A50A5 /* nb */,
-				C1E34AEB29C7A9BC009A50A5 /* es */,
-				C1E34AEC29C7A9BC009A50A5 /* da */,
-				C1E34AED29C7A9BC009A50A5 /* it */,
-				C1E34AEE29C7A9BC009A50A5 /* sk */,
-				C1E34AEF29C7A9BC009A50A5 /* sv */,
-				C1E34AF029C7A9BC009A50A5 /* cs */,
-				C1E34AF129C7A9BC009A50A5 /* Base */,
-				C1E34AF229C7A9BC009A50A5 /* tr */,
-				C1E34AF329C7A9BC009A50A5 /* pl */,
-				C1E34AF429C7A9BC009A50A5 /* pt-BR */,
-				C1E34AF529C7A9BC009A50A5 /* vi */,
-				C1E34AF629C7A9BC009A50A5 /* ru */,
-				C1E34AF729C7A9BC009A50A5 /* fr */,
-				C1E34AF829C7A9BC009A50A5 /* fi */,
-				C1E34AF929C7A9BC009A50A5 /* nl */,
-				C1E34AFA29C7A9BC009A50A5 /* ro */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		C1E34B4029C7AC0A009A50A5 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1E34B4129C7AC4C009A50A5 /* ar */,
-				C1E34B4229C7AC4F009A50A5 /* zh-Hans */,
-				C1E34B4329C7AC51009A50A5 /* cs */,
-				C1E34B4429C7AC54009A50A5 /* da */,
-				C1E34B4529C7AC56009A50A5 /* nl */,
-				C1E34B4629C7AC58009A50A5 /* fi */,
-				C1E34B4729C7AC5B009A50A5 /* fr */,
-				C1E34B4829C7AC5D009A50A5 /* de */,
-				C1E34B4929C7AC5F009A50A5 /* he */,
-				C1E34B4A29C7AC61009A50A5 /* it */,
-				C1E34B4B29C7AC64009A50A5 /* ja */,
-				C1E34B4C29C7AC66009A50A5 /* nb */,
-				C1E34B4D29C7AC68009A50A5 /* pl */,
-				C1E34B4E29C7AC69009A50A5 /* pt-BR */,
-				C1E34B4F29C7AC6A009A50A5 /* ro */,
-				C1E34B5029C7AC6B009A50A5 /* ru */,
-				C1E34B5129C7AC6C009A50A5 /* sk */,
-				C1E34B5229C7AC6D009A50A5 /* es */,
-				C1E34B5329C7AC6E009A50A5 /* sv */,
-				C1E34B5429C7AC6F009A50A5 /* tr */,
-				C1E34B5529C7AC70009A50A5 /* vi */,
-				C1BF2DB929C8007300EB8987 /* en */,
-				C1D2F16D2AE58C4500BF4457 /* hi */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1972,6 +1828,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				LOCALIZED_STRING_MACRO_NAMES = (
 					NSLocalizedString,
 					CFCopyLocalizedString,
@@ -1982,6 +1839,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2034,6 +1892,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				LOCALIZED_STRING_MACRO_NAMES = (
 					NSLocalizedString,
 					CFCopyLocalizedString,
@@ -2043,6 +1902,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
