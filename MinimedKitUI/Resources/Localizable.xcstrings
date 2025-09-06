@@ -4965,6 +4965,12 @@
     "Pump ID" : {
       "comment" : "The title text for the pump ID config value",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pump ID"
+          }
+        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6570,6 +6576,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tạm ngưng liều insulin"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂停输注"
           }
         }
       }
