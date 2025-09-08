@@ -188,6 +188,12 @@
             "state" : "translated",
             "value" : "%1$@ U còn lại"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 单位 剩余"
+          }
         }
       }
     },
@@ -306,6 +312,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ U còn lại: %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 单位 剩余: %2$@"
           }
         }
       }
@@ -2046,6 +2058,12 @@
             "state" : "translated",
             "value" : "Thay pin máy bơm ngay"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即更换胰岛素泵电池"
+          }
         }
       }
     },
@@ -2164,6 +2182,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thay ngăn chứa insulin bây giờ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即更换储药器"
           }
         }
       }
@@ -5813,6 +5837,12 @@
             "state" : "translated",
             "value" : "Pin của bơm thấp"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "胰岛素泵电量低"
+          }
         }
       }
     },
@@ -6343,6 +6373,12 @@
             "state" : "translated",
             "value" : "Ngăn chứa hết insulin"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "储药器药量已用完"
+          }
         }
       }
     },
@@ -6455,6 +6491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ngăn chứa insulin thấp"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "药量低"
           }
         }
       }

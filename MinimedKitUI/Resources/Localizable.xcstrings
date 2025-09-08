@@ -1697,6 +1697,12 @@
             "state" : "translated",
             "value" : "Đang hủy liều Basal tạm thời"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消临时基础率"
+          }
         }
       }
     },
@@ -5643,6 +5649,12 @@
             "state" : "translated",
             "value" : "Tiếp tục lại việc tiêm insulin"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复输注"
+          }
         }
       }
     },
@@ -5755,6 +5767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang tiếp tục lại"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复中"
           }
         }
       }
@@ -6339,6 +6357,12 @@
             "state" : "translated",
             "value" : "Đang bắt đầu liều Basal tạm thời"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启动临时寄出"
+          }
         }
       }
     },
@@ -6820,6 +6844,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang tạm ngưng"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在暂停"
           }
         }
       }
