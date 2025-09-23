@@ -860,6 +860,12 @@
             "state" : "translated",
             "value" : "Pompa Zamanı Ayarlanıyor..."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "调整泵时间..."
+          }
         }
       }
     },
@@ -1049,6 +1055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bu Pompayı silmek istediğinizden emin misiniz?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您确定要删除此泵吗？"
           }
         }
       }
@@ -1988,6 +2000,12 @@
             "state" : "translated",
             "value" : "Düşük pil koşulları hakkında daha iyi uyarı almak için pompanızda kullandığınız pil türünü seçin."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择您在泵中使用的电池类型，以便更好地提醒电池电量不足的情况。"
+          }
         }
       }
     },
@@ -2583,6 +2601,12 @@
             "state" : "translated",
             "value" : "Thiết bị"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备"
+          }
         }
       }
     },
@@ -2659,6 +2683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "MySentry'i kullanmayın"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不使用 MySentry"
           }
         }
       }
@@ -3062,6 +3092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaman Senkronizasyon Hatası"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同步时间错误"
           }
         }
       }
@@ -4234,6 +4270,12 @@
             "state" : "translated",
             "value" : "Medtronic pompa modelleri 523, 723, 554 ve 754, rezervuar ve pompa pil seviyelerini periyodik olarak yayınlayan 'MySentry' adlı bir özelliğe sahiptir. Bu yayınların dinlenmesi, Loop'un pompayla daha az iletişim kurmasını sağlayarak pompanın pil ömrünü uzatabilir. Ancak, bu özelliği kullanırken, RileyLink daha çok uyanık kalır ve kendi pilinden daha fazla tüketir. Bunun etkinleştirilmesi pompa pil ömrünü uzatabilir, devre dışı bırakılması ise RileyLink pil ömrünü uzatabilir. Bu ayar, diğer pompa modelleri için dikkate alınmaz."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "敦力胰岛素泵型号 523、723、554 和 754 具备一项名为 “MySentry” 的功能，会定期广播储液器余量和电池电量信息。\nLoop 监听这些广播后，可以减少与胰岛素泵的直接通信频率，从而延长胰岛素泵的电池寿命。\n\n但与此同时，RileyLink 需要更长时间保持唤醒状态，这会导致它自身的电池消耗增加。\n\n启用此功能可能有助于延长泵的电池寿命，而禁用则可能有助于延长 RileyLink 的电池寿命。\n对于其他型号的胰岛素泵，此设置将被忽略。"
+          }
         }
       }
     },
@@ -4846,6 +4888,12 @@
             "state" : "translated",
             "value" : "Kalan Pompa Pili"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泵电量"
+          }
         }
       }
     },
@@ -5178,6 +5226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pompa Zamanı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泵时间"
           }
         }
       }
@@ -6934,6 +6988,12 @@
             "state" : "translated",
             "value" : "Geçerli Saate Senkronize Et"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同步到当前时间"
+          }
         }
       }
     },
@@ -7105,6 +7165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaman Değişikliği Algılandı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检测到时间变化"
           }
         }
       }
@@ -7540,6 +7606,12 @@
             "state" : "translated",
             "value" : "Bilinmeyen"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知"
+          }
         }
       }
     },
@@ -7754,6 +7826,12 @@
             "state" : "translated",
             "value" : "MySentry'yi kullanın"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用 MySentry"
+          }
         }
       }
     },
@@ -7843,6 +7921,12 @@
             "state" : "translated",
             "value" : "Evet"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是"
+          }
         }
       }
     },
@@ -7925,6 +8009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Evet, Geçerli Saatle Senkronize Et"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "是的，同步到当前时间"
           }
         }
       }

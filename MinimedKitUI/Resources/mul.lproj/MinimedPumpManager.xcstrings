@@ -1456,6 +1456,12 @@
             "state" : "translated",
             "value" : "Review your pump settings below. You can change these settings at any time in Loopʼs Settings screen."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查看以下泵设置。您可以随时在 Loop 的“设置”屏幕中更改这些设置。"
+          }
         }
       }
     },
@@ -1731,6 +1737,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pump Settings"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pumpeinnstillinger"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泵设置"
           }
         }
       }
