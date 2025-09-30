@@ -669,7 +669,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ Số unit insulin còn lại\n"
+            "value" : "%1$@ Số đơn vị insulin còn lại\n"
           }
         },
         "yy-YY" : {
@@ -1489,8 +1489,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Chemistry"
+            "state" : "translated",
+            "value" : "Loại pin"
           }
         },
         "yy-YY" : {
@@ -4639,8 +4639,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin\nSuspended"
+            "state" : "translated",
+            "value" : "Insulin\n Đã tạm ngưng"
           }
         },
         "yy-YY" : {
@@ -6009,8 +6009,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device"
+            "state" : "translated",
+            "value" : "Trên máy bơm của bạn, hãy đi tới \"Find Device\". \n\nChọn Main Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device"
           }
         },
         "yy-YY" : {

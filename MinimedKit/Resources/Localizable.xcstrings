@@ -1079,8 +1079,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Auto-Off Alarm"
+            "state" : "translated",
+            "value" : "Báo động tự tắt"
           }
         },
         "yy-YY" : {
@@ -1353,8 +1353,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Depleted"
+            "state" : "translated",
+            "value" : "Pin đã cạn"
           }
         },
         "yy-YY" : {
@@ -1490,8 +1490,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Out Limit"
+            "state" : "translated",
+            "value" : "Ngưỡng pin yếu"
           }
         },
         "yy-YY" : {
@@ -1627,8 +1627,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "BatteryIssue17"
+            "state" : "translated",
+            "value" : "Sự cố pin 17"
           }
         },
         "yy-YY" : {
@@ -1764,8 +1764,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "BatteryIssue21"
+            "state" : "translated",
+            "value" : "Sự cố pin 21"
           }
         },
         "yy-YY" : {
@@ -2175,8 +2175,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolus in Progress"
+            "state" : "translated",
+            "value" : "Đang tiêm bolus"
           }
         },
         "yy-YY" : {
@@ -2312,8 +2312,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolus may have failed: %1$@"
+            "state" : "translated",
+            "value" : "Liều Bolus thất bại: %1$@"
           }
         },
         "yy-YY" : {
@@ -2395,7 +2395,7 @@
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
@@ -2449,7 +2449,7 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
@@ -2723,8 +2723,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Basal Profile Schedule"
+            "state" : "translated",
+            "value" : "Thay đổi lịch trình cấu hình Basal"
           }
         },
         "yy-YY" : {
@@ -2860,8 +2860,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Basal Schedule"
+            "state" : "translated",
+            "value" : "Thay đổi lịch trình tiêm insulin nền"
           }
         },
         "yy-YY" : {
@@ -3545,8 +3545,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Clear Alarm"
+            "state" : "translated",
+            "value" : "Xóa báo động"
           }
         },
         "yy-YY" : {
@@ -4250,8 +4250,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Device Reset"
+            "state" : "translated",
+            "value" : "Đặt lại thiết bị"
           }
         },
         "yy-YY" : {
@@ -4798,8 +4798,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Glucose page failed crc check"
+            "state" : "translated",
+            "value" : "Trang glucose không vượt qua kiểm tra Crc"
           }
         },
         "yy-YY" : {
@@ -4935,8 +4935,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to pump settings and select insulin type"
+            "state" : "translated",
+            "value" : "Vào cài đặt máy bơm và chọn loại insulin"
           }
         },
         "yy-YY" : {
@@ -5072,8 +5072,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "History page does not exist"
+            "state" : "translated",
+            "value" : "Trang lịch sử không tồn tại"
           }
         },
         "yy-YY" : {
@@ -5209,8 +5209,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "History page failed crc check"
+            "state" : "translated",
+            "value" : "Trang lịch sử không vượt qua kiểm tra CRC"
           }
         },
         "yy-YY" : {
@@ -5483,8 +5483,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin Type is not configured"
+            "state" : "translated",
+            "value" : "Loại insulin chưa được khai báo"
           }
         },
         "yy-YY" : {
@@ -5894,8 +5894,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
+            "state" : "translated",
+            "value" : "Loop đã gửi lệnh bolus đến máy bơm nhưng không thể xác nhận máy bơm đã nhận lệnh. Vì lý do an toàn, Loop sẽ giả định rằng bolus đã được thực hiện. Khi Loop cuối cùng lấy dữ liệu lịch sử từ máy bơm và thời gian kết thúc bolus ước tính đã qua, Loop sẽ cập nhật hồ sơ giao insulin để khớp với báo cáo từ máy bơm."
           }
         },
         "yy-YY" : {
@@ -6799,7 +6799,7 @@
         },
         "nl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -6853,7 +6853,7 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -7271,8 +7271,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "New Time"
+            "state" : "translated",
+            "value" : "Thời Gian mới"
           }
         },
         "yy-YY" : {
@@ -7408,8 +7408,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No Delivery Alarm"
+            "state" : "translated",
+            "value" : "Báo động không tiêm insulin"
           }
         },
         "yy-YY" : {
@@ -7545,8 +7545,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No RileyLink Connected"
+            "state" : "translated",
+            "value" : "Không có RileyLink được kết nối"
           }
         },
         "yy-YY" : {
@@ -8093,8 +8093,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Percent Temp Basal"
+            "state" : "translated",
+            "value" : "Phần trăm Basal tạm thời"
           }
         },
         "yy-YY" : {
@@ -8230,8 +8230,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Please check your pump bolus history to determine if the bolus was delivered."
+            "state" : "translated",
+            "value" : "Vui lòng kiểm tra lịch sử bolus trên máy bơm của bạn để xác định xem bolus đã được thực hiện hay chưa."
           }
         },
         "yy-YY" : {
@@ -8367,8 +8367,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Prime"
+            "state" : "translated",
+            "value" : "Mồi bơm"
           }
         },
         "yy-YY" : {
@@ -9059,8 +9059,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump is Suspended"
+            "state" : "translated",
+            "value" : "Bơm đã tạm dừng"
           }
         },
         "yy-YY" : {
@@ -9757,8 +9757,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reprogram Error"
+            "state" : "translated",
+            "value" : "Lỗi tái lập trình bơm"
           }
         },
         "yy-YY" : {
@@ -10168,8 +10168,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Rewind"
+            "state" : "translated",
+            "value" : "Tua lại"
           }
         },
         "yy-YY" : {
@@ -10579,8 +10579,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Select Profile"
+            "state" : "translated",
+            "value" : "Chọn cấu hình"
           }
         },
         "yy-YY" : {
@@ -11538,8 +11538,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unable to store pump data"
+            "state" : "translated",
+            "value" : "Không thể lưu dữ liệu từ bơm"
           }
         },
         "yy-YY" : {
@@ -11675,8 +11675,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unexpected response %1$@"
+            "state" : "translated",
+            "value" : "Phản hồi không mong đợi: %1$@"
           }
         },
         "yy-YY" : {
@@ -11812,8 +11812,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown Alarm"
+            "state" : "translated",
+            "value" : "Báo động không xác định"
           }
         },
         "yy-YY" : {
@@ -11949,8 +11949,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown glucose record type: %$1@"
+            "state" : "translated",
+            "value" : "Loại bản ghi glucose không xác định: %1$@"
           }
         },
         "yy-YY" : {
@@ -12086,8 +12086,8 @@
         },
         "vi" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown history record type: %$1@"
+            "state" : "translated",
+            "value" : "Loại bản ghi lịch sử không xác định: %1$@"
           }
         },
         "yy-YY" : {
