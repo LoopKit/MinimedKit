@@ -10,6 +10,12 @@
             "value" : "%1$@\" بطارية منخفضة"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "\"%1$@\" has a low battery"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -147,6 +153,12 @@
             "value" : "%1$@ وحدة متبقية"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ U left"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -251,8 +263,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ U left"
+            "state" : "translated",
+            "value" : "%1$@ U залишилося"
           }
         },
         "vi" : {
@@ -282,6 +294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ وحدة متبقية: %2$@"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ U left: %2$@"
           }
         },
         "da" : {
@@ -388,8 +406,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ U left: %2$@"
+            "state" : "translated",
+            "value" : "%1$@ U залишилось: %2$@"
           }
         },
         "vi" : {
@@ -419,6 +437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هناك جرعة جارية بالفعل"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "A bolus is already in progress"
           }
         },
         "da" : {
@@ -558,6 +582,12 @@
             "value" : "تذكير المنبه"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AlarmClockReminder"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -693,6 +723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تنبيه الحساس"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AlarmSensor"
           }
         },
         "da" : {
@@ -832,6 +868,12 @@
             "value" : "قلوي"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Alkaline"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -969,6 +1011,12 @@
             "value" : "Auto-Off Alarm"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Auto-Off Alarm"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1073,8 +1121,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Auto-Off Alarm"
+            "state" : "translated",
+            "value" : "Авто-відключення сигналу"
           }
         },
         "vi" : {
@@ -1104,6 +1152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ملف تعريف القاعدي %1$@: %2$@ U/hour"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Basal Profile %1$@: %2$@ U/hour"
           }
         },
         "da" : {
@@ -1243,6 +1297,12 @@
             "value" : "Battery Depleted"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Battery Depleted"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1347,8 +1407,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Depleted"
+            "state" : "translated",
+            "value" : "Розряджена батарея"
           }
         },
         "vi" : {
@@ -1375,6 +1435,12 @@
       "comment" : "Title for PumpAlarmType.batteryOutLimitExceeded",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Battery Out Limit"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Battery Out Limit"
@@ -1484,8 +1550,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Out Limit"
+            "state" : "translated",
+            "value" : "Ліміт розряду батареї"
           }
         },
         "vi" : {
@@ -1512,6 +1578,12 @@
       "comment" : "Title for PumpAlarmType.deviceResetBatteryIssue17",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "BatteryIssue17"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "BatteryIssue17"
@@ -1621,8 +1693,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "BatteryIssue17"
+            "state" : "translated",
+            "value" : "Проблема з батареєю 17"
           }
         },
         "vi" : {
@@ -1649,6 +1721,12 @@
       "comment" : "Title for PumpAlarmType.deviceResetBatteryIssue21",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "BatteryIssue21"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "BatteryIssue21"
@@ -1758,8 +1836,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "BatteryIssue21"
+            "state" : "translated",
+            "value" : "Проблема з батареєю 21"
           }
         },
         "vi" : {
@@ -1789,6 +1867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الجرعة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bolus"
           }
         },
         "da" : {
@@ -1928,6 +2012,12 @@
             "value" : "جرعة قيد التنفيذ"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bolus in progress"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2065,6 +2155,12 @@
             "value" : "Bolus in Progress"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bolus in Progress"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2169,8 +2265,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolus in Progress"
+            "state" : "translated",
+            "value" : "Болюс триває"
           }
         },
         "vi" : {
@@ -2197,6 +2293,12 @@
       "comment" : "Format string for uncertain bolus. (1: the reported error during bolusing)",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Bolus may have failed: %1$@"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Bolus may have failed: %1$@"
@@ -2306,8 +2408,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolus may have failed: %1$@"
+            "state" : "translated",
+            "value" : "Можливо, болюс не вдався: %1$@"
           }
         },
         "vi" : {
@@ -2334,6 +2436,12 @@
       "comment" : "Describing the Canada pump region ",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Canada"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Canada"
@@ -2443,8 +2551,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Canada"
+            "state" : "translated",
+            "value" : "Канада"
           }
         },
         "vi" : {
@@ -2474,6 +2582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إلغاء الضخ المؤقت للإنسولين القاعدي"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel Temp Basal"
           }
         },
         "da" : {
@@ -2613,6 +2727,12 @@
             "value" : "Change Basal Profile Schedule"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Change Basal Profile Schedule"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2717,8 +2837,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Basal Profile Schedule"
+            "state" : "translated",
+            "value" : "Зміна розкладу базального профілю"
           }
         },
         "vi" : {
@@ -2745,6 +2865,12 @@
       "comment" : "Event title for ChangeBasalProfilePumpEvent",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Change Basal Schedule"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Change Basal Schedule"
@@ -2854,8 +2980,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Basal Schedule"
+            "state" : "translated",
+            "value" : "Зміна базального графіка"
           }
         },
         "vi" : {
@@ -2885,6 +3011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "قم بتغيير بطارية المضخة على الفور"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Change the pump battery immediately"
           }
         },
         "da" : {
@@ -2991,8 +3123,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Change the pump battery immediately"
+            "state" : "translated",
+            "value" : "Негайно замініть батарейку помпи"
           }
         },
         "vi" : {
@@ -3022,6 +3154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "قم بتغيير خزان المضخة الآن"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Change the pump reservoir now"
           }
         },
         "da" : {
@@ -3128,8 +3266,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Change the pump reservoir now"
+            "state" : "translated",
+            "value" : "Замініть резервуар насоса зараз"
           }
         },
         "vi" : {
@@ -3156,6 +3294,12 @@
       "comment" : "Event title for ChangeTimePumpEvent",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Change Time"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Change Time"
@@ -3265,8 +3409,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Time"
+            "state" : "translated",
+            "value" : "Змінити час"
           }
         },
         "vi" : {
@@ -3296,6 +3440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تحقق من أن المضخة ليست معلقة أو في وضع التحضير، أو لديها نوع جرعة أساسية مؤقتة بنسبة مئوية"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Check that the pump is not suspended or priming, or has a percent temp basal type"
           }
         },
         "da" : {
@@ -3435,6 +3585,12 @@
             "value" : "Clear Alarm"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Clear Alarm"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3539,8 +3695,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Clear Alarm"
+            "state" : "translated",
+            "value" : "Очистити сигнал тривоги"
           }
         },
         "vi" : {
@@ -3570,6 +3726,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تم رفض الأمر"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Command refused"
           }
         },
         "da" : {
@@ -3707,6 +3869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تم اكتشاف الاتصال مع مضخة أخرى."
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Comms with another pump detected."
           }
         },
         "da" : {
@@ -3853,6 +4021,12 @@
             "value" : "خطأ في فك التشفير"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Decoding Error"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3995,6 +4169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خطأ في الجهاز"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Device Error"
           }
         },
         "da" : {
@@ -4140,6 +4320,12 @@
             "value" : "Device Reset"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Device Reset"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4244,8 +4430,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Device Reset"
+            "state" : "translated",
+            "value" : "Скидання налаштувань пристрою"
           }
         },
         "vi" : {
@@ -4275,6 +4461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تجاهل"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Dismiss"
           }
         },
         "da" : {
@@ -4414,6 +4606,12 @@
             "value" : "الخزان فارغ"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Empty Reservoir"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4549,6 +4747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "سجل الأحداث"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Event History"
           }
         },
         "da" : {
@@ -4688,6 +4892,12 @@
             "value" : "Glucose page failed crc check"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Glucose page failed crc check"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4792,8 +5002,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Glucose page failed crc check"
+            "state" : "translated",
+            "value" : "Сторінка глюкози не пройшла перевірку CRC"
           }
         },
         "vi" : {
@@ -4820,6 +5030,12 @@
       "comment" : "Recovery suggestion for MinimedPumpManagerError.insulinTypeNotConfigured",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Go to pump settings and select insulin type"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Go to pump settings and select insulin type"
@@ -4929,8 +5145,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to pump settings and select insulin type"
+            "state" : "translated",
+            "value" : "Перейдіть до налаштувань помпи та виберіть тип інсуліну"
           }
         },
         "vi" : {
@@ -4957,6 +5173,12 @@
       "comment" : "Pump error code when invalid history page is requested",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "History page does not exist"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "History page does not exist"
@@ -5066,8 +5288,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "History page does not exist"
+            "state" : "translated",
+            "value" : "Сторінка історії не існує"
           }
         },
         "vi" : {
@@ -5094,6 +5316,12 @@
       "comment" : "Error description for history page failing crc check",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "History page failed crc check"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "History page failed crc check"
@@ -5203,8 +5431,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "History page failed crc check"
+            "state" : "translated",
+            "value" : "Сторінка історії не пройшла перевірку CRC"
           }
         },
         "vi" : {
@@ -5231,6 +5459,12 @@
       "comment" : "Status highlight that insulin delivery was suspended.",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Insulin Suspended"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Insulin Suspended"
@@ -5373,6 +5607,12 @@
             "value" : "Insulin Type is not configured"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Insulin Type is not configured"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5477,8 +5717,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin Type is not configured"
+            "state" : "translated",
+            "value" : "Тип інсуліну не налаштовано"
           }
         },
         "vi" : {
@@ -5508,6 +5748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "استجابة غير صحيحة خلال %1$@: %2$@"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Invalid response during %1$@: %2$@"
           }
         },
         "da" : {
@@ -5647,6 +5893,12 @@
             "value" : "ليثيوم"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Lithium"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5784,6 +6036,12 @@
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5888,8 +6146,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
+            "state" : "translated",
+            "value" : "Петля надіслав команду болюса на помпу, але не зміг підтвердити, що помпа отримала команду. З міркувань безпеки Петля вважатиме, що болюс було подано. Коли Петля врешті-решт отримає історію з помпи, і приблизний час завершення болюса мине то Петля оновить свої записи про подачу, щоб вони відповідали звітам помпи."
           }
         },
         "vi" : {
@@ -5919,6 +6177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "البطارية منخفضة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Low Battery"
           }
         },
         "da" : {
@@ -6053,6 +6317,12 @@
       "comment" : "Event title for JournalEntryPumpLowReservoirPumpEvent",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Low Reservoir"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Low Reservoir"
@@ -6195,6 +6465,12 @@
             "value" : "بطارية RileyLink منخفضة"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Low RileyLink Battery"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6330,6 +6606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تأكد من أن RileyLink الخاص بك قريب ويعمل"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Make sure your RileyLink is nearby and powered on"
           }
         },
         "da" : {
@@ -6469,6 +6751,12 @@
             "value" : "تم تجاوز الحد الأقصى للإعدادات"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Max setting exceeded"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6601,6 +6889,12 @@
       "comment" : "Event title for JournalEntryMealMarkerPumpEvent",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Meal"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Meal"
@@ -6743,6 +7037,12 @@
             "value" : "Minimed"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Minimed"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "new",
@@ -6847,7 +7147,7 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -6878,6 +7178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تم تصغير %@"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Minimed %@"
           }
         },
         "da" : {
@@ -7016,6 +7322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الحد الأدنى 500/700 سلسلة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Minimed 500/700 Series"
           }
         },
         "da" : {
@@ -7161,6 +7473,12 @@
             "value" : "New Time"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "New Time"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7265,8 +7583,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "New Time"
+            "state" : "translated",
+            "value" : "Новий час"
           }
         },
         "vi" : {
@@ -7293,6 +7611,12 @@
       "comment" : "Title for PumpAlarmType.noDelivery",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No Delivery Alarm"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "No Delivery Alarm"
@@ -7402,8 +7726,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No Delivery Alarm"
+            "state" : "translated",
+            "value" : "Сигналізація відсутня"
           }
         },
         "vi" : {
@@ -7430,6 +7754,12 @@
       "comment" : "Error description when no rileylink connected",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "No RileyLink Connected"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "No RileyLink Connected"
@@ -7539,8 +7869,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "No RileyLink Connected"
+            "state" : "translated",
+            "value" : "RileyLink не підключено"
           }
         },
         "vi" : {
@@ -7570,6 +7900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "أمريكا الشماليّة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "North America"
           }
         },
         "da" : {
@@ -7709,6 +8045,12 @@
             "value" : "حسناً"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Ok"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7844,6 +8186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "حسناً"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "OK"
           }
         },
         "da" : {
@@ -7983,6 +8331,12 @@
             "value" : "Percent Temp Basal"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Percent Temp Basal"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8087,8 +8441,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Percent Temp Basal"
+            "state" : "translated",
+            "value" : "Відсоток Тимчасової Базальної Швидкості (ТБШ)"
           }
         },
         "vi" : {
@@ -8115,6 +8469,12 @@
       "comment" : "recoverySuggestion for uncertain bolus",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Please check your pump bolus history to determine if the bolus was delivered."
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
@@ -8224,8 +8584,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Please check your pump bolus history to determine if the bolus was delivered."
+            "state" : "translated",
+            "value" : "Будь ласка, перевірте історію болюсів вашої помпи, щоб визначити, чи було введено болюс."
           }
         },
         "vi" : {
@@ -8252,6 +8612,12 @@
       "comment" : "Event title for prime pump event",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Prime"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Prime"
@@ -8361,8 +8727,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Prime"
+            "state" : "translated",
+            "value" : "Прайм\n"
           }
         },
         "vi" : {
@@ -8392,6 +8758,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "بطارية المضخة منخفضة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump Battery Low"
           }
         },
         "da" : {
@@ -8498,8 +8870,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Battery Low"
+            "state" : "translated",
+            "value" : "Низький рівень заряду батареї помпи"
           }
         },
         "vi" : {
@@ -8529,6 +8901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "المضخة لم تستجب"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump did not respond"
           }
         },
         "da" : {
@@ -8667,6 +9045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خطأ في المضخة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump Error"
           }
         },
         "da" : {
@@ -8812,6 +9196,12 @@
             "value" : "تم تعليق المضخة"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump is suspended"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8949,6 +9339,12 @@
             "value" : "Pump is Suspended"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump is Suspended"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9053,8 +9449,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump is Suspended"
+            "state" : "translated",
+            "value" : "Помпу призупинено"
           }
         },
         "vi" : {
@@ -9084,6 +9480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خزان المضخة منتهي"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump Reservoir Empty"
           }
         },
         "da" : {
@@ -9190,8 +9592,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Reservoir Empty"
+            "state" : "translated",
+            "value" : "Резервуар помпи порожній"
           }
         },
         "vi" : {
@@ -9221,6 +9623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خزان المضخة منخفض"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump Reservoir Low"
           }
         },
         "da" : {
@@ -9327,8 +9735,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Reservoir Low"
+            "state" : "translated",
+            "value" : "Низький рівень у резервуара помпи"
           }
         },
         "vi" : {
@@ -9358,6 +9766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مضخة استجابت بشكل غير متوقع"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pump responded unexpectedly"
           }
         },
         "da" : {
@@ -9504,6 +9918,12 @@
             "value" : "رسالة المضخة(%1$@، %2$@، %3$@، %4$@)"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "PumpMessage(%1$@, %2$@, %3$@, %4$@)"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9647,6 +10067,12 @@
             "value" : "Reprogram Error"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reprogram Error"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9751,8 +10177,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Reprogram Error"
+            "state" : "translated",
+            "value" : "Помилка перепрограмування"
           }
         },
         "vi" : {
@@ -9782,6 +10208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الخزان"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reservoir"
           }
         },
         "da" : {
@@ -9916,6 +10348,12 @@
       "comment" : "Event title for resume\nPump Event title for UnfinalizedDose with doseType of .resume",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Resume"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Resume"
@@ -10058,6 +10496,12 @@
             "value" : "Rewind"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Rewind"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10162,8 +10606,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Rewind"
+            "state" : "translated",
+            "value" : "Перемотування назад"
           }
         },
         "vi" : {
@@ -10193,6 +10637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "فشل ضبط راديو RileyLink"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "RileyLink radio tune failed"
           }
         },
         "da" : {
@@ -10332,6 +10782,12 @@
             "value" : "الجرعة الأساسية المجدولة"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Scheduled Basal"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10469,6 +10925,12 @@
             "value" : "Select Profile"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Select Profile"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10573,8 +11035,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Select Profile"
+            "state" : "translated",
+            "value" : "Вибір профілю"
           }
         },
         "vi" : {
@@ -10604,6 +11066,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "فقدان الإشارة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Signal Loss"
           }
         },
         "da" : {
@@ -10738,6 +11206,12 @@
       "comment" : "Event title for suspend\nPump Event title for UnfinalizedDose with doseType of .suspend",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Suspend"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Suspend"
@@ -10880,6 +11354,12 @@
             "value" : "Temp Basal"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Temp Basal"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11015,6 +11495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الأساس المؤقت: %1$.3f U/ساعة"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Temporary Basal: %1$.3f U/hour"
           }
         },
         "da" : {
@@ -11154,6 +11640,12 @@
             "value" : "الأساس المؤقت: %1$d U/ دقيقة"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Temporary Basal: %1$d min"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11289,6 +11781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الأساسي المؤقت: %1$d U/%%"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Temporary Basal: %1$d%%"
           }
         },
         "da" : {
@@ -11428,6 +11926,12 @@
             "value" : "Unable to store pump data"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unable to store pump data"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11532,8 +12036,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unable to store pump data"
+            "state" : "translated",
+            "value" : "Не вдалося зберегти дані помпи"
           }
         },
         "vi" : {
@@ -11560,6 +12064,12 @@
       "comment" : "Format string for an unexpectedResponse. (2: The response)",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unexpected response %1$@"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Unexpected response %1$@"
@@ -11669,8 +12179,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unexpected response %1$@"
+            "state" : "translated",
+            "value" : "Неочікувана відповідь %1$@"
           }
         },
         "vi" : {
@@ -11697,6 +12207,12 @@
       "comment" : "Title for PumpAlarmType.unknownType",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unknown Alarm"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Unknown Alarm"
@@ -11806,8 +12322,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown Alarm"
+            "state" : "translated",
+            "value" : "Невідомий сигнал тривого"
           }
         },
         "vi" : {
@@ -11834,6 +12350,12 @@
       "comment" : "Format string for error description for an unknown record type in a glucose page. (1: event type number)",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unknown glucose record type: %$1@"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Unknown glucose record type: %$1@"
@@ -11943,8 +12465,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown glucose record type: %$1@"
+            "state" : "translated",
+            "value" : "Невідомий тип запису глюкози: %$1@"
           }
         },
         "vi" : {
@@ -11971,6 +12493,12 @@
       "comment" : "Format string for error description for an unknown record type in a history page. (1: event type number)",
       "localizations" : {
         "ar" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unknown history record type: %$1@"
+          }
+        },
+        "ce" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Unknown history record type: %$1@"
@@ -12080,8 +12608,8 @@
         },
         "uk" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown history record type: %$1@"
+            "state" : "translated",
+            "value" : "Невідомий тип запису історії: %$1@"
           }
         },
         "vi" : {
@@ -12111,6 +12639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "رمز خطأ مضخة غير معروف: %1$@"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unknown pump error code: %1$@"
           }
         },
         "da" : {
@@ -12247,6 +12781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "نَموذج مضخة غير معروف: %@"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unknown pump model: %@"
           }
         },
         "da" : {
@@ -12386,6 +12926,12 @@
             "value" : "استجابة غير صحيحة خلال %1$@: %2$@"
           }
         },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Unknown response during %1$@: %2$@"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12521,6 +13067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "عالمي"
+          }
+        },
+        "ce" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "World-Wide"
           }
         },
         "da" : {
