@@ -1,0 +1,7 @@
+files:
+  - source: /MinimedKit/Resources/Localizable.xcstrings
+    translation: /MinimedKit/Resources/Localizable.xcstrings
+    multilingual: 1
+  - source: /MinimedKitUI/Resources/Localizable.xcstrings
+    translation: /MinimedKitUI/Resources/Localizable.xcstrings
+    multilingual: 1
