@@ -142,12 +142,6 @@
             "value" : "\"%1$@\" gần hết pin"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "\"%1$@\" has a low battery"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -301,12 +295,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ U còn lại"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ U left"
           }
         },
         "zh-Hans" : {
@@ -464,12 +452,6 @@
             "value" : "%1$@ U còn lại: %2$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ U left: %2$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -625,12 +607,6 @@
             "value" : "Liều bolus đang được thực hiện"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "A bolus is already in progress"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -783,12 +759,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "AlarmClockReminder"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "AlarmClockReminder"
           }
         },
@@ -947,12 +917,6 @@
             "value" : "AlarmSensor"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "AlarmSensor"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1108,12 +1072,6 @@
             "value" : "Alkaline"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Alkaline"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1261,12 +1219,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Báo động tự tắt"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Auto-Off Alarm"
           }
         },
         "zh-Hans" : {
@@ -1424,12 +1376,6 @@
             "value" : "Hồ sơ Basal %1$@: %2$@ U/giờ"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Basal Profile %1$@: %2$@ U/hour"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1577,12 +1523,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pin đã cạn"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Depleted"
           }
         },
         "zh-Hans" : {
@@ -1734,12 +1674,6 @@
             "value" : "Ngưỡng pin yếu"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Out Limit"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -1887,12 +1821,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sự cố pin 17"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "BatteryIssue17"
           }
         },
         "zh-Hans" : {
@@ -2044,12 +1972,6 @@
             "value" : "Sự cố pin 21"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "BatteryIssue21"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -2185,12 +2107,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liều bolus"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bolus Value"
           }
         },
         "zh-Hans" : {
@@ -2354,12 +2270,6 @@
             "value" : "Liều Bolus đang được thực hiện"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolus in progress"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2507,12 +2417,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang tiêm bolus"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolus in Progress"
           }
         },
         "zh-Hans" : {
@@ -2664,12 +2568,6 @@
             "value" : "Liều Bolus thất bại: %1$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolus may have failed: %1$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2816,12 +2714,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Canada"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "Canada"
           }
         },
@@ -2972,12 +2864,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Huỷ bỏ liều cơ bản tạm thời"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Cancel Temp Basal"
           }
         },
         "zh-Hans" : {
@@ -3135,12 +3021,6 @@
             "value" : "Thay đổi lịch trình cấu hình Basal"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Basal Profile Schedule"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -3294,12 +3174,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thay đổi lịch trình tiêm insulin nền"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Basal Schedule"
           }
         },
         "zh-Hans" : {
@@ -3457,12 +3331,6 @@
             "value" : "Thay pin máy bơm ngay"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Change the pump battery immediately"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3616,12 +3484,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thay ngăn chứa insulin bây giờ"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Change the pump reservoir now"
           }
         },
         "zh-Hans" : {
@@ -3785,12 +3647,6 @@
             "value" : "Thay đổi thời gian"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Change Time"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -3944,12 +3800,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kiểm tra và đảm bảo bơm không tạm ngưng hoặc đang bơm hoặc đang thực hiện liều basal tạm thời"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Check that the pump is not suspended or priming, or has a percent temp basal type"
           }
         },
         "zh-Hans" : {
@@ -4107,12 +3957,6 @@
             "value" : "Xóa báo động"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Clear Alarm"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -4266,12 +4110,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lệnh bị từ chối"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Command refused"
           }
         },
         "zh-Hans" : {
@@ -4433,12 +4271,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comms cho bơm khác được phát hiện."
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Comms with another pump detected."
           }
         },
         "zh-Hans" : {
@@ -4603,12 +4435,6 @@
             "value" : "Đang giải mã bị lỗi"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Decoding Error"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4771,12 +4597,6 @@
             "value" : "Thiết bị lỗi"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Device Error"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4924,12 +4744,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đặt lại thiết bị"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Device Reset"
           }
         },
         "zh-Hans" : {
@@ -5087,12 +4901,6 @@
             "value" : "Từ bỏ"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Dismiss"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5240,12 +5048,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hết thuốc"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Empty Reservoir"
           }
         },
         "zh-Hans" : {
@@ -5403,12 +5205,6 @@
             "value" : "Event History"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Event History"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5556,12 +5352,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trang glucose không vượt qua kiểm tra Crc"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Glucose page failed crc check"
           }
         },
         "zh-Hans" : {
@@ -5713,12 +5503,6 @@
             "value" : "Vào cài đặt máy bơm và chọn loại insulin"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Go to pump settings and select insulin type"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5866,12 +5650,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trang lịch sử không tồn tại"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "History page does not exist"
           }
         },
         "zh-Hans" : {
@@ -6023,12 +5801,6 @@
             "value" : "Trang lịch sử không vượt qua kiểm tra CRC"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "History page failed crc check"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -6164,12 +5936,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã tạm dừng cấp liều Insulin"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin Suspended"
           }
         },
         "zh-Hans" : {
@@ -6319,12 +6085,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loại insulin chưa được khai báo"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin Type is not configured"
           }
         },
         "zh-Hans" : {
@@ -6482,12 +6242,6 @@
             "value" : "Phản ứng không phù hợp trong khoảng %1$@: %2$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Invalid response during %1$@: %2$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6643,12 +6397,6 @@
             "value" : "Lithium"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Lithium"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6796,12 +6544,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loop đã gửi lệnh bolus đến máy bơm nhưng không thể xác nhận máy bơm đã nhận lệnh. Vì lý do an toàn, Loop sẽ giả định rằng bolus đã được thực hiện. Khi Loop cuối cùng lấy dữ liệu lịch sử từ máy bơm và thời gian kết thúc bolus ước tính đã qua, Loop sẽ cập nhật hồ sơ giao insulin để khớp với báo cáo từ máy bơm."
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
         "zh-Hans" : {
@@ -6965,12 +6707,6 @@
             "value" : "pin yếu"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Low Battery"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7126,12 +6862,6 @@
             "value" : "Sắp hết insulin"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Low Reservoir"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -7279,12 +7009,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Báo động pin RileyLink thấp"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Low RileyLink Battery"
           }
         },
         "zh-Hans" : {
@@ -7442,12 +7166,6 @@
             "value" : "Đảm bảo RileyLink bên cạnh và đã được bật"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Make sure your RileyLink is nearby and powered on"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7601,12 +7319,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cài đặt tối đa vượt giới hạn"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Max setting exceeded"
           }
         },
         "zh-Hans" : {
@@ -7764,12 +7476,6 @@
             "value" : "Bữa ăn"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Meal"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -7910,12 +7616,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minimed"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "Minimed"
           }
         },
@@ -8071,12 +7771,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minimed %@"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "Minimed %@"
           }
         },
@@ -8242,12 +7936,6 @@
             "value" : "Minimed 500/700 Series"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Minimed 500/700 Series"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8403,12 +8091,6 @@
             "value" : "Thời Gian mới"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "New Time"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -8558,12 +8240,6 @@
             "value" : "Báo động không tiêm insulin"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "No Delivery Alarm"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -8711,12 +8387,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không có RileyLink được kết nối"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "No RileyLink Connected"
           }
         },
         "zh-Hans" : {
@@ -8874,12 +8544,6 @@
             "value" : "North America"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "North America"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9026,12 +8690,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ok"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "Ok"
           }
         },
@@ -9196,12 +8854,6 @@
             "value" : "OK"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "OK"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9349,12 +9001,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phần trăm Basal tạm thời"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Percent Temp Basal"
           }
         },
         "zh-Hans" : {
@@ -9506,12 +9152,6 @@
             "value" : "Vui lòng kiểm tra lịch sử bolus trên máy bơm của bạn để xác định xem bolus đã được thực hiện hay chưa."
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Please check your pump bolus history to determine if the bolus was delivered."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9659,12 +9299,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mồi bơm"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Prime"
           }
         },
         "zh-Hans" : {
@@ -9822,12 +9456,6 @@
             "value" : "Pin của bơm thấp"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Battery Low"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9981,12 +9609,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bơm không phản hồi"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump did not respond"
           }
         },
         "zh-Hans" : {
@@ -10151,12 +9773,6 @@
             "value" : "Bơm lỗi"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Error"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10312,12 +9928,6 @@
             "value" : "Bơm đang được tạm ngưng"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump is suspended"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10465,12 +10075,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bơm đã tạm dừng"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump is Suspended"
           }
         },
         "zh-Hans" : {
@@ -10628,12 +10232,6 @@
             "value" : "Ngăn chứa hết insulin"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Reservoir Empty"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10787,12 +10385,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ngăn chứa insulin thấp"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Reservoir Low"
           }
         },
         "zh-Hans" : {
@@ -10954,12 +10546,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bơm phản ứng bất ngờ"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump responded unexpectedly"
           }
         },
         "zh-Hans" : {
@@ -11124,12 +10710,6 @@
             "value" : "PumpMessage(%1$@, %2$@, %3$@, %4$@)"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "PumpMessage(%1$@, %2$@, %3$@, %4$@)"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11277,12 +10857,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lỗi tái lập trình bơm"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Reprogram Error"
           }
         },
         "zh-Hans" : {
@@ -11440,12 +11014,6 @@
             "value" : "Reservoir"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Reservoir"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11595,12 +11163,6 @@
             "value" : "Tiếp tục"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Resume"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11748,12 +11310,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tua lại"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Rewind"
           }
         },
         "zh-Hans" : {
@@ -11911,12 +11467,6 @@
             "value" : "RileyLink radio thất bại"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "RileyLink radio tune failed"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12052,12 +11602,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã lên chương trình cho liều Basal"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Scheduled Basal"
           }
         },
         "zh-Hans" : {
@@ -12215,12 +11759,6 @@
             "value" : "Chọn cấu hình"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Select Profile"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -12376,12 +11914,6 @@
             "value" : "Mất tín hiệu"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Signal Loss"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -12531,12 +12063,6 @@
             "value" : "Đã tạm dừng"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Suspend"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12671,12 +12197,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Temp Basal"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "Temp Basal"
           }
         },
@@ -12833,12 +12353,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liều Basal tạm thời: %1$.3f U/giờ"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Temporary Basal: %1$.3f U/hour"
           }
         },
         "zh-Hans" : {
@@ -13002,12 +12516,6 @@
             "value" : "Liều Basal tạm thời: %1$d phút"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Temporary Basal: %1$d min"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13169,12 +12677,6 @@
             "value" : "Liều Basal tạm thời: %1$d%%"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Temporary Basal: %1$d%%"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13322,12 +12824,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không thể lưu dữ liệu từ bơm"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unable to store pump data"
           }
         },
         "zh-Hans" : {
@@ -13479,12 +12975,6 @@
             "value" : "Phản hồi không mong đợi: %1$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unexpected response %1$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -13632,12 +13122,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Báo động không xác định"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown Alarm"
           }
         },
         "zh-Hans" : {
@@ -13789,12 +13273,6 @@
             "value" : "Loại bản ghi glucose không xác định: %1$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown glucose record type: %$1@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -13942,12 +13420,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loại bản ghi lịch sử không xác định: %1$@"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown history record type: %$1@"
           }
         },
         "zh-Hans" : {
@@ -14105,12 +13577,6 @@
             "value" : "Không xác định lỗi của bơm: %1$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown pump error code: %1$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14263,12 +13729,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không xác định mẫu bơm: %@"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown pump model: %@"
           }
         },
         "zh-Hans" : {
@@ -14426,12 +13886,6 @@
             "value" : "Phản hồi không xác định trong %1$@: %2$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown response during %1$@: %2$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14584,12 +14038,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "World-Wide"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "World-Wide"
           }
         },

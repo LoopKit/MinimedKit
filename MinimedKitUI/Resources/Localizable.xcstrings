@@ -148,12 +148,6 @@
             "value" : "%@ dB"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%@ dB"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
@@ -288,12 +282,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@U"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "%@U"
           }
         },
@@ -452,12 +440,6 @@
             "value" : "%1$@  %2$@/%3$@  %4$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@  %2$@/%3$@  %4$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -611,12 +593,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Lịch biểu liều nền\n"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ basal schedule entries\n"
           }
         },
         "zh-Hans" : {
@@ -774,12 +750,6 @@
             "value" : "%1$@ Số unit insulin còn lại\n"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ Units of insulin remaining\n"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -915,12 +885,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ units vẫn đang còn lúc %2$@"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ units remaining at %2$@"
           }
         },
         "zh-Hans" : {
@@ -1078,12 +1042,6 @@
             "value" : "%1$@%2$@%3$@"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@%2$@%3$@"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1231,12 +1189,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang điều chỉnh thời gian của bơm..."
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Adjusting Pump Time..."
           }
         },
         "zh-Hans" : {
@@ -1394,12 +1346,6 @@
             "value" : "Pin kềm và pin lithium phân rã ở các mức độ khác nhau. Pin kềm có xu hướng giảm điện áp tuyến tính theo thời gian trong khi pin lithium có xu hướng duy trì điện áp cho đến khi hết nửa vòng đời. Trong điều kiện sử dụng bình thường trên bơm Minimed (loại X22 hay X15) khi chạy Loop, pin kiềm có thể dùng được trong khoảng 4 đến 5 ngày trong khi pin lithium dùng dc 2 tuần. Việc lựa chọn này được sử dụng theo các mức phân rã điện áp khác nhau cho mỗi loại pin hóa học và sẽ có cảnh báo đối với người dùng khi pin hỏng đạt khoảng từ 8-10 giờ."
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Alkaline and Lithium batteries decay at differing rates. Alkaline tend to have a linear voltage drop over time whereas lithium cell batteries tend to maintain voltage until halfway through their lifespan. Under normal usage in a Non-MySentry compatible Minimed (x22/x15) insulin pump running Loop, Alkaline batteries last approximately 4 to 5 days. Lithium batteries last between 1-2 weeks. This selection will use different battery voltage decay rates for each of the battery chemistry types and alert the user when a battery is approximately 8 to 10 hours from failure."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1549,12 +1495,6 @@
             "value" : "Bạn có chắc muốn xóa bơm này không?"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Are you sure you want to delete this Pump?"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1701,12 +1641,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loại pin"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery Chemistry"
           }
         },
         "zh-Hans" : {
@@ -1864,12 +1798,6 @@
             "value" : "Pin: %1$@ volts\n"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Battery: %1$@ volts\n"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2025,12 +1953,6 @@
             "value" : "Tần số tối ưu"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Best Frequency"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2184,12 +2106,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang tiêm liều bolus: %1$@\n"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Bolusing: %1$@\n"
           }
         },
         "zh-Hans" : {
@@ -2359,12 +2275,6 @@
             "value" : "Hủy bỏ"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Cancel"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2520,12 +2430,6 @@
             "value" : "Đang hủy liều Basal tạm thời"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Canceling Temp Basal"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2673,12 +2577,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang thay đổi"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Changing"
           }
         },
         "zh-Hans" : {
@@ -2842,12 +2740,6 @@
             "value" : "Đang thay đổi giờ…"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Changing time…"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2997,12 +2889,6 @@
             "value" : "Chọn loại pin bạn đang sử dụng trong máy bơm để cảnh báo tốt hơn về tình trạng pin yếu."
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Choose the type of battery you are using in your pump for better alerting about low battery conditions."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3138,12 +3024,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cấu hình"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Configuration"
           }
         },
         "zh-Hans" : {
@@ -3283,12 +3163,6 @@
             "value" : "Kết nối"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Connect"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3426,12 +3300,6 @@
             "value" : "Tiếp tục"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Continue"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3567,12 +3435,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xóa bơm"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Delete Pump"
           }
         },
         "zh-Hans" : {
@@ -3730,12 +3592,6 @@
             "value" : "Thiết bị"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Devices"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3885,12 +3741,6 @@
             "value" : "Không sử dụng MySentry"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Do not use MySentry"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4025,12 +3875,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xong"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Done"
           }
         },
         "zh-Hans" : {
@@ -4186,12 +4030,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lỗi khi đang tái thực hiện"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Error Resuming"
           }
         },
         "zh-Hans" : {
@@ -4355,12 +4193,6 @@
             "value" : "Lỗi khi đang tạm ngưng"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Error Suspending"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4514,12 +4346,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lỗi đồng bộ thời gian"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Error Syncing Time"
           }
         },
         "zh-Hans" : {
@@ -4683,12 +4509,6 @@
             "value" : "Đang lấy dữ liệu đường huyết…"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Fetching glucose…"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4848,12 +4668,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang lấy thông tin…"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Fetching history…"
           }
         },
         "zh-Hans" : {
@@ -5017,12 +4831,6 @@
             "value" : "Đang lấy model bơm…"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Fetching pump model…"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5184,12 +4992,6 @@
             "value" : "Chương trình cơ sở"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Firmware Version"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5345,12 +5147,6 @@
             "value" : "Insulin\n Đã tạm ngưng"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin\nSuspended"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5486,12 +5282,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khối lượng tiêm insulin"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin Delivery"
           }
         },
         "zh-Hans" : {
@@ -5655,12 +5445,6 @@
             "value" : "Việc tiêm insulin có thể được quyết định từ bơm bằng cách kết hợp giải thuật dữ liệu của người sử dụng và so sánh với khối lượngngăn chứa insulin theo thời gian. Việc đọc các dữ liệu cũ sẽ đảm bảo biểu đồ đường huyết luôn được tính chính xác và tải dữ liệu điều trị cập nhật lên Nightscout, nhưng lại tăng việc tiêu hao pin cũng như lỗi giao tiếp tần số radio cao hơn việc chỉ đọc mỗi dữ liệu ngăn chứa insulin. Trong trường hợp nguồn dữ liệu không được lựa chọn vì bất kỳ lý do gì thì phần mềm sẽ quay sang lựa chọn khác."
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5798,12 +5582,6 @@
             "value" : "Insulin còn lại"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin Remaining"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5939,12 +5717,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loại Insulin"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Insulin Type"
           }
         },
         "zh-Hans" : {
@@ -6099,12 +5871,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Medtronic %1$@"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "Medtronic %1$@"
           }
         },
@@ -6263,12 +6029,6 @@
             "value" : "Các mẫu máy bơm Medtronic 523, 723, 554 và 754 có một tính năng gọi là 'MySentry', phát sóng định kỳ mức pin của bình chứa và máy bơm. Việc lắng nghe các chương trình phát sóng này cho phép Loop liên lạc với máy bơm ít thường xuyên hơn, điều này có thể tăng tuổi thọ pin của máy bơm. Tuy nhiên, khi sử dụng tính năng này, RileyLink sẽ hoạt động lâu hơn và sử dụng nhiều pin hơn. Việc bật tính năng này có thể kéo dài tuổi thọ pin của máy bơm, trong khi việc tắt tính năng này có thể kéo dài tuổi thọ pin RileyLink. Cài đặt này bị bỏ qua đối với các kiểu máy bơm khác."
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Medtronic pump models 523, 723, 554, and 754 have a feature called 'MySentry' that periodically broadcasts the reservoir and pump battery levels.  Listening for these broadcasts allows Loop to communicate with the pump less frequently, which can increase pump battery life.  However, when using this feature the RileyLink stays awake more of the time and uses more of its own battery.  Enabling this may lengthen pump battery life, while disabling it may lengthen RileyLink battery life. This setting is ignored for other pump models."
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6404,12 +6164,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "No"
           }
         },
         "zh-Hans" : {
@@ -6573,12 +6327,6 @@
             "value" : "Không có phản hồi nào"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "No response"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6714,12 +6462,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không, Giữ nguyên"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "No, Keep Pump As Is"
           }
         },
         "zh-Hans" : {
@@ -6880,12 +6622,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device"
           }
         },
@@ -7050,12 +6786,6 @@
             "value" : "Nguồn dữ liệu được ưa thích"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Preferred Data Source"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7209,12 +6939,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pin còn lại của Bơm"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Battery Remaining"
           }
         },
         "zh-Hans" : {
@@ -7378,12 +7102,6 @@
             "value" : "Loại pin của bơm"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Battery Type"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7545,12 +7263,6 @@
             "value" : "Số ID của bơm"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump ID"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7704,12 +7416,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thời gian của Bơm"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Pump Time"
           }
         },
         "zh-Hans" : {
@@ -7873,12 +7579,6 @@
             "value" : "Đang đọc lịch biểu liều nền…"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Reading basal schedule…"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8040,12 +7740,6 @@
             "value" : "Đang đọc tình trạng bơm…"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Reading pump status…"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8204,12 +7898,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Region"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "Region"
           }
         },
@@ -8374,12 +8062,6 @@
             "value" : "Tiếp tục lại việc tiêm insulin"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Resume Delivery"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8539,12 +8221,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang tiếp tục lại"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Resuming"
           }
         },
         "zh-Hans" : {
@@ -8708,12 +8384,6 @@
             "value" : "Thử lại"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Retry"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8851,12 +8521,6 @@
             "value" : "Đã lên chương trình cho liều Basal"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Scheduled Basal"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8992,12 +8656,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn loại insulin bạn sẽ sử dụng trong máy bơm này."
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Select the type of insulin that you will be using in this pump."
           }
         },
         "zh-Hans" : {
@@ -9161,12 +8819,6 @@
             "value" : "Đang gửi nút bấm…"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Sending button press…"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9326,12 +8978,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang bắt đầu liều Basal tạm thời"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Starting Temp Basal"
           }
         },
         "zh-Hans" : {
@@ -9495,12 +9141,6 @@
             "value" : "Đã thành công"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Succeeded"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9660,12 +9300,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tạm ngưng liều insulin"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Suspend Delivery"
           }
         },
         "zh-Hans" : {
@@ -9829,12 +9463,6 @@
             "value" : "Đã tạm ngưng: %1$@\n"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Suspended: %1$@\n"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9996,12 +9624,6 @@
             "value" : "Đang tạm ngưng"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Suspending"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10155,12 +9777,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đồng bộ thời gian hiện tại"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Sync to Current Time"
           }
         },
         "zh-Hans" : {
@@ -10318,12 +9934,6 @@
             "value" : "Thời gian trên máy bơm của bạn khác với thời gian hiện tại. Bạn có muốn cập nhật thời gian trên máy bơm của mình đến thời điểm hiện tại không?"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "The time on your pump is different from the current time. Do you want to update the time on your pump to the current time?"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10477,12 +10087,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã phát hiện thay đổi thời gian"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Time Change Detected"
           }
         },
         "zh-Hans" : {
@@ -10646,12 +10250,6 @@
             "value" : "Các thử nghiệm"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Trials"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10813,12 +10411,6 @@
             "value" : "Chuyển tần số radio…"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Tuning radio…"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10953,12 +10545,6 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "U/hr"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
             "value" : "U/hr"
           }
         },
@@ -11117,12 +10703,6 @@
             "value" : "không xác định"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "unknown"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11258,12 +10838,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không xác định"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Unknown"
           }
         },
         "zh-Hans" : {
@@ -11421,12 +10995,6 @@
             "value" : "Sử dụng MySentry"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Use MySentry"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11582,12 +11150,6 @@
             "value" : "Có"
           }
         },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Yes"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11741,12 +11303,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Có, đồng bộ với thời gian hiện tại"
-          }
-        },
-        "yy-YY" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Yes, Sync to Current Time"
           }
         },
         "zh-Hans" : {
