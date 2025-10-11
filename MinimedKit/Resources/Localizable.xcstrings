@@ -12,7 +12,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "\"%1$@\" has a low battery"
           }
         },
@@ -36,7 +36,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "\"%1$@\" has a low battery"
           }
         },
@@ -48,13 +48,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "\"%1$@\" has a low battery"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "\"%1$@\" has a low battery"
           }
         },
@@ -96,7 +96,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "\"%1$@\" has a low battery"
           }
         },
@@ -161,7 +161,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ U left"
           }
         },
@@ -203,7 +203,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ U left"
           }
         },
@@ -316,7 +316,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ U left: %2$@"
           }
         },
@@ -358,7 +358,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ U left: %2$@"
           }
         },
@@ -471,7 +471,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "A bolus is already in progress"
           }
         },
@@ -513,7 +513,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "A bolus is already in progress"
           }
         },
@@ -626,7 +626,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "AlarmClockReminder"
           }
         },
@@ -668,7 +668,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "AlarmClockReminder"
           }
         },
@@ -781,7 +781,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "AlarmSensor"
           }
         },
@@ -823,7 +823,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "AlarmSensor"
           }
         },
@@ -936,7 +936,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Alkaline"
           }
         },
@@ -978,7 +978,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Alkaline"
           }
         },
@@ -1085,13 +1085,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         },
@@ -1115,7 +1115,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         },
@@ -1127,13 +1127,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         },
@@ -1175,7 +1175,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         },
@@ -1193,7 +1193,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         },
@@ -1223,7 +1223,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Auto-Off Alarm"
           }
         }
@@ -1240,7 +1240,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Basal Profile %1$@: %2$@ U/hour"
           }
         },
@@ -1282,7 +1282,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Basal Profile %1$@: %2$@ U/hour"
           }
         },
@@ -1389,13 +1389,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         },
@@ -1419,7 +1419,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         },
@@ -1431,13 +1431,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         },
@@ -1479,7 +1479,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         },
@@ -1497,7 +1497,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         },
@@ -1527,7 +1527,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Depleted"
           }
         }
@@ -1538,13 +1538,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         },
@@ -1568,7 +1568,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         },
@@ -1580,13 +1580,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         },
@@ -1628,7 +1628,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         },
@@ -1646,7 +1646,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         },
@@ -1676,7 +1676,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Battery Out Limit"
           }
         }
@@ -1687,13 +1687,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         },
@@ -1717,7 +1717,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         },
@@ -1729,13 +1729,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         },
@@ -1777,7 +1777,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         },
@@ -1795,7 +1795,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         },
@@ -1825,7 +1825,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue17"
           }
         }
@@ -1836,13 +1836,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         },
@@ -1866,7 +1866,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         },
@@ -1878,13 +1878,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         },
@@ -1926,7 +1926,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         },
@@ -1944,7 +1944,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         },
@@ -1974,7 +1974,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "BatteryIssue21"
           }
         }
@@ -2128,7 +2128,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in progress"
           }
         },
@@ -2176,7 +2176,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in progress"
           }
         },
@@ -2283,13 +2283,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in Progress"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in Progress"
           }
         },
@@ -2325,13 +2325,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in Progress"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in Progress"
           }
         },
@@ -2373,7 +2373,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in Progress"
           }
         },
@@ -2391,7 +2391,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus in Progress"
           }
         },
@@ -2432,13 +2432,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus may have failed: %1$@"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus may have failed: %1$@"
           }
         },
@@ -2462,7 +2462,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus may have failed: %1$@"
           }
         },
@@ -2474,13 +2474,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus may have failed: %1$@"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus may have failed: %1$@"
           }
         },
@@ -2522,7 +2522,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus may have failed: %1$@"
           }
         },
@@ -2540,7 +2540,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus may have failed: %1$@"
           }
         },
@@ -2581,13 +2581,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
@@ -2623,13 +2623,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
@@ -2671,7 +2671,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
@@ -2689,7 +2689,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Canada"
           }
         },
@@ -2736,7 +2736,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Cancel Temp Basal"
           }
         },
@@ -2772,7 +2772,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Cancel Temp Basal"
           }
         },
@@ -2879,13 +2879,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
@@ -2915,25 +2915,25 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
@@ -2975,7 +2975,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
@@ -2993,7 +2993,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         },
@@ -3023,7 +3023,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Profile Schedule"
           }
         }
@@ -3034,13 +3034,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         },
@@ -3070,7 +3070,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         },
@@ -3082,13 +3082,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         },
@@ -3130,7 +3130,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         },
@@ -3148,7 +3148,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         },
@@ -3178,7 +3178,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Basal Schedule"
           }
         }
@@ -3195,7 +3195,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change the pump battery immediately"
           }
         },
@@ -3237,7 +3237,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change the pump battery immediately"
           }
         },
@@ -3350,7 +3350,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change the pump reservoir now"
           }
         },
@@ -3392,7 +3392,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change the pump reservoir now"
           }
         },
@@ -3499,13 +3499,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Time"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Time"
           }
         },
@@ -3553,7 +3553,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Time"
           }
         },
@@ -3619,7 +3619,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Time"
           }
         },
@@ -3649,7 +3649,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Change Time"
           }
         }
@@ -3666,7 +3666,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Check that the pump is not suspended or priming, or has a percent temp basal type"
           }
         },
@@ -3708,7 +3708,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Check that the pump is not suspended or priming, or has a percent temp basal type"
           }
         },
@@ -3815,13 +3815,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
@@ -3851,25 +3851,25 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
         "fr" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
@@ -3911,7 +3911,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
@@ -3929,7 +3929,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         },
@@ -3959,7 +3959,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Clear Alarm"
           }
         }
@@ -3976,7 +3976,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Command refused"
           }
         },
@@ -4018,7 +4018,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Command refused"
           }
         },
@@ -4131,7 +4131,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Comms with another pump detected."
           }
         },
@@ -4179,7 +4179,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Comms with another pump detected."
           }
         },
@@ -4293,7 +4293,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Decoding Error"
           }
         },
@@ -4341,7 +4341,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Decoding Error"
           }
         },
@@ -4455,7 +4455,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Error"
           }
         },
@@ -4503,7 +4503,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Error"
           }
         },
@@ -4610,13 +4610,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         },
@@ -4640,7 +4640,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         },
@@ -4652,13 +4652,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         },
@@ -4700,7 +4700,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         },
@@ -4718,7 +4718,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         },
@@ -4748,7 +4748,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Device Reset"
           }
         }
@@ -4765,7 +4765,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Dismiss"
           }
         },
@@ -4920,7 +4920,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Empty Reservoir"
           }
         },
@@ -4944,7 +4944,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Empty Reservoir"
           }
         },
@@ -4956,13 +4956,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Empty Reservoir"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Empty Reservoir"
           }
         },
@@ -5004,7 +5004,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Empty Reservoir"
           }
         },
@@ -5052,7 +5052,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Empty Reservoir"
           }
         }
@@ -5069,7 +5069,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Event History"
           }
         },
@@ -5111,7 +5111,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Event History"
           }
         },
@@ -5218,13 +5218,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Glucose page failed crc check"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Glucose page failed crc check"
           }
         },
@@ -5260,13 +5260,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Glucose page failed crc check"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Glucose page failed crc check"
           }
         },
@@ -5308,7 +5308,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Glucose page failed crc check"
           }
         },
@@ -5326,7 +5326,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Glucose page failed crc check"
           }
         },
@@ -5356,7 +5356,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Glucose page failed crc check"
           }
         }
@@ -5367,13 +5367,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to pump settings and select insulin type"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to pump settings and select insulin type"
           }
         },
@@ -5397,7 +5397,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to pump settings and select insulin type"
           }
         },
@@ -5409,13 +5409,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to pump settings and select insulin type"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to pump settings and select insulin type"
           }
         },
@@ -5457,7 +5457,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to pump settings and select insulin type"
           }
         },
@@ -5475,7 +5475,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Go to pump settings and select insulin type"
           }
         },
@@ -5516,13 +5516,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page does not exist"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page does not exist"
           }
         },
@@ -5558,13 +5558,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page does not exist"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page does not exist"
           }
         },
@@ -5606,7 +5606,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page does not exist"
           }
         },
@@ -5624,7 +5624,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page does not exist"
           }
         },
@@ -5665,13 +5665,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page failed crc check"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page failed crc check"
           }
         },
@@ -5707,13 +5707,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page failed crc check"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page failed crc check"
           }
         },
@@ -5755,7 +5755,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page failed crc check"
           }
         },
@@ -5773,7 +5773,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page failed crc check"
           }
         },
@@ -5803,7 +5803,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "History page failed crc check"
           }
         }
@@ -5951,13 +5951,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         },
@@ -5981,7 +5981,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         },
@@ -5993,13 +5993,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         },
@@ -6041,7 +6041,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         },
@@ -6059,7 +6059,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         },
@@ -6089,7 +6089,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type is not configured"
           }
         }
@@ -6106,7 +6106,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Invalid response during %1$@: %2$@"
           }
         },
@@ -6148,7 +6148,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Invalid response during %1$@: %2$@"
           }
         },
@@ -6261,7 +6261,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Lithium"
           }
         },
@@ -6303,7 +6303,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Lithium"
           }
         },
@@ -6410,13 +6410,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
@@ -6440,7 +6440,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
@@ -6452,13 +6452,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
@@ -6500,7 +6500,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
@@ -6518,7 +6518,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Loop sent a bolus command to the pump, but was unable to confirm that the pump received the command. For safety, Loop will assume the bolus was delivered. When Loop eventually fetches history from the pump, and the estimated bolus finish time is passed, Loop will update its records of delivery to match what the pump reports."
           }
         },
@@ -6565,7 +6565,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Battery"
           }
         },
@@ -6613,7 +6613,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Battery"
           }
         },
@@ -6720,13 +6720,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Reservoir"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Reservoir"
           }
         },
@@ -6756,7 +6756,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Reservoir"
           }
         },
@@ -6768,13 +6768,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Reservoir"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Reservoir"
           }
         },
@@ -6816,7 +6816,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Reservoir"
           }
         },
@@ -6864,7 +6864,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low Reservoir"
           }
         }
@@ -6881,7 +6881,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low RileyLink Battery"
           }
         },
@@ -6905,7 +6905,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low RileyLink Battery"
           }
         },
@@ -6917,13 +6917,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low RileyLink Battery"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low RileyLink Battery"
           }
         },
@@ -6965,7 +6965,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Low RileyLink Battery"
           }
         },
@@ -7030,7 +7030,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Make sure your RileyLink is nearby and powered on"
           }
         },
@@ -7072,7 +7072,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Make sure your RileyLink is nearby and powered on"
           }
         },
@@ -7185,7 +7185,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Max setting exceeded"
           }
         },
@@ -7227,7 +7227,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Max setting exceeded"
           }
         },
@@ -7334,13 +7334,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Meal"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Meal"
           }
         },
@@ -7370,7 +7370,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Meal"
           }
         },
@@ -7388,7 +7388,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Meal"
           }
         },
@@ -7430,7 +7430,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Meal"
           }
         },
@@ -7478,7 +7478,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Meal"
           }
         }
@@ -7489,13 +7489,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -7507,19 +7507,19 @@
         },
         "de" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
         "es" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -7531,13 +7531,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -7579,7 +7579,13 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
+            "value" : "Minimed"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -7591,7 +7597,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -7603,7 +7609,7 @@
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         },
@@ -7621,7 +7627,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed"
           }
         }
@@ -7638,7 +7644,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed %@"
           }
         },
@@ -7680,7 +7686,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed %@"
           }
         },
@@ -7794,7 +7800,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed 500/700 Series"
           }
         },
@@ -7842,7 +7848,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Minimed 500/700 Series"
           }
         },
@@ -7949,13 +7955,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         },
@@ -7985,7 +7991,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         },
@@ -7997,13 +8003,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         },
@@ -8045,7 +8051,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         },
@@ -8063,7 +8069,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         },
@@ -8093,7 +8099,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "New Time"
           }
         }
@@ -8104,13 +8110,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         },
@@ -8134,7 +8140,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         },
@@ -8146,13 +8152,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         },
@@ -8194,7 +8200,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         },
@@ -8212,7 +8218,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         },
@@ -8242,7 +8248,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No Delivery Alarm"
           }
         }
@@ -8253,13 +8259,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No RileyLink Connected"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No RileyLink Connected"
           }
         },
@@ -8295,13 +8301,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No RileyLink Connected"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No RileyLink Connected"
           }
         },
@@ -8343,7 +8349,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No RileyLink Connected"
           }
         },
@@ -8361,7 +8367,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No RileyLink Connected"
           }
         },
@@ -8408,7 +8414,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "North America"
           }
         },
@@ -8450,7 +8456,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "North America"
           }
         },
@@ -8563,7 +8569,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Ok"
           }
         },
@@ -8587,7 +8593,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Ok"
           }
         },
@@ -8599,13 +8605,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Ok"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Ok"
           }
         },
@@ -8647,7 +8653,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Ok"
           }
         },
@@ -8712,7 +8718,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "OK"
           }
         },
@@ -8760,7 +8766,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "OK"
           }
         },
@@ -8867,13 +8873,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         },
@@ -8897,7 +8903,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         },
@@ -8909,13 +8915,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         },
@@ -8957,7 +8963,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         },
@@ -8975,7 +8981,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         },
@@ -9005,7 +9011,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Percent Temp Basal"
           }
         }
@@ -9016,13 +9022,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
           }
         },
@@ -9046,7 +9052,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
           }
         },
@@ -9058,13 +9064,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
           }
         },
@@ -9106,7 +9112,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
           }
         },
@@ -9124,7 +9130,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Please check your pump bolus history to determine if the bolus was delivered."
           }
         },
@@ -9165,13 +9171,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         },
@@ -9195,7 +9201,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         },
@@ -9207,13 +9213,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         },
@@ -9255,7 +9261,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         },
@@ -9273,7 +9279,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         },
@@ -9303,7 +9309,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Prime"
           }
         }
@@ -9320,7 +9326,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Battery Low"
           }
         },
@@ -9362,7 +9368,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Battery Low"
           }
         },
@@ -9475,7 +9481,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump did not respond"
           }
         },
@@ -9517,7 +9523,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump did not respond"
           }
         },
@@ -9631,7 +9637,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Error"
           }
         },
@@ -9679,7 +9685,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Error"
           }
         },
@@ -9792,7 +9798,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is suspended"
           }
         },
@@ -9834,7 +9840,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is suspended"
           }
         },
@@ -9941,13 +9947,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         },
@@ -9971,7 +9977,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         },
@@ -9983,13 +9989,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         },
@@ -10031,7 +10037,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         },
@@ -10049,7 +10055,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         },
@@ -10079,7 +10085,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump is Suspended"
           }
         }
@@ -10096,7 +10102,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Reservoir Empty"
           }
         },
@@ -10138,7 +10144,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Reservoir Empty"
           }
         },
@@ -10251,7 +10257,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Reservoir Low"
           }
         },
@@ -10293,7 +10299,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Reservoir Low"
           }
         },
@@ -10406,7 +10412,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump responded unexpectedly"
           }
         },
@@ -10454,7 +10460,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump responded unexpectedly"
           }
         },
@@ -10568,7 +10574,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "PumpMessage(%1$@, %2$@, %3$@, %4$@)"
           }
         },
@@ -10616,7 +10622,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "PumpMessage(%1$@, %2$@, %3$@, %4$@)"
           }
         },
@@ -10723,13 +10729,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         },
@@ -10753,7 +10759,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         },
@@ -10765,13 +10771,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         },
@@ -10813,7 +10819,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         },
@@ -10831,7 +10837,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         },
@@ -10861,7 +10867,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reprogram Error"
           }
         }
@@ -10878,7 +10884,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reservoir"
           }
         },
@@ -10920,7 +10926,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Reservoir"
           }
         },
@@ -11027,13 +11033,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Resume"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Resume"
           }
         },
@@ -11057,7 +11063,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Resume"
           }
         },
@@ -11069,7 +11075,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Resume"
           }
         },
@@ -11117,7 +11123,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Resume"
           }
         },
@@ -11176,13 +11182,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         },
@@ -11206,7 +11212,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         },
@@ -11218,13 +11224,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         },
@@ -11266,7 +11272,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         },
@@ -11284,7 +11290,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         },
@@ -11314,7 +11320,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Rewind"
           }
         }
@@ -11331,7 +11337,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "RileyLink radio tune failed"
           }
         },
@@ -11373,7 +11379,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "RileyLink radio tune failed"
           }
         },
@@ -11617,13 +11623,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         },
@@ -11653,7 +11659,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         },
@@ -11665,13 +11671,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         },
@@ -11713,7 +11719,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         },
@@ -11731,7 +11737,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         },
@@ -11761,7 +11767,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select Profile"
           }
         }
@@ -11778,7 +11784,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signal Loss"
           }
         },
@@ -11808,7 +11814,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signal Loss"
           }
         },
@@ -11826,7 +11832,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signal Loss"
           }
         },
@@ -11868,7 +11874,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signal Loss"
           }
         },
@@ -11916,7 +11922,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Signal Loss"
           }
         }
@@ -11927,13 +11933,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Suspend"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Suspend"
           }
         },
@@ -11957,7 +11963,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Suspend"
           }
         },
@@ -11969,7 +11975,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Suspend"
           }
         },
@@ -12017,7 +12023,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Suspend"
           }
         },
@@ -12219,7 +12225,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temporary Basal: %1$.3f U/hour"
           }
         },
@@ -12261,7 +12267,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temporary Basal: %1$.3f U/hour"
           }
         },
@@ -12374,7 +12380,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temporary Basal: %1$d min"
           }
         },
@@ -12422,7 +12428,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temporary Basal: %1$d min"
           }
         },
@@ -12535,7 +12541,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temporary Basal: %1$d%%"
           }
         },
@@ -12583,7 +12589,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temporary Basal: %1$d%%"
           }
         },
@@ -12690,13 +12696,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unable to store pump data"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unable to store pump data"
           }
         },
@@ -12732,13 +12738,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unable to store pump data"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unable to store pump data"
           }
         },
@@ -12780,7 +12786,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unable to store pump data"
           }
         },
@@ -12798,7 +12804,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unable to store pump data"
           }
         },
@@ -12828,7 +12834,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unable to store pump data"
           }
         }
@@ -12839,13 +12845,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         },
@@ -12869,7 +12875,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         },
@@ -12881,13 +12887,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         },
@@ -12929,7 +12935,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         },
@@ -12947,7 +12953,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         },
@@ -12977,7 +12983,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unexpected response %1$@"
           }
         }
@@ -12988,13 +12994,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         },
@@ -13018,7 +13024,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         },
@@ -13030,13 +13036,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         },
@@ -13078,7 +13084,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         },
@@ -13096,7 +13102,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         },
@@ -13126,7 +13132,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown Alarm"
           }
         }
@@ -13137,13 +13143,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown glucose record type: %$1@"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown glucose record type: %$1@"
           }
         },
@@ -13179,13 +13185,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown glucose record type: %$1@"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown glucose record type: %$1@"
           }
         },
@@ -13227,7 +13233,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown glucose record type: %$1@"
           }
         },
@@ -13245,7 +13251,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown glucose record type: %$1@"
           }
         },
@@ -13275,7 +13281,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown glucose record type: %$1@"
           }
         }
@@ -13286,13 +13292,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown history record type: %$1@"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown history record type: %$1@"
           }
         },
@@ -13328,13 +13334,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown history record type: %$1@"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown history record type: %$1@"
           }
         },
@@ -13376,7 +13382,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown history record type: %$1@"
           }
         },
@@ -13394,7 +13400,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown history record type: %$1@"
           }
         },
@@ -13424,7 +13430,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown history record type: %$1@"
           }
         }
@@ -13441,7 +13447,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown pump error code: %1$@"
           }
         },
@@ -13483,7 +13489,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown pump error code: %1$@"
           }
         },
@@ -13595,7 +13601,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown pump model: %@"
           }
         },
@@ -13637,7 +13643,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown pump model: %@"
           }
         },
@@ -13750,7 +13756,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown response during %1$@: %2$@"
           }
         },
@@ -13792,7 +13798,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown response during %1$@: %2$@"
           }
         },
@@ -13905,7 +13911,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "World-Wide"
           }
         },
@@ -13947,7 +13953,7 @@
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "World-Wide"
           }
         },

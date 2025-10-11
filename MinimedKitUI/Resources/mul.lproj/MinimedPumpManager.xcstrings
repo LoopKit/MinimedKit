@@ -1451,10 +1451,28 @@
       "comment" : "Class = \"UILabel\"; text = \"Review your pump settings below. You can change these settings at any time in Loopʼs Settings screen.\"; ObjectID = \"HfQ-fG-8vO\";",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überprüfe unterhalb Deine Pumpeneinstellungen. Du kannst diese Einstellung jederzeit im Einstellungsbildschirm vom Loop ändern."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Review your pump settings below. You can change these settings at any time in Loopʼs Settings screen."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se gjennom pumpeinnstillingene dine nedenfor. Du kan endre disse innstillingene når som helst i Loops innstillingsskjerm."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revedeți setările pompei dvs. mai jos. Puteți modifica aceste setări în orice moment în ecranul de setări al aplicației Loop."
           }
         },
         "zh-Hans" : {
@@ -1733,6 +1751,12 @@
       "comment" : "Class = \"UITableViewController\"; title = \"Pump Settings\"; ObjectID = \"iQZ-kT-QUm\";",
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pumpeneinstellungen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1743,6 +1767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pumpeinnstillinger"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setări pompă"
           }
         },
         "zh-Hans" : {
