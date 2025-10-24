@@ -475,7 +475,7 @@ extension MinimedPumpManager {
                 state: .warning)
         }
         
-        if date.timeIntervalSince(lastSync(for: state, recents: recents) ?? .distantPast) > .minutes(12) {
+        if isSignalLost(at: date) {
             return PumpStatusHighlight(
                 localizedMessage: LocalizedString("Signal Loss", comment: "Status highlight when communications with the pod haven't happened recently."),
                 imageName: "exclamationmark.circle.fill",
@@ -483,7 +483,10 @@ extension MinimedPumpManager {
         }
         return nil
     }
-
+    
+    private func isSignalLost(at date: Date = Date()) -> Bool {
+        date.timeIntervalSince(lastSync(for: state, recents: recents) ?? .distantPast) > .minutes(12)
+    }
     
     private func checkRileyLinkBattery() {
         rileyLinkDeviceProvider.getDevices { devices in
@@ -925,6 +928,14 @@ extension MinimedPumpManager {
 
 // MARK: - PumpManager
 extension MinimedPumpManager: PumpManager {
+    public var inSignalLoss: Bool {
+        isSignalLost()
+    }
+    
+    public var isInoperable: Bool {
+        basalDeliveryState(for: recents) == .pumpInoperable
+    }
+    
     public static let localizedTitle = LocalizedString("Minimed 500/700 Series", comment: "Generic title of the minimed pump manager")
 
     public var localizedTitle: String {
@@ -1003,32 +1014,9 @@ extension MinimedPumpManager: PumpManager {
     }
     
     private func status(for state: MinimedPumpManagerState, recents: MinimedPumpManagerRecents) -> PumpManagerStatus {
-        let basalDeliveryState: PumpManagerStatus.BasalDeliveryState
+        let basalDeliveryState = basalDeliveryState(for: recents)
         
-        switch recents.suspendEngageState {
-        case .engaging:
-            basalDeliveryState = .suspending
-        case .disengaging:
-            basalDeliveryState = .resuming
-        case .stable:
-            switch recents.tempBasalEngageState {
-            case .engaging:
-                basalDeliveryState = .initiatingTempBasal
-            case .disengaging:
-                basalDeliveryState = .cancelingTempBasal
-            case .stable:
-                switch self.state.suspendState {
-                case .suspended(let date):
-                    basalDeliveryState = .suspended(date)
-                case .resumed(let date):
-                    if let tempBasal = state.unfinalizedTempBasal {
-                        basalDeliveryState = .tempBasal(DoseEntry(tempBasal))
-                    } else {
-                        basalDeliveryState = .active(date)
-                    }
-                }
-            }
-        }
+        
         
         let bolusState: PumpManagerStatus.BolusState
         
@@ -1053,6 +1041,33 @@ extension MinimedPumpManager: PumpManager {
             bolusState: bolusState,
             insulinType: state.insulinType
         )
+    }
+    
+    private func basalDeliveryState(for recents: MinimedPumpManagerRecents) -> PumpManagerStatus.BasalDeliveryState {
+        switch recents.suspendEngageState {
+        case .engaging:
+            return .suspending
+        case .disengaging:
+            return .resuming
+        case .stable:
+            switch recents.tempBasalEngageState {
+            case .engaging:
+                return .initiatingTempBasal
+            case .disengaging:
+                return .cancelingTempBasal
+            case .stable:
+                switch self.state.suspendState {
+                case .suspended(let date):
+                    return .suspended(date)
+                case .resumed(let date):
+                    if let tempBasal = state.unfinalizedTempBasal {
+                        return .tempBasal(DoseEntry(tempBasal))
+                    } else {
+                        return .active(date)
+                    }
+                }
+            }
+        }
     }
     
     public var status: PumpManagerStatus {
