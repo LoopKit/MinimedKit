@@ -752,7 +752,10 @@ extension MinimedPumpManager {
                     
                     // Reconcile history with pending doses
                     let newPumpEvents = historyEvents.pumpEvents(from: model)
-                    
+
+                    // Track set change and rewind events for cannula/insulin age
+                    self.updateLastEventDates(from: newPumpEvents)
+
                     // During reconciliation, some pump events may be reconciled as pending doses and removed. Remaining events should be annotated with current insulinType
                     let remainingHistoryEvents = self.reconcilePendingDosesWith(newPumpEvents, fetchedAt: self.dateGenerator()).map { (event) -> NewPumpEvent in
                         return NewPumpEvent(
@@ -799,6 +802,40 @@ extension MinimedPumpManager {
                     self.troubleshootPumpComms(using: device)
 
                     completion(PumpManagerError.communication(error as? LocalizedError))
+                }
+            }
+        }
+    }
+
+    private func updateLastEventDates(from events: [NewPumpEvent]) {
+        var latestSetChange: Date?
+        var latestRewind: Date?
+
+        for event in events {
+            switch event.type {
+            case .replaceComponent(componentType: .infusionSet):
+                if latestSetChange == nil || event.date > latestSetChange! {
+                    latestSetChange = event.date
+                }
+            case .rewind:
+                if latestRewind == nil || event.date > latestRewind! {
+                    latestRewind = event.date
+                }
+            default:
+                break
+            }
+        }
+
+        // Only update state if newer events are found
+        setState { state in
+            if let setChange = latestSetChange {
+                if state.lastSetChangeDate == nil || setChange > state.lastSetChangeDate! {
+                    state.lastSetChangeDate = setChange
+                }
+            }
+            if let rewind = latestRewind {
+                if state.lastRewindDate == nil || rewind > state.lastRewindDate! {
+                    state.lastRewindDate = rewind
                 }
             }
         }

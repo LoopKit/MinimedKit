@@ -98,6 +98,22 @@ struct MinimedPumpSettingsView: View {
             }
 
             Section(header: Text(LocalizedString("Status", comment: "The title of the status section in MinimedPumpManager settings"))) {
+                if let timeSinceLastCannulaFill = viewModel.timeSinceLastSetChange {
+                    HStack {
+                        Text(LocalizedString("Cannula Age", comment: "Text for time since last medtronic pump set change event"))
+                        Spacer()
+                        Text(timeSinceLastCannulaFill)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                if let timeSinceLastRewind = viewModel.timeSinceLastRewind {
+                    HStack {
+                        Text(LocalizedString("Insulin Age", comment: "Text for time since last medtronic pump rewind event"))
+                        Spacer()
+                        Text(timeSinceLastRewind)
+                            .foregroundStyle(.secondary)
+                    }
+                }
                 HStack {
                     Text(LocalizedString("Pump Battery Remaining", comment: "Text for medtronic pump battery percent remaining")).foregroundColor(Color.primary)
                     Spacer()

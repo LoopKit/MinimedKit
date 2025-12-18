@@ -13,7 +13,6 @@ import SwiftUI
 import LoopKitUI
 import HealthKit
 
-
 enum MinimedSettingsViewAlert: Identifiable {
     case suspendError(Error)
     case resumeError(Error)
@@ -82,6 +81,8 @@ class MinimedPumpSettingsViewModel: ObservableObject {
     @Published var activeAlert: MinimedSettingsViewAlert?
     @Published var suspendResumeButtonEnabled: Bool = false
     @Published var synchronizingTime: Bool = false
+    @Published var timeSinceLastSetChange: String?
+    @Published var timeSinceLastRewind: String?
 
     var pumpManager: MinimedPumpManager
 
@@ -108,6 +109,13 @@ class MinimedPumpSettingsViewModel: ObservableObject {
         self.batteryChemistryType = pumpManager.batteryChemistry
         self.preferredDataSource = pumpManager.preferredInsulinDataSource
         self.mySentryConfig = pumpManager.useMySentry ? .useMySentry : .doNotUseMySentry
+
+        if let lastSetChangeDate = pumpManager.state.lastSetChangeDate {
+            self.timeSinceLastSetChange = formatDateToDaysHours(lastSetChangeDate)
+        }
+        if let lastRewindDate = pumpManager.state.lastRewindDate {
+            self.timeSinceLastRewind = formatDateToDaysHours(lastRewindDate)
+        }
 
         self.pumpManager.addStatusObserver(self, queue: DispatchQueue.main)
         pumpManager.stateObservers.insert(self, queue: .main)
@@ -247,6 +255,17 @@ class MinimedPumpSettingsViewModel: ObservableObject {
 
 }
 
+private func formatDateToDaysHours(_ date: Date) -> String {
+    let components = Calendar.current.dateComponents([.day, .hour], from: date, to: Date())
+    let days = components.day ?? 0
+    let hours = components.hour ?? 0
+
+    let dayString = days == 1 ? LocalizedString("day", comment: "Singular day unit") : LocalizedString("days", comment: "Plural days unit")
+    let hourString = hours == 1 ? LocalizedString("hour", comment: "Singular hour unit") : LocalizedString("hours", comment: "Plural hours unit")
+
+    return "\(days) \(dayString), \(hours) \(hourString)"
+}
+
 extension MinimedPumpSettingsViewModel: PumpManagerStatusObserver {
     public func pumpManager(_ pumpManager: PumpManager, didUpdate status: PumpManagerStatus, oldStatus: PumpManagerStatus) {
         basalDeliveryState = status.basalDeliveryState
@@ -259,6 +278,12 @@ extension MinimedPumpSettingsViewModel: MinimedPumpManagerStateObserver {
         batteryChemistryType = state.batteryChemistry
         preferredDataSource = state.preferredInsulinDataSource
         mySentryConfig = state.useMySentry ? .useMySentry : .doNotUseMySentry
+        if let lastSetChangeDate = state.lastSetChangeDate {
+            timeSinceLastSetChange = formatDateToDaysHours(lastSetChangeDate)
+        }
+        if let lastRewindDate = state.lastRewindDate {
+            timeSinceLastRewind = formatDateToDaysHours(lastRewindDate)
+        }
     }
 }
 
