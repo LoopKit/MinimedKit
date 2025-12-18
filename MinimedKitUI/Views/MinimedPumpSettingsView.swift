@@ -115,12 +115,14 @@ struct MinimedPumpSettingsView: View {
                     }
                 }
                 HStack {
-                    Text(LocalizedString("Pump Battery Remaining", comment: "Text for medtronic pump battery percent remaining")).foregroundColor(Color.primary)
+                    Text(LocalizedString("Pump Battery Remaining", comment: "Text for medtronic pump battery percent remaining"))
                     Spacer()
                     if let chargeRemaining = viewModel.pumpManager.status.pumpBatteryChargeRemaining {
                         Text(String("\(Int(round(chargeRemaining * 100)))%"))
+                            .foregroundStyle(.secondary)
                     } else {
                         Text(String(LocalizedString("unknown", comment: "Text to indicate battery percentage is unknown")))
+                            .foregroundStyle(.secondary)
                     }
                 }
                 HStack {
@@ -131,7 +133,7 @@ struct MinimedPumpSettingsView: View {
                             .foregroundColor(guidanceColors.warning)
                     }
                     TimeView(timeZone: viewModel.pumpManager.status.timeZone)
-                        .foregroundColor( viewModel.isClockOffset ? guidanceColors.warning : nil)
+                        .foregroundColor( viewModel.isClockOffset ? guidanceColors.warning : .secondary)
                 }
                 if viewModel.synchronizingTime {
                     HStack {
