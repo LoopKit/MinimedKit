@@ -136,7 +136,9 @@ class MinimedUICoordinator: UINavigationController, PumpManagerOnboarding, Compl
             }
 
             let view = MinimedPumpSettingsView(viewModel: viewModel, supportedInsulinTypes: allowedInsulinTypes, handleRileyLinkSelection: handleRileyLinkSelection, rileyLinkListDataSource: rileyLinkListDataSource)
-            return hostingController(rootView: view)
+            let controller = hostingController(rootView: view)
+            controller.navigationItem.title = String(format: NSLocalizedString("Medtronic %1$@", comment: "Format string fof navigation bar title for MinimedPumpSettingsView (1: model number)"), pumpManager.state.pumpModel.description)
+            return controller
         }
     }
 

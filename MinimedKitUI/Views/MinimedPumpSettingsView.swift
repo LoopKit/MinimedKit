@@ -216,7 +216,6 @@ struct MinimedPumpSettingsView: View {
 
         .insetGroupedListStyle()
         .navigationBarItems(trailing: doneButton)
-        .navigationBarTitle(String(format: LocalizedString("Medtronic %1$@", comment: "Format string fof navigation bar title for MinimedPumpSettingsView (1: model number)"), viewModel.pumpManager.state.pumpModel.description))
     }
 
     var deliverySectionTitle: String {
