@@ -122,6 +122,10 @@ public struct MinimedPumpManagerState: RawRepresentable, Equatable {
 
     public var basalSchedule: BasalSchedule
     
+    public var lastSetChangeDate: Date?
+
+    public var lastRewindDate: Date?
+    
     public init(isOnboarded: Bool, useMySentry: Bool, pumpColor: PumpColor, pumpID: String, pumpModel: PumpModel, pumpFirmwareVersion: String, pumpRegion: PumpRegion, rileyLinkConnectionState: RileyLinkConnectionState?, timeZone: TimeZone, suspendState: SuspendState, insulinType: InsulinType, lastTuned: Date?, lastValidFrequency: Measurement<UnitFrequency>?, basalSchedule: BasalSchedule)
     {
         self.isOnboarded = isOnboarded
@@ -256,6 +260,9 @@ public struct MinimedPumpManagerState: RawRepresentable, Equatable {
         } else {
             self.basalSchedule = BasalSchedule(entries: [])
         }
+
+        lastSetChangeDate = rawValue["lastSetChangeDate"] as? Date
+        lastRewindDate = rawValue["lastRewindDate"] as? Date
     }
 
     public var rawValue: RawValue {
@@ -287,6 +294,8 @@ public struct MinimedPumpManagerState: RawRepresentable, Equatable {
         value["rileyLinkBatteryAlertLevel"] = rileyLinkBatteryAlertLevel
         value["lastRileyLinkBatteryAlertDate"] = lastRileyLinkBatteryAlertDate
         value["basalSchedule"] = basalSchedule.rawValue
+        value["lastSetChangeDate"] = lastSetChangeDate
+        value["lastRewindDate"] = lastRewindDate
 
         return value
     }

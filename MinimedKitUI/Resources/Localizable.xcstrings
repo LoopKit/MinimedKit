@@ -2438,6 +2438,9 @@
         }
       }
     },
+    "Cannula Age" : {
+      "comment" : "Text for time since last medtronic pump set change event"
+    },
     "Changing" : {
       "comment" : "Text shown in basal rate space when basal is changing",
       "localizations" : {
@@ -3308,6 +3311,12 @@
         }
       }
     },
+    "day" : {
+      "comment" : "Singular day unit"
+    },
+    "days" : {
+      "comment" : "Plural days unit"
+    },
     "Delete Pump" : {
       "comment" : "Button label for removing Pump\nText to delete pump",
       "localizations" : {
@@ -3444,6 +3453,9 @@
           }
         }
       }
+    },
+    "Details" : {
+      "comment" : "The title of the details section in MinimedPumpManager settings"
     },
     "Devices" : {
       "comment" : "Header for devices section of RileyLinkSetupView",
@@ -5000,6 +5012,12 @@
         }
       }
     },
+    "hour" : {
+      "comment" : "Singular hour unit"
+    },
+    "hours" : {
+      "comment" : "Plural hours unit"
+    },
     "Insulin\nSuspended" : {
       "comment" : "Text shown in insulin delivery space when insulin suspended",
       "localizations" : {
@@ -5154,6 +5172,9 @@
           }
         }
       }
+    },
+    "Insulin Age" : {
+      "comment" : "Text for time since last medtronic pump rewind event"
     },
     "Insulin Delivery" : {
       "comment" : "Title of insulin delivery section",
@@ -8987,6 +9008,9 @@
           }
         }
       }
+    },
+    "Status" : {
+      "comment" : "The title of the status section in MinimedPumpManager settings"
     },
     "Succeeded" : {
       "comment" : "A message indicating a command succeeded",

@@ -24,7 +24,6 @@ struct MinimedPumpSettingsView: View {
     var supportedInsulinTypes: [InsulinType]
 
     @State private var showingDeletionSheet = false
-
     @State private var showSyncTimeOptions = false;
 
     var handleRileyLinkSelection: (RileyLinkDevice) -> Void
@@ -47,7 +46,6 @@ struct MinimedPumpSettingsView: View {
                     reservoirStatus
                 }
                 .padding(.bottom, 5)
-
             }
 
             if let basalDeliveryState = viewModel.basalDeliveryState {
@@ -64,7 +62,99 @@ struct MinimedPumpSettingsView: View {
                 }
             }
 
-            Section(header: SectionHeader(label: LocalizedString("Configuration", comment: "The title of the configuration section in MinimedPumpManager settings")))
+            Section(header: HStack {
+                Text(LocalizedString("Devices", comment: "Header for devices section of RileyLinkSetupView"))
+                Spacer()
+                ProgressView()
+            }) {
+                ForEach(rileyLinkListDataSource.devices, id: \.peripheralIdentifier) { device in
+                    Toggle(isOn: rileyLinkListDataSource.autoconnectBinding(for: device)) {
+                        HStack {
+                            Text(device.name ?? "Unknown")
+                            Spacer()
+
+                            if rileyLinkListDataSource.autoconnectBinding(for: device).wrappedValue {
+                                if device.isConnected {
+                                    Text(formatRSSI(rssi:device.rssi)).foregroundColor(.secondary)
+                                } else {
+                                    Image(systemName: "wifi.exclamationmark")
+                                        .imageScale(.large)
+                                        .foregroundColor(guidanceColors.warning)
+                                }
+                            }
+                        }
+                        .contentShape(Rectangle())
+                        .onTapGesture {
+                            handleRileyLinkSelection(device)
+                        }
+                    }
+                }
+            }
+            .onAppear {
+                rileyLinkListDataSource.isScanningEnabled = true
+            }
+            .onDisappear {
+                rileyLinkListDataSource.isScanningEnabled = false
+            }
+
+            Section(header: Text(LocalizedString("Status", comment: "The title of the status section in MinimedPumpManager settings"))) {
+                if let timeSinceLastCannulaFill = viewModel.timeSinceLastSetChange {
+                    HStack {
+                        Text(LocalizedString("Cannula Age", comment: "Text for time since last medtronic pump set change event"))
+                        Spacer()
+                        Text(timeSinceLastCannulaFill)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                if let timeSinceLastRewind = viewModel.timeSinceLastRewind {
+                    HStack {
+                        Text(LocalizedString("Insulin Age", comment: "Text for time since last medtronic pump rewind event"))
+                        Spacer()
+                        Text(timeSinceLastRewind)
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                HStack {
+                    Text(LocalizedString("Pump Battery Remaining", comment: "Text for medtronic pump battery percent remaining"))
+                    Spacer()
+                    if let chargeRemaining = viewModel.pumpManager.status.pumpBatteryChargeRemaining {
+                        Text(String("\(Int(round(chargeRemaining * 100)))%"))
+                            .foregroundStyle(.secondary)
+                    } else {
+                        Text(String(LocalizedString("unknown", comment: "Text to indicate battery percentage is unknown")))
+                            .foregroundStyle(.secondary)
+                    }
+                }
+                HStack {
+                    Text(LocalizedString("Pump Time", comment: "The title of the command to change pump time zone"))
+                    Spacer()
+                    if viewModel.isClockOffset {
+                        Image(systemName: "clock.fill")
+                            .foregroundColor(guidanceColors.warning)
+                    }
+                    TimeView(timeZone: viewModel.pumpManager.status.timeZone)
+                        .foregroundColor( viewModel.isClockOffset ? guidanceColors.warning : .secondary)
+                }
+                if viewModel.synchronizingTime {
+                    HStack {
+                        Text(LocalizedString("Adjusting Pump Time...", comment: "Text indicating ongoing pump time synchronization"))
+                            .foregroundColor(.secondary)
+                        Spacer()
+                        ActivityIndicator(isAnimating: .constant(true), style: .medium)
+                    }
+                } else if self.viewModel.pumpManager.status.timeZone != TimeZone.currentFixed {
+                    Button(action: {
+                        showSyncTimeOptions = true
+                    }) {
+                        Text(LocalizedString("Sync to Current Time", comment: "The title of the command to change pump time zone"))
+                    }
+                    .actionSheet(isPresented: $showSyncTimeOptions) {
+                        syncPumpTimeActionSheet
+                    }
+                }
+            }
+
+            Section(header: Text(LocalizedString("Configuration", comment: "The title of the configuration section in MinimedPumpManager settings")))
             {
                 NavigationLink(destination: InsulinTypeSetting(initialValue: viewModel.pumpManager.state.insulinType, supportedInsulinTypes: supportedInsulinTypes, allowUnsetInsulinType: false, didChange: viewModel.didChangeInsulinType)) {
                     HStack {
@@ -109,83 +199,8 @@ struct MinimedPumpSettingsView: View {
                 }
             }
 
-            Section(header: HStack {
-                Text(LocalizedString("Devices", comment: "Header for devices section of RileyLinkSetupView"))
-                Spacer()
-                ProgressView()
-            }) {
-                ForEach(rileyLinkListDataSource.devices, id: \.peripheralIdentifier) { device in
-                    Toggle(isOn: rileyLinkListDataSource.autoconnectBinding(for: device)) {
-                        HStack {
-                            Text(device.name ?? "Unknown")
-                            Spacer()
-
-                            if rileyLinkListDataSource.autoconnectBinding(for: device).wrappedValue {
-                                if device.isConnected {
-                                    Text(formatRSSI(rssi:device.rssi)).foregroundColor(.secondary)
-                                } else {
-                                    Image(systemName: "wifi.exclamationmark")
-                                        .imageScale(.large)
-                                        .foregroundColor(guidanceColors.warning)
-                                }
-                            }
-                        }
-                        .contentShape(Rectangle())
-                        .onTapGesture {
-                            handleRileyLinkSelection(device)
-                        }
-                    }
-                }
-            }
-            .onAppear {
-                rileyLinkListDataSource.isScanningEnabled = true
-            }
-            .onDisappear {
-                rileyLinkListDataSource.isScanningEnabled = false
-            }
-
-
-            Section() {
-                HStack {
-                    Text(LocalizedString("Pump Battery Remaining", comment: "Text for medtronic pump battery percent remaining")).foregroundColor(Color.primary)
-                    Spacer()
-                    if let chargeRemaining = viewModel.pumpManager.status.pumpBatteryChargeRemaining {
-                        Text(String("\(Int(round(chargeRemaining * 100)))%"))
-                    } else {
-                        Text(String(LocalizedString("unknown", comment: "Text to indicate battery percentage is unknown")))
-                    }
-                }
-                HStack {
-                    Text(LocalizedString("Pump Time", comment: "The title of the command to change pump time zone"))
-                    Spacer()
-                    if viewModel.isClockOffset {
-                        Image(systemName: "clock.fill")
-                            .foregroundColor(guidanceColors.warning)
-                    }
-                    TimeView(timeZone: viewModel.pumpManager.status.timeZone)
-                        .foregroundColor( viewModel.isClockOffset ? guidanceColors.warning : nil)
-                }
-                if viewModel.synchronizingTime {
-                    HStack {
-                        Text(LocalizedString("Adjusting Pump Time...", comment: "Text indicating ongoing pump time synchronization"))
-                            .foregroundColor(.secondary)
-                        Spacer()
-                        ActivityIndicator(isAnimating: .constant(true), style: .medium)
-                    }
-                } else if self.viewModel.pumpManager.status.timeZone != TimeZone.currentFixed {
-                    Button(action: {
-                        showSyncTimeOptions = true
-                    }) {
-                        Text(LocalizedString("Sync to Current Time", comment: "The title of the command to change pump time zone"))
-                    }
-                    .actionSheet(isPresented: $showSyncTimeOptions) {
-                        syncPumpTimeActionSheet
-                    }
-                }
-            }
-
-
-            Section {
+            Section(header: Text(LocalizedString("Details", comment: "The title of the details section in MinimedPumpManager settings")))
+            {
                 LabeledValueView(label: LocalizedString("Pump ID", comment: "The title text for the pump ID config value"),
                                  value: viewModel.pumpManager.state.pumpID)
                 LabeledValueView(label: LocalizedString("Firmware Version", comment: "The title of the cell showing the pump firmware version"),
@@ -193,7 +208,6 @@ struct MinimedPumpSettingsView: View {
                 LabeledValueView(label: LocalizedString("Region", comment: "The title of the cell showing the pump region"),
                                  value: String(describing: viewModel.pumpManager.state.pumpRegion))
             }
-
 
             Section() {
                 deletePumpButton
@@ -216,7 +230,6 @@ struct MinimedPumpSettingsView: View {
 
         .insetGroupedListStyle()
         .navigationBarItems(trailing: doneButton)
-        .navigationBarTitle(String(format: LocalizedString("Medtronic %1$@", comment: "Format string fof navigation bar title for MinimedPumpSettingsView (1: model number)"), viewModel.pumpManager.state.pumpModel.description))
     }
 
     var deliverySectionTitle: String {
@@ -371,7 +384,7 @@ struct MinimedPumpSettingsView: View {
             Image(uiImage: viewModel.pumpImage)
                 .resizable()
                 .aspectRatio(contentMode: ContentMode.fit)
-                .frame(height: 150)
+                .frame(height: 100)
                 .padding(.horizontal)
         }
         .frame(maxWidth: .infinity)

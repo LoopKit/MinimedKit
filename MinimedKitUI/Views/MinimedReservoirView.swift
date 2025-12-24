@@ -44,7 +44,7 @@ struct MinimedReservoirView: View {
                 Rectangle()
                     .fill(fillColor)
                     .mask(
-                        Image("reservoir_mask")
+                        Image(frameworkImage: "reservoir_mask")
                             .resizable()
                             .scaledToFit()
                             .frame(height: maskHeight)
@@ -54,7 +54,7 @@ struct MinimedReservoirView: View {
                         Rectangle().path(in: CGRect(x:0, y: frameCenterY+maskHeight/2 - fillHeight + maskOffset, width: geometry.size.width, height: fillHeight))
                     )
             }
-            Image("reservoir")
+            Image(frameworkImage: "reservoir")
                 .resizable()
                 .scaledToFit()
         }
