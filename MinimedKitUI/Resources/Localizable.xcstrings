@@ -161,13 +161,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%@U"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%@U"
           }
         },
@@ -203,13 +203,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%@U"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%@U"
           }
         },
@@ -245,7 +245,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%@U"
           }
         },
@@ -287,7 +287,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%@U"
           }
         }
@@ -763,13 +763,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ units remaining at %2$@"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ units remaining at %2$@"
           }
         },
@@ -805,13 +805,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ units remaining at %2$@"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ units remaining at %2$@"
           }
         },
@@ -889,7 +889,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "%1$@ units remaining at %2$@"
           }
         }
@@ -1646,7 +1646,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Battery Chemistry"
+            "value" : "电池类型"
           }
         }
       }
@@ -3185,7 +3185,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Continue"
           }
         },
@@ -3221,13 +3221,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Continue"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Continue"
           }
         },
@@ -3328,7 +3328,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Delete Pump"
           }
         },
@@ -3364,13 +3364,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Delete Pump"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Delete Pump"
           }
         },
@@ -3771,7 +3771,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Done"
           }
         },
@@ -3807,7 +3807,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Done"
           }
         },
@@ -3837,7 +3837,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Done"
           }
         },
@@ -4057,7 +4057,7 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Error Suspending"
           }
         },
@@ -5007,7 +5007,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Firmware Version"
+            "value" : "固件版本"
           }
         }
       }
@@ -5090,7 +5090,7 @@
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Insulintilførsel utsatt"
+            "value" : "Insulintilførsel pauset"
           }
         },
         "nb-NO" : {
@@ -5187,7 +5187,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Delivery"
           }
         },
@@ -5211,7 +5211,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Delivery"
           }
         },
@@ -5223,13 +5223,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Delivery"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Delivery"
           }
         },
@@ -5253,7 +5253,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Delivery"
           }
         },
@@ -5265,7 +5265,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Delivery"
           }
         },
@@ -5485,7 +5485,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Remaining"
           }
         },
@@ -5509,7 +5509,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Remaining"
           }
         },
@@ -5521,13 +5521,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Remaining"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Remaining"
           }
         },
@@ -5551,7 +5551,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Remaining"
           }
         },
@@ -5563,7 +5563,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Remaining"
           }
         },
@@ -5622,7 +5622,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type"
           }
         },
@@ -5646,7 +5646,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type"
           }
         },
@@ -5658,13 +5658,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type"
           }
         },
@@ -5688,7 +5688,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Type"
           }
         },
@@ -6069,7 +6069,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No"
           }
         },
@@ -6105,7 +6105,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No"
           }
         },
@@ -6135,7 +6135,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No"
           }
         },
@@ -6147,7 +6147,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No"
           }
         },
@@ -6171,7 +6171,7 @@
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No"
           }
         },
@@ -6189,7 +6189,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No"
           }
         }
@@ -6367,7 +6367,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No, Keep Pump As Is"
           }
         },
@@ -6391,7 +6391,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No, Keep Pump As Is"
           }
         },
@@ -6403,13 +6403,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No, Keep Pump As Is"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No, Keep Pump As Is"
           }
         },
@@ -6433,7 +6433,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No, Keep Pump As Is"
           }
         },
@@ -6445,7 +6445,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No, Keep Pump As Is"
           }
         },
@@ -6487,7 +6487,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "No, Keep Pump As Is"
           }
         }
@@ -8424,7 +8424,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -8448,7 +8448,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -8460,13 +8460,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -8490,7 +8490,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -8502,7 +8502,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -8561,7 +8561,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select the type of insulin that you will be using in this pump."
           }
         },
@@ -8597,13 +8597,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select the type of insulin that you will be using in this pump."
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select the type of insulin that you will be using in this pump."
           }
         },
@@ -8639,7 +8639,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select the type of insulin that you will be using in this pump."
           }
         },
@@ -8681,7 +8681,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Select the type of insulin that you will be using in this pump."
           }
         }
@@ -8843,7 +8843,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在发送亮屏指令…"
+            "value" : "正在发送按键指令…"
           }
         }
       }
@@ -10277,7 +10277,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "尝试"
+            "value" : "试验"
           }
         }
       }
@@ -10454,7 +10454,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "U/hr"
           }
         },
@@ -10478,7 +10478,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "U/hr"
           }
         },
@@ -10490,7 +10490,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "U/hr"
           }
         },
@@ -10520,7 +10520,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "U/hr"
           }
         },
@@ -10532,7 +10532,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "U/hr"
           }
         },
@@ -10740,13 +10740,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown"
           }
         },
@@ -10782,7 +10782,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Unknown"
           }
         },
@@ -11128,7 +11128,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Yes"
           }
         },
@@ -11332,7 +11332,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "是的，同步到当前时间"
+            "value" : "是，同步到当前时间"
           }
         }
       }
