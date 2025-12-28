@@ -1991,7 +1991,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus"
           }
         },
@@ -2027,7 +2027,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus"
           }
         },
@@ -2057,7 +2057,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus"
           }
         },
@@ -2069,7 +2069,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus"
           }
         },
@@ -2093,7 +2093,7 @@
         },
         "tr" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Bolus"
           }
         },
@@ -5814,13 +5814,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         },
@@ -5844,7 +5844,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         },
@@ -5856,13 +5856,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         },
@@ -5886,7 +5886,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         },
@@ -5898,7 +5898,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         },
@@ -5940,7 +5940,7 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Insulin Suspended"
           }
         }
@@ -9434,7 +9434,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Battery Low"
           }
         },
@@ -10210,7 +10210,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Reservoir Empty"
           }
         },
@@ -10365,7 +10365,7 @@
         },
         "sk" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Pump Reservoir Low"
           }
         },
@@ -11492,7 +11492,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -11516,7 +11516,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -11528,13 +11528,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -11558,7 +11558,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -11570,7 +11570,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Scheduled Basal"
           }
         },
@@ -11923,7 +11923,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Signal Loss"
+            "value" : "信号丢失"
           }
         }
       }
@@ -12082,13 +12082,13 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -12112,7 +12112,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -12124,13 +12124,13 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
         "hu" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -12154,7 +12154,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
@@ -12166,7 +12166,7 @@
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Temp Basal"
           }
         },
