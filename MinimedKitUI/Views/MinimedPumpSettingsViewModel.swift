@@ -169,7 +169,7 @@ class MinimedPumpSettingsViewModel: ObservableObject {
         switch basalDeliveryState {
         case .active(_), .initiatingTempBasal:
             return true
-        case .tempBasal(_), .cancelingTempBasal, .suspending, .suspended(_), .resuming, .none:
+        default:
             return false
         }
     }
@@ -196,8 +196,6 @@ class MinimedPumpSettingsViewModel: ObservableObject {
 
     var basalDeliveryRate: Double? {
         switch basalDeliveryState {
-        case .suspending, .resuming, .suspended, .none, .initiatingTempBasal, .cancelingTempBasal:
-            return nil
         case .active:
             // return scheduled basal rate
             var calendar = Calendar(identifier: .gregorian)
@@ -205,6 +203,8 @@ class MinimedPumpSettingsViewModel: ObservableObject {
             return pumpManager.state.basalSchedule.currentRate(using: calendar)
         case .tempBasal(let dose):
             return dose.unitsPerHour
+        default:
+            return nil
         }
     }
 
@@ -298,7 +298,7 @@ extension PumpManagerStatus.BasalDeliveryState {
 
     var shownAction: SuspendResumeAction {
         switch self {
-        case .active, .suspending, .tempBasal, .cancelingTempBasal, .initiatingTempBasal:
+        case .active, .suspending, .tempBasal, .cancelingTempBasal, .initiatingTempBasal, .pumpInoperable:
             return .suspend
         case .suspended, .resuming:
             return .resume
@@ -311,7 +311,7 @@ extension PumpManagerStatus.BasalDeliveryState {
             return LocalizedString("Suspend Delivery", comment: "Title text for button to suspend insulin delivery")
         case .suspending:
             return LocalizedString("Suspending", comment: "Title text for button when insulin delivery is in the process of being stopped")
-        case .suspended:
+        case .suspended, .pumpInoperable:
             return LocalizedString("Resume Delivery", comment: "Title text for button to resume insulin delivery")
         case .resuming:
             return LocalizedString("Resuming", comment: "Title text for button when insulin delivery is in the process of being resumed")
