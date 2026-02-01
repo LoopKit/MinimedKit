@@ -2439,7 +2439,15 @@
       }
     },
     "Cannula Age" : {
-      "comment" : "Text for time since last medtronic pump set change event"
+      "comment" : "Text for time since last medtronic pump set change event",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alter der Kanüle"
+          }
+        }
+      }
     },
     "Changing" : {
       "comment" : "Text shown in basal rate space when basal is changing",
@@ -3312,10 +3320,26 @@
       }
     },
     "day" : {
-      "comment" : "Singular day unit"
+      "comment" : "Singular day unit",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag"
+          }
+        }
+      }
     },
     "days" : {
-      "comment" : "Plural days unit"
+      "comment" : "Plural days unit",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tage"
+          }
+        }
+      }
     },
     "Delete Pump" : {
       "comment" : "Button label for removing Pump\nText to delete pump",
@@ -3455,7 +3479,15 @@
       }
     },
     "Details" : {
-      "comment" : "The title of the details section in MinimedPumpManager settings"
+      "comment" : "The title of the details section in MinimedPumpManager settings",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
+        }
+      }
     },
     "Devices" : {
       "comment" : "Header for devices section of RileyLinkSetupView",
@@ -5013,10 +5045,26 @@
       }
     },
     "hour" : {
-      "comment" : "Singular hour unit"
+      "comment" : "Singular hour unit",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stunde"
+          }
+        }
+      }
     },
     "hours" : {
-      "comment" : "Plural hours unit"
+      "comment" : "Plural hours unit",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stunden"
+          }
+        }
+      }
     },
     "Insulin\nSuspended" : {
       "comment" : "Text shown in insulin delivery space when insulin suspended",
@@ -5174,7 +5222,15 @@
       }
     },
     "Insulin Age" : {
-      "comment" : "Text for time since last medtronic pump rewind event"
+      "comment" : "Text for time since last medtronic pump rewind event",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alter des Insulins"
+          }
+        }
+      }
     },
     "Insulin Delivery" : {
       "comment" : "Title of insulin delivery section",
@@ -9010,7 +9066,15 @@
       }
     },
     "Status" : {
-      "comment" : "The title of the status section in MinimedPumpManager settings"
+      "comment" : "The title of the status section in MinimedPumpManager settings",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
     },
     "Succeeded" : {
       "comment" : "A message indicating a command succeeded",
