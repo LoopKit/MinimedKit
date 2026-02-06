@@ -70,7 +70,7 @@ extension MinimedPumpManager: PumpManagerUI {
 // MARK: - PumpStatusIndicator
 extension MinimedPumpManager {
     
-    public var pumpStatusHighlight: DeviceStatusHighlight? {
+    public var pumpStatusHighlight: PumpStatusHighlight? {
         return buildPumpStatusHighlight(for: state, recents: recents, andDate: dateGenerator())
     }
     
