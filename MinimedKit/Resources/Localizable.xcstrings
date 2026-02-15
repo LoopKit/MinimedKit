@@ -2073,6 +2073,12 @@
             "value" : "Bolus"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolus"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5902,6 +5908,12 @@
             "value" : "Insulin Suspended"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrarea insulinei suspendată"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9578,7 +9590,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pumpa nu a răspuns"
+            "value" : "Pompa nu a răspuns"
           }
         },
         "ru" : {
@@ -11574,6 +11586,12 @@
             "value" : "Scheduled Basal"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazală programată"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12168,6 +12186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Temp Basal"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazală temporară"
           }
         },
         "ru" : {
