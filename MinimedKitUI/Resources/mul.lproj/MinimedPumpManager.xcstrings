@@ -98,7 +98,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configurarea RileyLink-ului"
+            "value" : "Configurarea dispozitivului RileyLink"
           }
         },
         "ru" : {
@@ -1463,6 +1463,12 @@
             "value" : "Review your pump settings below. You can change these settings at any time in Loopʼs Settings screen."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérifiez les paramètres de votre pompe ci-dessous. Vous pouvez les modifier à tout moment dans l'écran Paramètres de Loop."
+          }
+        },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1761,6 +1767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pump Settings"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages de la pompe"
           }
         },
         "nb" : {

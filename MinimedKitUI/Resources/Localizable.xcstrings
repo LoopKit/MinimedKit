@@ -249,6 +249,12 @@
             "value" : "%@U"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@U"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -849,6 +855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ unidades restantes em %2$@"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ unități rămase la %2$@"
           }
         },
         "ru" : {
@@ -2446,6 +2458,18 @@
             "state" : "translated",
             "value" : "Alter der Kanüle"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Age de la canule"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vârsta canulei"
+          }
         }
       }
     },
@@ -2919,7 +2943,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Configuration"
           }
         },
@@ -2943,7 +2967,7 @@
         },
         "fi" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Configuration"
           }
         },
@@ -2955,7 +2979,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Configuration"
           }
         },
@@ -2985,7 +3009,7 @@
         },
         "pl" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Configuration"
           }
         },
@@ -2999,6 +3023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configurare"
           }
         },
         "ru" : {
@@ -3056,7 +3086,7 @@
         },
         "ce" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Connect"
           }
         },
@@ -3092,7 +3122,7 @@
         },
         "he" : {
           "stringUnit" : {
-            "state" : "new",
+            "state" : "translated",
             "value" : "Connect"
           }
         },
@@ -3136,6 +3166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conectar"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectare"
           }
         },
         "ru" : {
@@ -3275,6 +3311,12 @@
             "value" : "Continuar"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuați"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3327,6 +3369,18 @@
             "state" : "translated",
             "value" : "Tag"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jour"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zi"
+          }
         }
       }
     },
@@ -3337,6 +3391,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tage"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jours"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zile"
           }
         }
       }
@@ -3434,6 +3500,12 @@
             "value" : "Deletar Bomba"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ștergeți pompa"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3485,6 +3557,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Details"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Détails"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detalii"
           }
         }
       }
@@ -3883,6 +3967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Realizat"
           }
         },
         "ru" : {
@@ -5052,6 +5142,18 @@
             "state" : "translated",
             "value" : "Stunde"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "heure"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oră"
+          }
         }
       }
     },
@@ -5062,6 +5164,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stunden"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "heures"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ore"
           }
         }
       }
@@ -5229,6 +5343,18 @@
             "state" : "translated",
             "value" : "Alter des Insulins"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Age de l'insuline"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vârsta insulinei"
+          }
         }
       }
     },
@@ -5323,6 +5449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulin Delivery"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrarea insulinei"
           }
         },
         "ru" : {
@@ -5623,6 +5755,12 @@
             "value" : "Insulin Remaining"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulină rămasă"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5758,6 +5896,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tipo de Insulina"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tip de insulină"
           }
         },
         "ru" : {
@@ -6207,6 +6351,12 @@
             "value" : "No"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6505,6 +6655,12 @@
             "value" : "No, Keep Pump As Is"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu, păstrați pompa așa cum este"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6663,7 +6819,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pe pompa, mergeți la ecranul \"Find Device\" și selectați \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device"
+            "value" : "Pe pompă, accesați ecranul Găsire dispozitiv și selectați „Găsire dispozitiv”. \n \n Meniu principal > \n Utilitare > \n Conectare dispozitive > \n Alte dispozitive > \n Activat > \n Găsire dispozitiv"
           }
         },
         "ru" : {
@@ -8562,6 +8718,12 @@
             "value" : "Scheduled Basal"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazală programată"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8697,6 +8859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Select the type of insulin that you will be using in this pump."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selectați tipul de insulină pe care îl veți utiliza în această pompă."
           }
         },
         "ru" : {
@@ -9072,6 +9240,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Status"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statut"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stare"
           }
         }
       }
@@ -10600,6 +10780,12 @@
             "value" : "U/hr"
           }
         },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "U/oră"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10890,6 +11076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Desconhecido"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necunoscut"
           }
         },
         "ru" : {
