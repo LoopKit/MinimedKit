@@ -10,6 +10,8 @@ import Foundation
 import LoopKit
 
 class MockPumpManagerDelegate: PumpManagerDelegate {
+    var automatedTreatmentState: LoopKit.AutomatedTreatmentState?
+    
     var automaticDosingEnabled = true
 
     var historyFetchStartDate = Date()
@@ -68,11 +70,17 @@ class MockPumpManagerDelegate: PumpManagerDelegate {
 
     func retractAlert(identifier: Alert.Identifier) {}
 
-    func doesIssuedAlertExist(identifier: Alert.Identifier, completion: @escaping (Result<Bool, Error>) -> Void) {}
+    func doesIssuedAlertExist(identifier: LoopKit.Alert.Identifier) async throws -> Bool {
+        return false
+    }
 
-    func lookupAllUnretracted(managerIdentifier: String, completion: @escaping (Result<[PersistedAlert], Error>) -> Void) {}
+    func lookupAllUnretracted(managerIdentifier: String) async throws -> [LoopKit.PersistedAlert] {
+        return []
+    }
 
-    func lookupAllUnacknowledgedUnretracted(managerIdentifier: String, completion: @escaping (Result<[PersistedAlert], Error>) -> Void) {}
+    func lookupAllUnacknowledgedUnretracted(managerIdentifier: String) async throws -> [LoopKit.PersistedAlert] {
+        return []
+    }
 
     func recordRetractedAlert(_ alert: Alert, at date: Date) {}
 

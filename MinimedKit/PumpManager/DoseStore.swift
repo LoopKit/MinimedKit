@@ -42,7 +42,7 @@ extension Collection where Element == TimestampedHistoryEvent {
                 if !bolus.wasRemotelyTriggered {
                     automatic = false
                 }
-                dose = DoseEntry(type: .bolus, startDate: event.date, endDate: bolusEndDate, value: bolus.programmed, unit: .units, deliveredUnits: bolus.amount, automatic: automatic, isMutable: bolus.isMutable(atDate: now, forPump: model), wasProgrammedByPumpUI: !bolus.wasRemotelyTriggered)
+                dose = DoseEntry(type: .bolus, startDate: event.date, endDate: bolusEndDate, value: bolus.programmed, unit: .units, decisionId: nil, deliveredUnits: bolus.amount, automatic: automatic, isMutable: bolus.isMutable(atDate: now, forPump: model), wasProgrammedByPumpUI: !bolus.wasRemotelyTriggered)
             case let suspendEvent as SuspendPumpEvent:
                 title = LocalizedString("Suspend", comment: "Event title for suspend")
                 dose = DoseEntry(suspendDate: event.date, wasProgrammedByPumpUI: !suspendEvent.wasRemotelyTriggered)
@@ -52,7 +52,7 @@ extension Collection where Element == TimestampedHistoryEvent {
                 dose = DoseEntry(resumeDate: event.date, wasProgrammedByPumpUI: !resumeEvent.wasRemotelyTriggered)
             case let temp as TempBasalPumpEvent:
                 if case .Absolute = temp.rateType {
-                    lastTempBasal = DoseEntry(type: .tempBasal, startDate: event.date, value: temp.rate, unit: .unitsPerHour, isMutable: false, wasProgrammedByPumpUI: !temp.wasRemotelyTriggered)
+                    lastTempBasal = DoseEntry(type: .tempBasal, startDate: event.date, value: temp.rate, unit: .unitsPerHour, decisionId: nil, isMutable: false, wasProgrammedByPumpUI: !temp.wasRemotelyTriggered)
                     continue
                 } else {
                     title = LocalizedString("Percent Temp Basal", comment: "Event title for percent based temp basal")
@@ -78,6 +78,7 @@ extension Collection where Element == TimestampedHistoryEvent {
                         endDate: endDate,
                         value: lastTemp.unitsPerHour,
                         unit: .unitsPerHour,
+                        decisionId: nil,
                         automatic: false, // If this was automatic dose, it should be set as such during reconciliation
                         isMutable: isMutable,
                         wasProgrammedByPumpUI: lastTemp.wasProgrammedByPumpUI
@@ -92,6 +93,7 @@ extension Collection where Element == TimestampedHistoryEvent {
                     endDate: event.date.addingTimeInterval(.hours(24)),
                     value: basal.scheduleEntry.rate,
                     unit: .unitsPerHour,
+                    decisionId: nil,
                     isMutable: false
                 )
             case is RewindPumpEvent:

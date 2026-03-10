@@ -37,10 +37,10 @@ final class ReconciliationTests: XCTestCase {
 
         let cancelTime = bolusEventTime.addingTimeInterval(TimeInterval(minutes: 1))
 
-        let unfinalizedBolus = UnfinalizedDose(bolusAmount: 5.4, startTime: bolusTime, duration: TimeInterval(200), insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
+        let unfinalizedBolus = UnfinalizedDose(decisionId: nil, bolusAmount: 5.4, startTime: bolusTime, duration: TimeInterval(200), insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
 
         // 5.4 bolus interrupted at 1.0 units
-        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: cancelTime, value: unfinalizedBolus.units, unit: .units, deliveredUnits: 1.0)
+        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: cancelTime, value: unfinalizedBolus.units, unit: .units, decisionId: nil, deliveredUnits: 1.0)
 
         let bolusEvent = NewPumpEvent(
             date: bolusEventTime,
@@ -74,9 +74,9 @@ final class ReconciliationTests: XCTestCase {
 
         let bolusDuration = PumpModel.model523.bolusDeliveryTime(units: bolusAmount)
 
-        let unfinalizedBolus = UnfinalizedDose(bolusAmount: bolusAmount, startTime: bolusTime, duration: bolusDuration, insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
+        let unfinalizedBolus = UnfinalizedDose(decisionId: nil, bolusAmount: bolusAmount, startTime: bolusTime, duration: bolusDuration, insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
 
-        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, deliveredUnits: bolusAmount)
+        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, decisionId: nil, deliveredUnits: bolusAmount)
 
         let bolusEvent = NewPumpEvent(
             date: bolusEventTime,
@@ -111,7 +111,7 @@ final class ReconciliationTests: XCTestCase {
 
         let bolusDuration = PumpModel.model523.bolusDeliveryTime(units: bolusAmount)
 
-        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, deliveredUnits: bolusAmount)
+        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, decisionId: nil, deliveredUnits: bolusAmount)
 
         let bolusEvent = NewPumpEvent(
             date: bolusEventTime,
