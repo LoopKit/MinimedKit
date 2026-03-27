@@ -10366,7 +10366,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rezervor de pompare scăzut"
+            "value" : "Rezervorul pompei este scăzut"
           }
         },
         "ru" : {
