@@ -3972,7 +3972,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Realizat"
+            "value" : "Gata"
           }
         },
         "ru" : {
@@ -5615,7 +5615,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Livrarea insulinei poate fi determinată din interpretarea istoricului citit din pompă sau analizând nivelul rezervorului în timp. Citirea istoricului de evenimente permite o construcție mai exacta a graficului și uploadarea datelor actualizate în Nightscout cu prețul descărcării mai rapide a bateriei pompei si a probabilității mai mari de erori de transmisie radio, comparând cu citire numai a nivelului rezervorului. Dacă dintr-o cauză sau alta sistemul nu va reuși să folosească opțiunea aleasă, se va încerca revenirea la cealaltă posibilitate."
+            "value" : "Livrarea insulinei poate fi determinată din interpretarea istoricului citit din pompă sau analizând nivelul rezervorului în timp. Citirea istoricului de evenimente permite o construcție mai exacta a graficului și încărcarea datelor actualizate în Nightscout cu prețul descărcării mai rapide a bateriei pompei si a probabilității mai mari de erori de transmisie radio, comparând cu citire numai a nivelului rezervorului. Dacă dintr-o cauză sau alta sistemul nu va reuși să folosească opțiunea aleasă, se va încerca revenirea la cealaltă posibilitate."
           }
         },
         "ru" : {
