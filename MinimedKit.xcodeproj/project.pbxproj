@@ -1351,10 +1351,9 @@
 				"zh-Hans",
 				fr,
 				pl,
-				hi,
-				ce,
 				hu,
 				uk,
+				ko,
 			);
 			mainGroup = C1E3490729C7A866009A50A5;
 			productRefGroup = C1E3491229C7A866009A50A5 /* Products */;
