@@ -2386,7 +2386,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bolus în curs de administrare"
+            "value" : "Bolus în Derulare"
           }
         },
         "ru" : {
@@ -3298,7 +3298,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schimbați imediat bateria pompei"
+            "value" : "Schimbați bateria pompei imediat"
           }
         },
         "ru" : {
@@ -4868,7 +4868,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renunță"
+            "value" : "Renunțați"
           }
         },
         "ru" : {
@@ -6519,7 +6519,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Loop a trimis o comandă de bolus pompei, dar nu a putut confirma că pompa a primit comanda. Pentru siguranță, Loop va presupune că bolusul a fost administrat. Când Loop preia istoricul de la pompă și timpul estimat de terminare a bolusului este trecut, Loop își va actualiza înregistrările de livrare pentru a se potrivi cu ceea ce raportează pompa."
+            "value" : "Loop a trimis o comandă de bolus pompei, dar nu a putut confirma că pompa a primit comanda. Pentru siguranță, Loop va presupune că bolusul a fost administrat. Când Loop preia istoricul de la pompă și timpul estimat de terminare a bolusului este trecut, Loop își va actualiza înregistrările de administrare pentru a se potrivi cu ceea ce raportează pompa."
           }
         },
         "ru" : {
@@ -7915,7 +7915,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minimed 500/700 Series"
+            "value" : "Seriile Minimed 500/700"
           }
         },
         "ru" : {
@@ -9280,7 +9280,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inițiere"
+            "value" : "Amorsați"
           }
         },
         "ru" : {
@@ -9435,7 +9435,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nivel scăzut baterie pompă"
+            "value" : "Baterie pompă descărcată"
           }
         },
         "ru" : {
@@ -11291,7 +11291,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Derulare"
+            "value" : "Derulați"
           }
         },
         "ru" : {

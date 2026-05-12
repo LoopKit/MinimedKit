@@ -2081,7 +2081,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Se livrează: %1$@\n"
+            "value" : "Se administrează: %1$@\n"
           }
         },
         "ru" : {
@@ -2248,7 +2248,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renunță"
+            "value" : "Anulați"
           }
         },
         "ru" : {
@@ -2403,7 +2403,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oprește bazala temporară"
+            "value" : "Anulare bazala temporară"
           }
         },
         "ru" : {
@@ -2468,7 +2468,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vârsta canulei"
+            "value" : "Vechimea canulei"
           }
         }
       }
@@ -3171,7 +3171,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Conectare"
+            "value" : "Conectați"
           }
         },
         "ru" : {
@@ -4127,7 +4127,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eroare în timpul reluării"
+            "value" : "Eroare reluare"
           }
         },
         "ru" : {
@@ -4288,7 +4288,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eroare în timpul suspendării"
+            "value" : "Eroare suspendare"
           }
         },
         "ru" : {
@@ -5353,7 +5353,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vârsta insulinei"
+            "value" : "Vechimea insulinei"
           }
         }
       }
@@ -5615,7 +5615,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Livrarea insulinei poate fi determinată din interpretarea istoricului citit din pompă sau analizând nivelul rezervorului în timp. Citirea istoricului de evenimente permite o construcție mai exacta a graficului și încărcarea datelor actualizate în Nightscout cu prețul descărcării mai rapide a bateriei pompei si a probabilității mai mari de erori de transmisie radio, comparând cu citire numai a nivelului rezervorului. Dacă dintr-o cauză sau alta sistemul nu va reuși să folosească opțiunea aleasă, se va încerca revenirea la cealaltă posibilitate."
+            "value" : "Administrarea insulinei poate fi determinată din interpretarea istoricului citit din pompă sau analizând nivelul rezervorului în timp. Citirea istoricului de evenimente permite o construcție mai exacta a graficului și încărcarea datelor actualizate în Nightscout cu prețul descărcării mai rapide a bateriei pompei si a probabilității mai mari de erori de transmisie radio, comparând cu citire numai a nivelului rezervorului. Dacă dintr-o cauză sau alta sistemul nu va reuși să folosească opțiunea aleasă, se va încerca revenirea la cealaltă posibilitate."
           }
         },
         "ru" : {
@@ -8256,7 +8256,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reia administrarea"
+            "value" : "Reluați administrarea"
           }
         },
         "ru" : {
@@ -8578,7 +8578,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reîncearcă"
+            "value" : "Reîncercați"
           }
         },
         "ru" : {
@@ -9531,7 +9531,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suspendă administrarea"
+            "value" : "Suspendați administrarea"
           }
         },
         "ru" : {
