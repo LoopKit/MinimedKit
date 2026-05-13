@@ -998,7 +998,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ID-ul de pompă este porțiunea de 6 cifre din numărul serial (afișat ca SN sau S/N)."
+            "value" : "ID de pompă este porțiunea de 6 cifre din numărul serial (afișat ca SN sau S/N)."
           }
         },
         "ru" : {
@@ -1406,7 +1406,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Introduceți ID-ul de pompă din 6 cifre"
+            "value" : "Introduceți ID de pompă din 6 cifre"
           }
         },
         "ru" : {
