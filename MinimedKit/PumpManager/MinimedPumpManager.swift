@@ -750,19 +750,19 @@ extension MinimedPumpManager {
             return
         }
         
-        rileyLinkDeviceProvider.getDevices { (devices) in
-            guard let device = devices.firstConnected else {
-                completion(PumpManagerError.connection(MinimedPumpManagerError.noRileyLink))
-                return
+        Task {
+            guard let startDate = await self.pumpDelegate.delegate?.startDateToFilterNewPumpEvents(for: self) else {
+                preconditionFailure("pumpManagerDelegate cannot be nil")
             }
-            
-            self.pumpOps.runSession(withName: "Fetch Pump History", using: device) { (session) in
-                Task {
-                    do {
-                        guard let startDate = await self.pumpDelegate.delegate?.startDateToFilterNewPumpEvents(for: self) else {
-                            preconditionFailure("pumpManagerDelegate cannot be nil")
-                        }
 
+            self.rileyLinkDeviceProvider.getDevices { (devices) in
+                guard let device = devices.firstConnected else {
+                    completion(PumpManagerError.connection(MinimedPumpManagerError.noRileyLink))
+                    return
+                }
+
+                self.pumpOps.runSession(withName: "Fetch Pump History", using: device) { (session) in
+                    do {
                         // Include events up to a minute before startDate, since pump event time and pending event time might be off
                         self.log.default("Fetching history since %{public}@", String(describing: startDate.addingTimeInterval(.minutes(-1))))
                         let (historyEvents, model) = try session.getHistoryEvents(since: startDate.addingTimeInterval(.minutes(-1)))
