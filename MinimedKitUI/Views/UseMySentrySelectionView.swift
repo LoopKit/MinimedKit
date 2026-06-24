@@ -29,6 +29,6 @@ struct UseMySentrySelectionView: View {
             }
         }
         .insetGroupedListStyle()
-        .navigationTitle(LocalizedString("Use MySentry", comment: "navigation title for pump battery type selection"))
+        .uikitNavigationTitle(LocalizedString("Use MySentry", comment: "navigation title for pump battery type selection"), displayMode: .inline)
     }
 }
