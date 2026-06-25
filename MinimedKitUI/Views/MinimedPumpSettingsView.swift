@@ -157,7 +157,7 @@ struct MinimedPumpSettingsView: View {
             Section(header: Text(LocalizedString("Configuration", comment: "The title of the configuration section in MinimedPumpManager settings")))
             {
                 NavigationLink(destination: InsulinTypeSetting(initialValue: viewModel.pumpManager.state.insulinType, supportedInsulinTypes: supportedInsulinTypes, allowUnsetInsulinType: false, didChange: viewModel.didChangeInsulinType)
-                    .uikitNavigationTitle(LocalizedString("Insulin Type", comment: "Text for confidence reminders navigation link"), displayMode: .inline)) {
+                    .uikitNavigationTitle(LocalizedString("Insulin Type", comment: "Text for confidence reminders navigation link"))) {
                     HStack {
                         Text(LocalizedString("Insulin Type", comment: "Text for confidence reminders navigation link")).foregroundColor(Color.primary)
                         if let currentTitle = viewModel.pumpManager.state.insulinType?.brandName {

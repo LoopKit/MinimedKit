@@ -30,6 +30,6 @@ struct DataSourceSelectionView: View {
             }
         }
         .insetGroupedListStyle()
-        .uikitNavigationTitle(LocalizedString("Preferred Data Source", comment: "navigation title for pump battery type selection"), displayMode: .inline)
+        .uikitNavigationTitle(LocalizedString("Preferred Data Source", comment: "navigation title for pump battery type selection"))
     }
 }
