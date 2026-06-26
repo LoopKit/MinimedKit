@@ -98,7 +98,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configurarea dispozitivului RileyLink"
+            "value" : "Configurare dispozitiv RileyLink"
           }
         },
         "ru" : {
@@ -230,7 +230,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Caută dispozitivul"
+            "value" : "Caută dispozitiv"
           }
         },
         "ru" : {
@@ -1358,7 +1358,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entrée l’ID de pompe de 6 chiffres"
+            "value" : "Entrée l’ID de pompe sur 6 chiffres"
           }
         },
         "he" : {
@@ -1473,6 +1473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se gjennom pumpeinnstillingene dine nedenfor. Du kan endre disse innstillingene når som helst i Loops innstillingsskjerm."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controleer hieronder de instellingen van je pomp. Je kunt deze instellingen op elk moment wijzigen in het instellingenscherm van Loop."
           }
         },
         "ro" : {
@@ -1779,6 +1785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pumpeinnstillinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomp Instellingen"
           }
         },
         "ro" : {
