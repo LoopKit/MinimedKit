@@ -3238,6 +3238,12 @@
             "value" : "jour"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dag"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3259,6 +3265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "jours"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dagen"
           }
         },
         "ro" : {
@@ -3419,6 +3431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Détails"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
           }
         },
         "ro" : {
@@ -4945,6 +4963,12 @@
             "value" : "heure"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uur"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4966,6 +4990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "heures"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uren"
           }
         },
         "ro" : {
