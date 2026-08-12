@@ -18,10 +18,6 @@ extension MinimedPumpManager: PumpManagerUI {
     public static var onboardingImage: UIImage? {
         return UIImage.pumpImage(in: nil, isLargerModel: false, isSmallImage: true)
     }
-    
-    public static var pickerImage: UIImage? {
-        UIImage.pumpImage(in: nil, isLargerModel: true, isSmallImage: false)
-    }
 
     static public func setupViewController(initialSettings settings: PumpManagerSetupSettings, bluetoothProvider: BluetoothProvider, colorPalette: LoopUIColorPalette, allowDebugFeatures: Bool, prefersToSkipUserInteraction: Bool, allowedInsulinTypes: [InsulinType]) -> SetupUIResult<PumpManagerViewController, PumpManagerUI> {
         let navVC = MinimedPumpManagerSetupViewController.instantiateFromStoryboard()
