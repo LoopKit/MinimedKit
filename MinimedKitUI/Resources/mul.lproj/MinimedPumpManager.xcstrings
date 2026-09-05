@@ -524,7 +524,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "不要通过胰岛素泵来修改时间"
+            "value" : "请勿通过泵的菜单更改时间。"
           }
         }
       }

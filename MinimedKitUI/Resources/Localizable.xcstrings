@@ -2368,6 +2368,12 @@
             "state" : "translated",
             "value" : "Vechimea canulei"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "针管使用时长"
+          }
         }
       }
     },
@@ -3249,6 +3255,12 @@
             "state" : "translated",
             "value" : "zi"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天"
+          }
         }
       }
     },
@@ -3277,6 +3289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "zile"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天"
           }
         }
       }
@@ -3443,6 +3461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detalii"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "详情"
           }
         }
       }
@@ -4019,7 +4043,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "无法恢复"
+            "value" : "恢复输注错误"
           }
         }
       }
@@ -4174,7 +4198,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "无法暂停"
+            "value" : "暂停输注出错"
           }
         }
       }
@@ -4974,6 +4998,12 @@
             "state" : "translated",
             "value" : "oră"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小时"
+          }
         }
       }
     },
@@ -5002,6 +5032,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ore"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小时"
           }
         }
       }
@@ -5108,7 +5144,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Administrarea insulinei suspendată"
+            "value" : "Insulina\nSuspendată"
           }
         },
         "ru" : {
@@ -5174,6 +5210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vechimea insulinei"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "胰岛素已作用时长"
           }
         }
       }
@@ -6579,7 +6621,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pe pompă, accesați ecranul Găsire dispozitiv și selectați „Găsire dispozitiv”. \n \n Meniu principal > \n Utilitare > \n Conectare dispozitive > \n Alte dispozitive > \n Activat > \n Găsire dispozitiv"
+            "value" : "Pe pompă, accesați ecranul Găsire dispozitiv și selectați \"Găsire dispozitiv\". \n \n Meniu principal > \n Utilitare > \n Conectare dispozitive > \n Alte dispozitive > \n Activat > \n Găsire dispozitiv"
           }
         },
         "ru" : {
@@ -7235,7 +7277,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "胰岛素泵序列号"
+            "value" : "泵ID"
           }
         }
       }
@@ -8922,6 +8964,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stare"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状态"
           }
         }
       }
