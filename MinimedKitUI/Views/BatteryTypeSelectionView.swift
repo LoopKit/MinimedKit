@@ -31,6 +31,6 @@ struct BatteryTypeSelectionView: View {
             }
         }
         .insetGroupedListStyle()
-        .navigationTitle(LocalizedString("Pump Battery Type", comment: "navigation title for pump battery type selection"))
+        .uikitNavigationTitle(LocalizedString("Pump Battery Type", comment: "navigation title for pump battery type selection"))
     }
 }
