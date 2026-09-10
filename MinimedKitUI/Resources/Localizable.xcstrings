@@ -207,6 +207,12 @@
             "value" : "%@U"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@E"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -789,6 +795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ unità rimanenti alle ore %2$@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ enheter igjen kl. %2$@"
           }
         },
         "nb-NO" : {
@@ -2363,6 +2375,12 @@
             "value" : "Age de la canule"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kannula alder"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2875,6 +2893,12 @@
             "value" : "Impostazioni"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppsett"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3010,6 +3034,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connetti"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilkoble"
           }
         },
         "nb-NO" : {
@@ -3149,6 +3179,12 @@
             "value" : "Continua"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3244,6 +3280,12 @@
             "value" : "jour"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dag"
+          }
+        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3277,6 +3319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "jours"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dager"
           }
         },
         "nl" : {
@@ -3354,6 +3402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancella Microinfusore"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett pumpen"
           }
         },
         "nb-NO" : {
@@ -3449,6 +3503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Détails"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detaljer"
           }
         },
         "nl" : {
@@ -3817,6 +3877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fine"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
           }
         },
         "nb-NO" : {
@@ -4987,6 +5053,12 @@
             "value" : "heure"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "time"
+          }
+        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5020,6 +5092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "heures"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "timer"
           }
         },
         "nl" : {
@@ -5206,6 +5284,12 @@
             "value" : "Age de l'insuline"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "insulin alder"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5275,6 +5359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulina Somministrata"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulintilførsel"
           }
         },
         "nb-NO" : {
@@ -5569,6 +5659,12 @@
             "value" : "Insulina Rimanente"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenværende insulin"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5704,6 +5800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tipo di Insulina"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulintype"
           }
         },
         "nb-NO" : {
@@ -6141,6 +6243,12 @@
             "value" : "No"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nei"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6431,6 +6539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No, Tieni microinfusore Come È"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nei, behold pumpen slik som den er"
           }
         },
         "nb-NO" : {
@@ -8418,6 +8532,12 @@
             "value" : "Basale programmata"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planlagt basal"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8553,6 +8673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seleziona il tipo di insulina che utilizzerai in questo microinfusore."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg insulintypen som du kommer til å bruke med denne pumpen."
           }
         },
         "nb-NO" : {
@@ -8958,6 +9084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Statut"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "status"
           }
         },
         "ro" : {
@@ -10408,6 +10540,12 @@
             "value" : "U/ora"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E/t"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10692,6 +10830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sconosciuto"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukjent"
           }
         },
         "nb-NO" : {
