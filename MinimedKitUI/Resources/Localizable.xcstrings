@@ -1104,7 +1104,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomptijd Aanpassen..."
+            "value" : "Pomptijd aanpassen…"
           }
         },
         "pl" : {
@@ -1253,7 +1253,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alkaline en Lithium batterijen werken na verloop van tijd minder goed. Alkaline heeft de neiging om in de loop van de tijd een lineair spanningsverlies te hebben, terwijl lithium batterijen de neiging hebben om hun spanning te behouden tot halverwege hun levensduur. Bij normaal gebruik in een niet-MySentry-compatibele Minimed (x22/x15) insulinepomp met Loop, gaan Alkaline batterijen ongeveer 4 tot 5 dagen mee. Lithiumbatterijen gaan tussen de 1-2 weken mee. Deze selectie gebruikt verschillende leegloop snelheden voor batterijvoltage voor elk van de typen batterijen en waarschuwt de gebruiker wanneer een batterij ongeveer in 8 tot 10 uur leeg is."
+            "value" : "Alkaline- en lithiumbatterijen werken na verloop van tijd minder goed. Alkaline heeft de neiging om in de loop van de tijd een lineair spanningsverlies te hebben, terwijl lithiumbatterijen de neiging hebben om hun spanning te behouden tot halverwege hun levensduur. Bij normaal gebruik in een niet-MySentry-compatibele Minimed (x22/x15) insulinepomp met Loop, gaan alkalinebatterijen ongeveer 4 tot 5 dagen mee. Lithiumbatterijen gaan tussen de 1-2 weken mee. Deze selectie gebruikt verschillende leegloop snelheden voor batterijvoltage voor elk van de typen batterijen en waarschuwt de gebruiker wanneer een batterij ongeveer in 8 tot 10 uur leeg is."
           }
         },
         "pl" : {
@@ -1538,7 +1538,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batterij Chemie"
+            "value" : "Batterij chemie"
           }
         },
         "pl" : {
@@ -1836,7 +1836,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beste Frequentie"
+            "value" : "Beste frequentie"
           }
         },
         "pl" : {
@@ -2289,7 +2289,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijdelijk Basaal Annuleren"
+            "value" : "Tijdelijke basaalstand annuleren"
           }
         },
         "pl" : {
@@ -2379,6 +2379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kannula alder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leeftijd canule"
           }
         },
         "ro" : {
@@ -2622,7 +2628,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijd Aanpassen..."
+            "value" : "Tijd aanpassen…"
           }
         },
         "pl" : {
@@ -4043,7 +4049,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fout Bij Hervatten"
+            "value" : "Fout bij hervatten"
           }
         },
         "pl" : {
@@ -4198,7 +4204,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fout Bij Onderbreken"
+            "value" : "Fout bij onderbreken"
           }
         },
         "pl" : {
@@ -4347,7 +4353,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fout Synchroniseren Tijd"
+            "value" : "Fout synchroniseren tijd"
           }
         },
         "pl" : {
@@ -5198,7 +5204,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Insuline\nOnderbroken"
+            "value" : "Insulinetoediening\nonderbroken"
           }
         },
         "pl" : {
@@ -5288,6 +5294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "insulin alder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leeftijd insuline"
           }
         },
         "ro" : {
@@ -6866,7 +6878,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voorkeur Gegevensbron"
+            "value" : "Voorkeur gegevensbron"
           }
         },
         "pl" : {
@@ -7015,7 +7027,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pompbatterij Resterend"
+            "value" : "Pompbatterij resterend"
           }
         },
         "pl" : {
@@ -8094,7 +8106,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hervat Toediening"
+            "value" : "Hervat toediening"
           }
         },
         "pl" : {
@@ -8404,7 +8416,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opnieuw Proberen"
+            "value" : "Opnieuw proberen"
           }
         },
         "pl" : {
@@ -8845,7 +8857,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Signaal Druk Op Knop Versturen"
+            "value" : "Signaal druk op knop versturen"
           }
         },
         "pl" : {
@@ -9000,7 +9012,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijdelijk Basaal Starten"
+            "value" : "Tijdelijke basaalstand starten"
           }
         },
         "pl" : {
@@ -9090,6 +9102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "status"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
           }
         },
         "ro" : {
@@ -9345,7 +9363,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Onderbreek Toediening"
+            "value" : "Onderbreek toediening"
           }
         },
         "pl" : {
@@ -10102,7 +10120,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijdsverschil Ontdekt"
+            "value" : "Tijdsverschil ontdekt"
           }
         },
         "pl" : {
@@ -11294,7 +11312,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ja, Synchroniseer met Huidige Tijd"
+            "value" : "Ja, synchroniseer met huidige tijd"
           }
         },
         "pl" : {
