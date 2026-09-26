@@ -80,7 +80,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RileyLink Installatie"
+            "value" : "RileyLink installatie"
           }
         },
         "pl" : {
@@ -212,7 +212,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zoek Apparaat"
+            "value" : "Zoek apparaat"
           }
         },
         "pl" : {
@@ -2144,7 +2144,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configuratie Voltooid"
+            "value" : "Configuratie voltooid"
           }
         },
         "pl" : {

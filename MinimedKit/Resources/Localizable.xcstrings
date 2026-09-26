@@ -1110,7 +1110,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alarm Automatisch Uit"
+            "value" : "Alarm automatisch uit"
           }
         },
         "pl" : {
@@ -1402,7 +1402,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batterij Leeg"
+            "value" : "Batterij leeg"
           }
         },
         "pl" : {
@@ -1545,7 +1545,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Limiet Batterij Uit"
+            "value" : "Limiet batterij uit"
           }
         },
         "pl" : {
@@ -2272,7 +2272,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bolus in Uitvoering"
+            "value" : "Bolus in uitvoering"
           }
         },
         "pl" : {
@@ -2701,7 +2701,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Annuleer Tijdelijk Basaal"
+            "value" : "Annuleer tijdelijk basaal"
           }
         },
         "pl" : {
@@ -2999,7 +2999,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Basaal Schema Aanpassen"
+            "value" : "Basaal schema aanpassen"
           }
         },
         "pl" : {
@@ -3452,7 +3452,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijd Aanpassen"
+            "value" : "Tijd aanpassen"
           }
         },
         "pl" : {
@@ -3750,7 +3750,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alarm Wissen"
+            "value" : "Alarm wissen"
           }
         },
         "pl" : {
@@ -4801,7 +4801,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reservoir Leeg"
+            "value" : "Reservoir leeg"
           }
         },
         "pl" : {
@@ -5093,7 +5093,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Crc controle Glucosepagina mislukt"
+            "value" : "Crc controle glucosepagina mislukt"
           }
         },
         "pl" : {
@@ -5522,7 +5522,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Crc controle Geschiedenispagina mislukt"
+            "value" : "Crc controle geschiedenispagina mislukt"
           }
         },
         "pl" : {
@@ -6404,7 +6404,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batterij Bijna Leeg"
+            "value" : "Batterij bijna leeg"
           }
         },
         "pl" : {
@@ -6553,7 +6553,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reservoir Bijna Leeg"
+            "value" : "Reservoir bijna leeg"
           }
         },
         "pl" : {
@@ -6696,7 +6696,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batterij RileyLink Bijna Leeg"
+            "value" : "Batterij RileyLink bijna leeg"
           }
         },
         "pl" : {
@@ -7740,7 +7740,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nieuwe Tijd"
+            "value" : "Nieuwe tijd"
           }
         },
         "pl" : {
@@ -7883,7 +7883,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geen Toedieningsalarm"
+            "value" : "Geen toedieningsalarm"
           }
         },
         "pl" : {
@@ -8473,7 +8473,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ok"
+            "value" : "OK"
           }
         },
         "pl" : {
@@ -8616,7 +8616,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Percentage Tijdelijk Basaal"
+            "value" : "Percentage tijdelijk basaal"
           }
         },
         "pl" : {
@@ -9051,7 +9051,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pompbatterij Bijna Leeg"
+            "value" : "Pompbatterij bijna leeg"
           }
         },
         "pl" : {
@@ -9356,7 +9356,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomp Foutmelding"
+            "value" : "Pomp foutmelding"
           }
         },
         "pl" : {
@@ -9648,7 +9648,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomp is Onderbroken"
+            "value" : "Pomp is onderbroken"
           }
         },
         "pl" : {
@@ -9797,7 +9797,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pompreservoir Leeg"
+            "value" : "Pompreservoir leeg"
           }
         },
         "pl" : {
@@ -9946,7 +9946,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pompreservoir Bijna Leeg"
+            "value" : "Pompreservoir bijna leeg"
           }
         },
         "pl" : {
@@ -10257,7 +10257,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bericht Pomp (%1$@, %2$@, %3$@, %4$@)"
+            "value" : "Bericht pomp (%1$@, %2$@, %3$@, %4$@)"
           }
         },
         "pl" : {
@@ -10984,7 +10984,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Afstemmen van de RileyLink Radio mislukt"
+            "value" : "Afstemmen van de RileyLink radio mislukt"
           }
         },
         "pl" : {
@@ -11276,7 +11276,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profiel Selecteren"
+            "value" : "Profiel selecteren"
           }
         },
         "pl" : {
@@ -12599,7 +12599,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Onbekendd Alarm"
+            "value" : "Onbekend alarm"
           }
         },
         "pl" : {
