@@ -6,6 +6,7 @@
 //  Copyright © 2022 LoopKit Authors. All rights reserved.
 //
 
+import Combine
 import SwiftUI
 
 struct TimeView: View {
