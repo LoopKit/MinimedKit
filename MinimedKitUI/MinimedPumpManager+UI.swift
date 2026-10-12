@@ -13,7 +13,7 @@ import MinimedKit
 import RileyLinkKitUI
 
 
-extension MinimedPumpManager: PumpManagerUI {
+extension MinimedPumpManager: @retroactive PumpManagerUI {
 
     
     public static var onboardingImage: UIImage? {
