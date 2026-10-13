@@ -24,5 +24,7 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>com.loopkit.Loop.DeviceManufacturer</key>
 	<string>Medtronic</string>
+	<key>com.loopkit.Loop.PluginSubtitle</key>
+	<string>x15, x22, x23, x54 · requires RileyLink</string>
 </dict>
 </plist>
