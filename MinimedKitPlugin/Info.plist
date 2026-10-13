@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>com.loopkit.Loop.PumpManagerDisplayName</key>
-	<string>Minimed</string>
+	<string>MiniMed</string>
 	<key>com.loopkit.Loop.PumpManagerIdentifier</key>
 	<string>Minimed500</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -22,5 +22,7 @@
 	<string>3.0</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>com.loopkit.Loop.DeviceManufacturer</key>
+	<string>Medtronic</string>
 </dict>
 </plist>
