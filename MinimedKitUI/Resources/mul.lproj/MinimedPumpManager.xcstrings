@@ -80,7 +80,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "RileyLink Installatie"
+            "value" : "RileyLink installatie"
           }
         },
         "pl" : {
@@ -98,7 +98,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configurarea dispozitivului RileyLink"
+            "value" : "Configurare dispozitiv RileyLink"
           }
         },
         "ru" : {
@@ -212,7 +212,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zoek Apparaat"
+            "value" : "Zoek apparaat"
           }
         },
         "pl" : {
@@ -230,7 +230,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Caută dispozitivul"
+            "value" : "Caută dispozitiv"
           }
         },
         "ru" : {
@@ -524,7 +524,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "不要通过胰岛素泵来修改时间"
+            "value" : "请勿通过泵的菜单更改时间。"
           }
         }
       }
@@ -998,7 +998,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ID-ul de pompă este porțiunea de 6 cifre din numărul serial (afișat ca SN sau S/N)."
+            "value" : "ID de pompă este porțiunea de 6 cifre din numărul serial (afișat ca SN sau S/N)."
           }
         },
         "ru" : {
@@ -1358,7 +1358,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entrée l’ID de pompe de 6 chiffres"
+            "value" : "Entrée l’ID de pompe sur 6 chiffres"
           }
         },
         "he" : {
@@ -1406,7 +1406,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Introduceți ID-ul de pompă din 6 cifre"
+            "value" : "Introduceți ID de pompă din 6 cifre"
           }
         },
         "ru" : {
@@ -1473,6 +1473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se gjennom pumpeinnstillingene dine nedenfor. Du kan endre disse innstillingene når som helst i Loops innstillingsskjerm."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controleer hieronder de instellingen van je pomp. Je kunt deze instellingen op elk moment wijzigen in het instellingenscherm van Loop."
           }
         },
         "ro" : {
@@ -1779,6 +1785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pumpeinnstillinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomp Instellingen"
           }
         },
         "ro" : {
@@ -2132,7 +2144,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configuratie Voltooid"
+            "value" : "Configuratie voltooid"
           }
         },
         "pl" : {
