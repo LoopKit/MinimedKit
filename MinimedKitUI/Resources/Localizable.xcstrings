@@ -10,12 +10,6 @@
             "value" : "%@ ديسيبل"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ dB"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -165,12 +159,6 @@
             "value" : "%@U"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@U"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -217,6 +205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@U"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@E"
           }
         },
         "nb-NO" : {
@@ -303,12 +297,6 @@
       "comment" : "The format string for displaying a frequency tune trial. Extra spaces added for emphesis: (1: frequency in MHz)(2: success count)(3: total count)(4: average RSSI)",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@  %2$@/%3$@  %4$@"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@  %2$@/%3$@  %4$@"
@@ -463,12 +451,6 @@
             "value" : "%1$@ basal schedule entries\n"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ basal schedule entries\n"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -613,12 +595,6 @@
       "comment" : "The format string describing units of insulin remaining: (1: number of units)",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ Units of insulin remaining\n"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ Units of insulin remaining\n"
@@ -773,12 +749,6 @@
             "value" : "%1$@ units remaining at %2$@"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ units remaining at %2$@"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -825,6 +795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ unità rimanenti alle ore %2$@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ enheter igjen kl. %2$@"
           }
         },
         "nb-NO" : {
@@ -911,12 +887,6 @@
       "comment" : "String format for value with units (1: value, 2: separator, 3: units)",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@%2$@%3$@"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@%2$@%3$@"
@@ -1071,12 +1041,6 @@
             "value" : "جاري ضبط وقت المضخة..."
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Adjusting Pump Time..."
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1140,7 +1104,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomptijd Aanpassen..."
+            "value" : "Pomptijd aanpassen…"
           }
         },
         "pl" : {
@@ -1220,12 +1184,6 @@
             "value" : "البطاريات القلوية والبطاريات الليثيومية تتحلل بمعدلات مختلفة. عادةً ما يكون للبطاريات القلوية انخفاض تدريجي ومستمر في الجهد الكهربائي مع مرور الوقت، بينما تحافظ بطاريات الليثيوم على الجهد الكهربائي حتى تصل إلى منتصف عمرها الافتراضي. في مضخات الأنسولين من طراز Minimed (x22/x15) غير المتوافقة مع MySentry والتي تعمل بنظام Loop، تدوم البطاريات القلوية لمدة تتراوح بين 4 إلى 5 أيام تقريبًا تحت الاستخدام العادي. بينما تدوم بطاريات الليثيوم من أسبوع إلى أسبوعين. سيقوم هذا الاختيار باستخدام معدلات تحلل الجهد المختلفة لكل نوع من أنواع البطاريات وينبه المستخدم عندما تكون البطارية على وشك النفاد، أي قبل حوالي 8 إلى 10 ساعات من الفشل."
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Alkaline and Lithium batteries decay at differing rates. Alkaline tend to have a linear voltage drop over time whereas lithium cell batteries tend to maintain voltage until halfway through their lifespan. Under normal usage in a Non-MySentry compatible Minimed (x22/x15) insulin pump running Loop, Alkaline batteries last approximately 4 to 5 days. Lithium batteries last between 1-2 weeks. This selection will use different battery voltage decay rates for each of the battery chemistry types and alert the user when a battery is approximately 8 to 10 hours from failure."
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1295,7 +1253,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alkaline en Lithium batterijen werken na verloop van tijd minder goed. Alkaline heeft de neiging om in de loop van de tijd een lineair spanningsverlies te hebben, terwijl lithium batterijen de neiging hebben om hun spanning te behouden tot halverwege hun levensduur. Bij normaal gebruik in een niet-MySentry-compatibele Minimed (x22/x15) insulinepomp met Loop, gaan Alkaline batterijen ongeveer 4 tot 5 dagen mee. Lithiumbatterijen gaan tussen de 1-2 weken mee. Deze selectie gebruikt verschillende leegloop snelheden voor batterijvoltage voor elk van de typen batterijen en waarschuwt de gebruiker wanneer een batterij ongeveer in 8 tot 10 uur leeg is."
+            "value" : "Alkaline- en lithiumbatterijen werken na verloop van tijd minder goed. Alkaline heeft de neiging om in de loop van de tijd een lineair spanningsverlies te hebben, terwijl lithiumbatterijen de neiging hebben om hun spanning te behouden tot halverwege hun levensduur. Bij normaal gebruik in een niet-MySentry-compatibele Minimed (x22/x15) insulinepomp met Loop, gaan alkalinebatterijen ongeveer 4 tot 5 dagen mee. Lithiumbatterijen gaan tussen de 1-2 weken mee. Deze selectie gebruikt verschillende leegloop snelheden voor batterijvoltage voor elk van de typen batterijen en waarschuwt de gebruiker wanneer een batterij ongeveer in 8 tot 10 uur leeg is."
           }
         },
         "pl" : {
@@ -1373,12 +1331,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "هل أنت متأكد أنك تريد حذف هذه المضخة؟"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure you want to delete this Pump?"
           }
         },
         "da" : {
@@ -1523,12 +1475,6 @@
             "value" : "Battery Chemistry"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Battery Chemistry"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1592,7 +1538,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Batterij Chemie"
+            "value" : "Batterij chemie"
           }
         },
         "pl" : {
@@ -1667,12 +1613,6 @@
       "comment" : "The format string describing pump battery voltage: (1: battery voltage)",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Battery: %1$@ volts\n"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery: %1$@ volts\n"
@@ -1827,12 +1767,6 @@
             "value" : "أفضل تردد"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Best Frequency"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1902,7 +1836,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Beste Frequentie"
+            "value" : "Beste frequentie"
           }
         },
         "pl" : {
@@ -1977,12 +1911,6 @@
       "comment" : "The format string describing pump bolusing state: (1: bolusing)",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bolusing: %1$@\n"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bolusing: %1$@\n"
@@ -2081,7 +2009,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Se livrează: %1$@\n"
+            "value" : "Se administrează: %1$@\n"
           }
         },
         "ru" : {
@@ -2137,12 +2065,6 @@
             "value" : "إلغاء"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2183,12 +2105,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ביטול"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "निरस्त"
           }
         },
         "hu" : {
@@ -2248,7 +2164,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Renunță"
+            "value" : "Anulați"
           }
         },
         "ru" : {
@@ -2302,12 +2218,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إلغاء الجرعة الأساسية المؤقتة"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Canceling Temp Basal"
           }
         },
         "da" : {
@@ -2379,7 +2289,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijdelijk Basaal Annuleren"
+            "value" : "Tijdelijke basaalstand annuleren"
           }
         },
         "pl" : {
@@ -2403,7 +2313,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oprește bazala temporară"
+            "value" : "Anulare bazala temporară"
           }
         },
         "ru" : {
@@ -2465,10 +2375,28 @@
             "value" : "Age de la canule"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kannula alder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leeftijd canule"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vârsta canulei"
+            "value" : "Vechimea canulei"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "针管使用时长"
           }
         }
       }
@@ -2480,12 +2408,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تغيير"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Changing"
           }
         },
         "da" : {
@@ -2631,12 +2553,6 @@
             "value" : "تغيير الوقت…"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Changing time…"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2712,7 +2628,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijd Aanpassen..."
+            "value" : "Tijd aanpassen…"
           }
         },
         "pl" : {
@@ -2790,12 +2706,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اختر نوع البطارية التي تستخدمها في مضختك لتحسين التنبيهات حول حالات انخفاض البطارية."
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose the type of battery you are using in your pump for better alerting about low battery conditions."
           }
         },
         "da" : {
@@ -2941,12 +2851,6 @@
             "value" : "ضبط"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Configuration"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2993,6 +2897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Impostazioni"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppsett"
           }
         },
         "nb-NO" : {
@@ -3084,12 +2994,6 @@
             "value" : "توصيل"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Connect"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3138,6 +3042,12 @@
             "value" : "Connetti"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilkoble"
+          }
+        },
         "nb-NO" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3171,7 +3081,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Conectare"
+            "value" : "Conectați"
           }
         },
         "ru" : {
@@ -3227,12 +3137,6 @@
             "value" : "تابع"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Continue"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3279,6 +3183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continua"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
           }
         },
         "nb-NO" : {
@@ -3376,10 +3286,28 @@
             "value" : "jour"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dag"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "zi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天"
           }
         }
       }
@@ -3399,10 +3327,28 @@
             "value" : "jours"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dager"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dagen"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "zile"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天"
           }
         }
       }
@@ -3414,12 +3360,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "حذف المضخة"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete Pump"
           }
         },
         "da" : {
@@ -3468,6 +3408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancella Microinfusore"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett pumpen"
           }
         },
         "nb-NO" : {
@@ -3565,10 +3511,28 @@
             "value" : "Détails"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detaljer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detalii"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "详情"
           }
         }
       }
@@ -3580,12 +3544,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الأجهزة"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Devices"
           }
         },
         "da" : {
@@ -3737,12 +3695,6 @@
             "value" : "لا تستخدم MySentry"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Do not use MySentry"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3885,12 +3837,6 @@
             "value" : "تمّ"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Done"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3937,6 +3883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fine"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
           }
         },
         "nb-NO" : {
@@ -4028,12 +3980,6 @@
             "value" : "خطأ في الاستئناف"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Error Resuming"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4103,7 +4049,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fout Bij Hervatten"
+            "value" : "Fout bij hervatten"
           }
         },
         "pl" : {
@@ -4127,7 +4073,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eroare în timpul reluării"
+            "value" : "Eroare reluare"
           }
         },
         "ru" : {
@@ -4169,7 +4115,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "无法恢复"
+            "value" : "恢复输注错误"
           }
         }
       }
@@ -4178,12 +4124,6 @@
       "comment" : "The alert title for a suspend error",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Error Suspending"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Error Suspending"
@@ -4264,7 +4204,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fout Bij Onderbreken"
+            "value" : "Fout bij onderbreken"
           }
         },
         "pl" : {
@@ -4288,7 +4228,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eroare în timpul suspendării"
+            "value" : "Eroare suspendare"
           }
         },
         "ru" : {
@@ -4330,7 +4270,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "无法暂停"
+            "value" : "暂停输注出错"
           }
         }
       }
@@ -4342,12 +4282,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خطأ في مزامنة الوقت"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Error Syncing Time"
           }
         },
         "cs" : {
@@ -4419,7 +4353,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fout Synchroniseren Tijd"
+            "value" : "Fout synchroniseren tijd"
           }
         },
         "pl" : {
@@ -4497,12 +4431,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جارٍ جلب الجلوكوز…"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fetching glucose…"
           }
         },
         "cs" : {
@@ -4660,12 +4588,6 @@
             "value" : "جارٍ جلب التاريخ…"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fetching history…"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4821,12 +4743,6 @@
             "value" : "جاري جلب نموذج المضخة…"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Fetching pump model…"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4980,12 +4896,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "إصدار البرنامج الثابت"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Firmware Version"
           }
         },
         "cs" : {
@@ -5149,10 +5059,28 @@
             "value" : "heure"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "time"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uur"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "oră"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小时"
           }
         }
       }
@@ -5172,10 +5100,28 @@
             "value" : "heures"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "timer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uren"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ore"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小时"
           }
         }
       }
@@ -5187,12 +5133,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الأنسولين\nمعلق"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insulin\nSuspended"
           }
         },
         "cs" : {
@@ -5264,7 +5204,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Insuline\nOnderbroken"
+            "value" : "Insulinetoediening\nonderbroken"
           }
         },
         "pl" : {
@@ -5288,7 +5228,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Administrarea insulinei suspendată"
+            "value" : "Insulina\nSuspendată"
           }
         },
         "ru" : {
@@ -5350,10 +5290,28 @@
             "value" : "Age de l'insuline"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "insulin alder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leeftijd insuline"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vârsta insulinei"
+            "value" : "Vechimea insulinei"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "胰岛素已作用时长"
           }
         }
       }
@@ -5365,12 +5323,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "توصيل الأنسولين"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insulin Delivery"
           }
         },
         "da" : {
@@ -5419,6 +5371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulina Somministrata"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulintilførsel"
           }
         },
         "nb-NO" : {
@@ -5508,12 +5466,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكن تحديد تسليم الأنسولين من المضخة إما عن طريق تفسير تاريخ الأحداث أو مقارنة حجم الخزان مع مرور الوقت. قراءة تاريخ الأحداث توفر رسمًا بيانيًا أكثر دقة للحالة وتحديث بيانات العلاج إلى Nightscout، ولكنها تؤدي إلى استنزاف أسرع لبطارية المضخة وإمكانية حدوث معدل أخطاء راديو أعلى مقارنةً بقراءة حجم الخزان فقط. إذا لم يكن بالإمكان استخدام المصدر المحدد لأي سبب كان، سيحاول النظام العودة إلى الخيار الآخر."
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option."
           }
         },
         "cs" : {
@@ -5615,7 +5567,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Livrarea insulinei poate fi determinată din interpretarea istoricului citit din pompă sau analizând nivelul rezervorului în timp. Citirea istoricului de evenimente permite o construcție mai exacta a graficului și încărcarea datelor actualizate în Nightscout cu prețul descărcării mai rapide a bateriei pompei si a probabilității mai mari de erori de transmisie radio, comparând cu citire numai a nivelului rezervorului. Dacă dintr-o cauză sau alta sistemul nu va reuși să folosească opțiunea aleasă, se va încerca revenirea la cealaltă posibilitate."
+            "value" : "Administrarea insulinei poate fi determinată din interpretarea istoricului citit din pompă sau analizând nivelul rezervorului în timp. Citirea istoricului de evenimente permite o construcție mai exacta a graficului și încărcarea datelor actualizate în Nightscout cu prețul descărcării mai rapide a bateriei pompei si a probabilității mai mari de erori de transmisie radio, comparând cu citire numai a nivelului rezervorului. Dacă dintr-o cauză sau alta sistemul nu va reuși să folosească opțiunea aleasă, se va încerca revenirea la cealaltă posibilitate."
           }
         },
         "ru" : {
@@ -5671,12 +5623,6 @@
             "value" : "الأنسولين المتبقي"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insulin Remaining"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5723,6 +5669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Insulina Rimanente"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenværende insulin"
           }
         },
         "nb-NO" : {
@@ -5814,12 +5766,6 @@
             "value" : "نوع الإنسولين"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insulin Type"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5866,6 +5812,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tipo di Insulina"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insulintype"
           }
         },
         "nb-NO" : {
@@ -5952,12 +5904,6 @@
       "comment" : "Format string fof navigation bar title for MinimedPumpSettingsView (1: model number)",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Medtronic %1$@"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Medtronic %1$@"
@@ -6112,12 +6058,6 @@
             "value" : "تتمتع مضخات Medtronic من الطرازات 523 و723 و554 و754 بميزة تُدعى \"MySentry\" التي تقوم بشكل دوري ببث مستويات الخزان والبطارية للمضخة. الاستماع لهذه البثوث يسمح لنظام Loop بالتواصل مع المضخة بشكل أقل تكرارًا، مما يمكن أن يزيد من عمر بطارية المضخة. ومع ذلك، عند استخدام هذه الميزة، تظل RileyLink متيقظة لفترات أطول وتستخدم المزيد من بطاريتها الخاصة. تفعيل هذه الميزة قد يطيل عمر بطارية المضخة، بينما تعطيلها قد يطيل عمر بطارية RileyLink. يتم تجاهل هذا الإعداد بالنسبة لطرازات المضخات الأخرى."
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Medtronic pump models 523, 723, 554, and 754 have a feature called 'MySentry' that periodically broadcasts the reservoir and pump battery levels.  Listening for these broadcasts allows Loop to communicate with the pump less frequently, which can increase pump battery life.  However, when using this feature the RileyLink stays awake more of the time and uses more of its own battery.  Enabling this may lengthen pump battery life, while disabling it may lengthen RileyLink battery life. This setting is ignored for other pump models."
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6267,12 +6207,6 @@
             "value" : "لا"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6319,6 +6253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nei"
           }
         },
         "nb-NO" : {
@@ -6408,12 +6348,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "لا يوجد استجابة"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No response"
           }
         },
         "cs" : {
@@ -6571,12 +6505,6 @@
             "value" : "لا، إبقاء المضخة كما هي"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No, Keep Pump As Is"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6623,6 +6551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No, Tieni microinfusore Come È"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nei, behold pumpen slik som den er"
           }
         },
         "nb-NO" : {
@@ -6709,12 +6643,6 @@
       "comment" : "Pump find device instruction",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device"
@@ -6819,7 +6747,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pe pompă, accesați ecranul Găsire dispozitiv și selectați „Găsire dispozitiv”. \n \n Meniu principal > \n Utilitare > \n Conectare dispozitive > \n Alte dispozitive > \n Activat > \n Găsire dispozitiv"
+            "value" : "Pe pompă, accesați ecranul Găsire dispozitiv și selectați \"Găsire dispozitiv\". \n \n Meniu principal > \n Utilitare > \n Conectare dispozitive > \n Alte dispozitive > \n Activat > \n Găsire dispozitiv"
           }
         },
         "ru" : {
@@ -6873,12 +6801,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مصدر البيانات المفضل"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Preferred Data Source"
           }
         },
         "cs" : {
@@ -6956,7 +6878,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voorkeur Gegevensbron"
+            "value" : "Voorkeur gegevensbron"
           }
         },
         "pl" : {
@@ -7036,12 +6958,6 @@
             "value" : "الوقت المتبقي لبطارية المضخة"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pump Battery Remaining"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7111,7 +7027,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pompbatterij Resterend"
+            "value" : "Pompbatterij resterend"
           }
         },
         "pl" : {
@@ -7189,12 +7105,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "نوع بطارية المضخة"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pump Battery Type"
           }
         },
         "cs" : {
@@ -7352,12 +7262,6 @@
             "value" : "Pump ID"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pump ID"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7499,7 +7403,7 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "胰岛素泵序列号"
+            "value" : "泵ID"
           }
         }
       }
@@ -7511,12 +7415,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "وقت المضخة"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pump Time"
           }
         },
         "cs" : {
@@ -7666,12 +7564,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "قراءة جدول الجرعة الأساسية…"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading basal schedule…"
           }
         },
         "cs" : {
@@ -7829,12 +7721,6 @@
             "value" : "قراءة حالة المضخة…"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reading pump status…"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7988,12 +7874,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "المنطقة"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Region"
           }
         },
         "cs" : {
@@ -8151,12 +8031,6 @@
             "value" : "استئناف الضخ"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Resume Delivery"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8232,7 +8106,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hervat Toediening"
+            "value" : "Hervat toediening"
           }
         },
         "pl" : {
@@ -8256,7 +8130,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reia administrarea"
+            "value" : "Reluați administrarea"
           }
         },
         "ru" : {
@@ -8310,12 +8184,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "استئناف"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Resuming"
           }
         },
         "cs" : {
@@ -8473,12 +8341,6 @@
             "value" : "أعد المحاولة"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Retry"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8554,7 +8416,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opnieuw Proberen"
+            "value" : "Opnieuw proberen"
           }
         },
         "pl" : {
@@ -8578,7 +8440,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reîncearcă"
+            "value" : "Reîncercați"
           }
         },
         "ru" : {
@@ -8634,12 +8496,6 @@
             "value" : "الجرعة الأساسية المجدولة"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scheduled Basal"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8686,6 +8542,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basale programmata"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planlagt basal"
           }
         },
         "nb-NO" : {
@@ -8777,12 +8639,6 @@
             "value" : "حدد نوع الأنسولين الذي ستستخدمه في هذه المضخة."
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select the type of insulin that you will be using in this pump."
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8829,6 +8685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seleziona il tipo di insulina che utilizzerai in questo microinfusore."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg insulintypen som du kommer til å bruke med denne pumpen."
           }
         },
         "nb-NO" : {
@@ -8920,12 +8782,6 @@
             "value" : "الضغط على زر الإرسال…"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sending button press…"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9001,7 +8857,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Signaal Druk Op Knop Versturen"
+            "value" : "Signaal druk op knop versturen"
           }
         },
         "pl" : {
@@ -9081,12 +8937,6 @@
             "value" : "بدء الجرعة الأساسية المؤقتة"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Starting Temp Basal"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9162,7 +9012,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijdelijk Basaal Starten"
+            "value" : "Tijdelijke basaalstand starten"
           }
         },
         "pl" : {
@@ -9248,10 +9098,28 @@
             "value" : "Statut"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "status"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stare"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状态"
           }
         }
       }
@@ -9260,12 +9128,6 @@
       "comment" : "A message indicating a command succeeded",
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Succeeded"
-          }
-        },
-        "ce" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Succeeded"
@@ -9426,12 +9288,6 @@
             "value" : "إيقاف التوصيل مؤقتًا"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Suspend Delivery"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9507,7 +9363,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Onderbreek Toediening"
+            "value" : "Onderbreek toediening"
           }
         },
         "pl" : {
@@ -9531,7 +9387,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suspendă administrarea"
+            "value" : "Suspendați administrarea"
           }
         },
         "ru" : {
@@ -9585,12 +9441,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "معلق: %1$@\n"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Suspended: %1$@\n"
           }
         },
         "cs" : {
@@ -9748,12 +9598,6 @@
             "value" : "تعليق"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Suspending"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9909,12 +9753,6 @@
             "value" : "المزامنة مع الوقت الحالي"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sync to Current Time"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10062,12 +9900,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "الوقت في مضختك مختلف عن الوقت الحالي. هل ترغب في تحديث الوقت في مضختك ليتوافق مع الوقت الحالي؟"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The time on your pump is different from the current time. Do you want to update the time on your pump to the current time?"
           }
         },
         "cs" : {
@@ -10219,12 +10051,6 @@
             "value" : "تم اكتشاف تغيير في الوقت"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Time Change Detected"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10294,7 +10120,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tijdsverschil Ontdekt"
+            "value" : "Tijdsverschil ontdekt"
           }
         },
         "pl" : {
@@ -10372,12 +10198,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "تجارب"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Trials"
           }
         },
         "cs" : {
@@ -10535,12 +10355,6 @@
             "value" : "ضبط الراديو…"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tuning radio…"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10696,12 +10510,6 @@
             "value" : "وحدة لكل ساعة"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "U/hr"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10748,6 +10556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "U/ora"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E/t"
           }
         },
         "nb-NO" : {
@@ -10837,12 +10651,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "غير معروف"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "unknown"
           }
         },
         "cs" : {
@@ -10994,12 +10802,6 @@
             "value" : "Unknown"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unknown"
-          }
-        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11046,6 +10848,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sconosciuto"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukjent"
           }
         },
         "nb-NO" : {
@@ -11135,12 +10943,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "استخدام MySentry"
-          }
-        },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Use MySentry"
           }
         },
         "cs" : {
@@ -11292,12 +11094,6 @@
             "value" : "نعم"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yes"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11447,12 +11243,6 @@
             "value" : "نعم، المزامنة مع الوقت الحالي"
           }
         },
-        "ce" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yes, Sync to Current Time"
-          }
-        },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11522,7 +11312,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ja, Synchroniseer met Huidige Tijd"
+            "value" : "Ja, synchroniseer met huidige tijd"
           }
         },
         "pl" : {
