@@ -1155,6 +1155,10 @@ extension MinimedPumpManager: PumpManager {
     public func ensureCurrentPumpData(completion: ((Date?) -> Void)?) {
         rileyLinkDeviceProvider.assertIdleListening(forcingRestart: true)
 
+        // Refresh the RileyLink/EmaLink/OrangeLink battery level each cycle. Without MySentry this was
+        // otherwise only read when the device detail screen was opened.
+        checkRileyLinkBattery()
+
         guard isPumpDataStale else {
             log.default("Pump data is not stale: lastSync = %{public}@", String(describing: self.lastSync))
             completion?(self.lastSync)
