@@ -8,7 +8,6 @@
 
 import Foundation
 import LoopKit
-import LoopAlgorithm
 
 struct EnliteSensorDisplayable: Equatable, GlucoseDisplayable {
     public let isStateValid: Bool
