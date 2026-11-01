@@ -11,7 +11,6 @@ import MinimedKit
 import LoopKit
 import SwiftUI
 import LoopKitUI
-import LoopAlgorithm
 
 enum MinimedSettingsViewAlert: Identifiable {
     case suspendError(Error)
