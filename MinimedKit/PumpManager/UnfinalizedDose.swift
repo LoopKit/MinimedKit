@@ -201,7 +201,7 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         self.duration = duration
         
         if let decisionIdString = rawValue["decisionId"] as? String {
-            self.decisionId = UUID(uuidString: decisionIdString)!
+            self.decisionId = UUID(uuidString: decisionIdString)
         }
 
         if let scheduledUnits = rawValue["scheduledUnits"] as? Double {

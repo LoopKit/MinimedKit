@@ -131,4 +131,23 @@ final class ReconciliationTests: XCTestCase {
         // Bolus should not be returned as history event
         XCTAssert(result.remainingEvents.isEmpty)
     }
+
+    func testUnfinalizedDoseRestoresWithInvalidDecisionId() {
+        var rawValue = UnfinalizedDose(decisionId: nil, bolusAmount: 1.5, startTime: Date(), duration: TimeInterval(60), insulinType: .novolog, automatic: false).rawValue
+        rawValue["decisionId"] = "not-a-uuid"
+
+        let restored = UnfinalizedDose(rawValue: rawValue)
+
+        XCTAssertNotNil(restored)
+        XCTAssertNil(restored?.decisionId)
+    }
+
+    func testUnfinalizedDoseDecisionIdRoundTrips() {
+        let decisionId = UUID()
+        let dose = UnfinalizedDose(decisionId: decisionId, bolusAmount: 1.5, startTime: Date(), duration: TimeInterval(60), insulinType: .novolog, automatic: false)
+
+        let restored = UnfinalizedDose(rawValue: dose.rawValue)
+
+        XCTAssertEqual(decisionId, restored?.decisionId)
+    }
 }
