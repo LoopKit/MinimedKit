@@ -125,10 +125,9 @@ class MinimedPumpSettingsViewModel: ObservableObject {
     }
 
     func deletePump() {
-        pumpManager.deletePump {
-            DispatchQueue.main.async {
-                self.didFinish?()
-            }
+        Task { @MainActor in
+            await pumpManager.delete()
+            self.didFinish?()
         }
     }
 

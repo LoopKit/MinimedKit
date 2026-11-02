@@ -22,7 +22,7 @@ class MockPumpManagerDelegate: PumpManagerDelegate {
         return false
     }
 
-    func pumpManagerWillDeactivate(_ pumpManager: PumpManager) {}
+    func pumpManagerWantsDeletion(_ pumpManager: PumpManager) async {}
 
     func pumpManagerPumpWasReplaced(_ pumpManager: PumpManager) {}
 
