@@ -37,10 +37,10 @@ final class ReconciliationTests: XCTestCase {
 
         let cancelTime = bolusEventTime.addingTimeInterval(TimeInterval(minutes: 1))
 
-        let unfinalizedBolus = UnfinalizedDose(decisionId: nil, bolusAmount: 5.4, startTime: bolusTime, duration: TimeInterval(200), insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
+        let unfinalizedBolus = UnfinalizedDose(doseId: nil, bolusAmount: 5.4, startTime: bolusTime, duration: TimeInterval(200), insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
 
         // 5.4 bolus interrupted at 1.0 units
-        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: cancelTime, value: unfinalizedBolus.units, unit: .units, decisionId: nil, deliveredUnits: 1.0)
+        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: cancelTime, value: unfinalizedBolus.units, unit: .units, doseId: nil, deliveredUnits: 1.0)
 
         let bolusEvent = NewPumpEvent(
             date: bolusEventTime,
@@ -74,9 +74,9 @@ final class ReconciliationTests: XCTestCase {
 
         let bolusDuration = PumpModel.model523.bolusDeliveryTime(units: bolusAmount)
 
-        let unfinalizedBolus = UnfinalizedDose(decisionId: nil, bolusAmount: bolusAmount, startTime: bolusTime, duration: bolusDuration, insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
+        let unfinalizedBolus = UnfinalizedDose(doseId: nil, bolusAmount: bolusAmount, startTime: bolusTime, duration: bolusDuration, insulinType: .novolog, automatic: false, isReconciledWithHistory: false)
 
-        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, decisionId: nil, deliveredUnits: bolusAmount)
+        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, doseId: nil, deliveredUnits: bolusAmount)
 
         let bolusEvent = NewPumpEvent(
             date: bolusEventTime,
@@ -111,7 +111,7 @@ final class ReconciliationTests: XCTestCase {
 
         let bolusDuration = PumpModel.model523.bolusDeliveryTime(units: bolusAmount)
 
-        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, decisionId: nil, deliveredUnits: bolusAmount)
+        let eventDose = DoseEntry(type: .bolus, startDate: bolusEventTime, endDate: bolusEventTime.addingTimeInterval(bolusDuration), value: bolusAmount, unit: .units, doseId: nil, deliveredUnits: bolusAmount)
 
         let bolusEvent = NewPumpEvent(
             date: bolusEventTime,
@@ -133,21 +133,21 @@ final class ReconciliationTests: XCTestCase {
     }
 
     func testUnfinalizedDoseRestoresWithInvalidDecisionId() {
-        var rawValue = UnfinalizedDose(decisionId: nil, bolusAmount: 1.5, startTime: Date(), duration: TimeInterval(60), insulinType: .novolog, automatic: false).rawValue
-        rawValue["decisionId"] = "not-a-uuid"
+        var rawValue = UnfinalizedDose(doseId: nil, bolusAmount: 1.5, startTime: Date(), duration: TimeInterval(60), insulinType: .novolog, automatic: false).rawValue
+        rawValue["doseId"] = "not-a-uuid"
 
         let restored = UnfinalizedDose(rawValue: rawValue)
 
         XCTAssertNotNil(restored)
-        XCTAssertNil(restored?.decisionId)
+        XCTAssertNil(restored?.doseId)
     }
 
     func testUnfinalizedDoseDecisionIdRoundTrips() {
-        let decisionId = UUID()
-        let dose = UnfinalizedDose(decisionId: decisionId, bolusAmount: 1.5, startTime: Date(), duration: TimeInterval(60), insulinType: .novolog, automatic: false)
+        let doseId = UUID()
+        let dose = UnfinalizedDose(doseId: doseId, bolusAmount: 1.5, startTime: Date(), duration: TimeInterval(60), insulinType: .novolog, automatic: false)
 
         let restored = UnfinalizedDose(rawValue: dose.rawValue)
 
-        XCTAssertEqual(decisionId, restored?.decisionId)
+        XCTAssertEqual(doseId, restored?.doseId)
     }
 }

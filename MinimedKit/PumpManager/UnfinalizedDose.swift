@@ -30,7 +30,7 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
     let insulinType: InsulinType?
     let automatic: Bool?
     
-    var decisionId: UUID?
+    var doseId: UUID?
 
     var finishTime: Date {
         get {
@@ -66,8 +66,8 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         return units
     }
 
-    init(decisionId: UUID?, bolusAmount: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool, isReconciledWithHistory: Bool = false) {
-        self.decisionId = decisionId
+    init(doseId: UUID?, bolusAmount: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool, isReconciledWithHistory: Bool = false) {
+        self.doseId = doseId
         self.doseType = .bolus
         self.units = bolusAmount
         self.startTime = startTime
@@ -79,8 +79,8 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         self.automatic = automatic
     }
 
-    init(decisionId: UUID?, tempBasalRate: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool = true, isReconciledWithHistory: Bool = false) {
-        self.decisionId = decisionId
+    init(doseId: UUID?, tempBasalRate: Double, startTime: Date, duration: TimeInterval, insulinType: InsulinType?, automatic: Bool = true, isReconciledWithHistory: Bool = false) {
+        self.doseId = doseId
         self.doseType = .tempBasal
         self.units = tempBasalRate * duration.hours
         self.startTime = startTime
@@ -200,8 +200,8 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         self.startTime = startTime
         self.duration = duration
         
-        if let decisionIdString = rawValue["decisionId"] as? String {
-            self.decisionId = UUID(uuidString: decisionIdString)
+        if let doseIdString = (rawValue["doseId"] ?? rawValue["decisionId"]) as? String {
+            self.doseId = UUID(uuidString: doseIdString)
         }
 
         if let scheduledUnits = rawValue["scheduledUnits"] as? Double {
@@ -245,8 +245,8 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
             "uuid": uuid.uuidString,
         ]
         
-        if let decisionId {
-            rawValue["decisionId"] = decisionId.uuidString
+        if let doseId {
+            rawValue["doseId"] = doseId.uuidString
         }
 
         if let scheduledUnits = programmedUnits {
@@ -295,10 +295,10 @@ extension DoseEntry {
     init (_ dose: UnfinalizedDose, forceFinalization: Bool = false) {
         switch dose.doseType {
         case .bolus:
-            self = DoseEntry(type: .bolus, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedUnits ?? dose.units, unit: .units, decisionId: dose.decisionId, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: !dose.isReconciledWithHistory && !forceFinalization)
+            self = DoseEntry(type: .bolus, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedUnits ?? dose.units, unit: .units, doseId: dose.doseId, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: !dose.isReconciledWithHistory && !forceFinalization)
         case .tempBasal:
             let isMutable = !forceFinalization && (!dose.isReconciledWithHistory || !dose.isFinished)
-            self = DoseEntry(type: .tempBasal, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedTempRate ?? dose.rate, unit: .unitsPerHour, decisionId: dose.decisionId, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: isMutable)
+            self = DoseEntry(type: .tempBasal, startDate: dose.startTime, endDate: dose.finishTime, value: dose.programmedTempRate ?? dose.rate, unit: .unitsPerHour, doseId: dose.doseId, deliveredUnits: dose.finalizedUnits, insulinType: dose.insulinType, automatic: dose.automatic, isMutable: isMutable)
         case .suspend:
             self = DoseEntry(suspendDate: dose.startTime, isMutable: !dose.isReconciledWithHistory)
         case .resume:
