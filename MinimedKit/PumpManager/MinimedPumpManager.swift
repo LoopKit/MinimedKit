@@ -112,7 +112,7 @@ public class MinimedPumpManager: RileyLinkPumpManager {
         }
         
         pumpDelegate.notify { (delegate) in
-            delegate?.pumpManagerDidUpdateState(self)
+            await delegate?.pumpManagerDidUpdateState(self)
         }
         stateObservers.forEach { (observer) in
             observer.didUpdatePumpManagerState(newValue)
@@ -237,7 +237,7 @@ public class MinimedPumpManager: RileyLinkPumpManager {
 
     override public func deviceTimerDidTick(_ device: RileyLinkDevice) {
         pumpDelegate.notify { (delegate) in
-            delegate?.pumpManagerBLEHeartbeatDidFire(self)
+            await delegate?.pumpManagerBLEHeartbeatDidFire(self)
         }
     }
     
@@ -266,9 +266,7 @@ public class MinimedPumpManager: RileyLinkPumpManager {
                 let identifier = Alert.Identifier(managerIdentifier: self.pluginIdentifier, alertIdentifier: "lowRLBattery")
                 let alertBody = String(format: LocalizedString("\"%1$@\" has a low battery", comment: "Format string for low battery alert body for RileyLink. (1: device name)"), device.name ?? "unnamed")
                 let content = Alert.Content(title: LocalizedString("Low RileyLink Battery", comment: "Title for RileyLink low battery alert"), body: alertBody, acknowledgeActionButtonLabel: LocalizedString("OK", comment: "Acknowledge button label for RileyLink low battery alert"))
-                Task {
-                    await delegate?.issueAlert(Alert(identifier: identifier, foregroundContent: content, backgroundContent: content, trigger: .immediate))
-                }
+                await delegate?.issueAlert(Alert(identifier: identifier, foregroundContent: content, backgroundContent: content, trigger: .immediate))
             }
         }
     }
@@ -317,7 +315,7 @@ extension MinimedPumpManager {
                     self.rileyLinkDeviceProvider.deprioritize(device, completion: nil)
                     if let error = error as? LocalizedError {
                         self.pumpDelegate.notify { (delegate) in
-                            delegate?.pumpManager(self, didError: PumpManagerError.communication(MinimedPumpManagerError.tuneFailed(error)))
+                            await delegate?.pumpManager(self, didError: PumpManagerError.communication(MinimedPumpManagerError.tuneFailed(error)))
                         }
                     }
                 }
@@ -443,19 +441,19 @@ extension MinimedPumpManager {
                 )
 
                 cgmDelegate.notify { (delegate) in
-                    delegate?.cgmManager(self, hasNew: .newData([sample]))
+                    await delegate?.cgmManager(self, hasNew: .newData([sample]))
                 }
             }
         case .off:
             // Enlite is disabled, so assert glucose from another source
             pumpDelegate.notify { (delegate) in
-                delegate?.pumpManagerBLEHeartbeatDidFire(self)
+                await delegate?.pumpManagerBLEHeartbeatDidFire(self)
             }
         default:
             // Anything else is an Enlite error
             // TODO: Provide info about status.glucose
             cgmDelegate.notify { (delegate) in
-                delegate?.cgmManager(self, hasNew: .error(PumpManagerError.deviceState(nil)))
+                await delegate?.cgmManager(self, hasNew: .error(PumpManagerError.deviceState(nil)))
             }
         }
         
@@ -514,17 +512,13 @@ extension MinimedPumpManager {
         }
         if oldBatteryPercentage != newBatteryPercentage, newBatteryPercentage == 0 {
             pumpDelegate.notify { (delegate) in
-                Task {
-                    await delegate?.issueAlert(self.pumpBatteryLowAlert)
-                }
+                await delegate?.issueAlert(self.pumpBatteryLowAlert)
             }
         }
-        
+
         if let oldBatteryPercentage = oldBatteryPercentage, newBatteryPercentage - oldBatteryPercentage >= batteryReplacementDetectionThreshold {
             pumpDelegate.notify { (delegate) in
-                Task {
-                    await delegate?.retractAlert(identifier: Self.pumpBatteryLowAlertIdentifier)
-                }
+                await delegate?.retractAlert(identifier: Self.pumpBatteryLowAlertIdentifier)
             }
         }
     }
@@ -544,19 +538,19 @@ extension MinimedPumpManager {
         }
 
         pumpDelegate.notify { (delegate) in
-            delegate?.pumpManager(self, didReadReservoirValue: units, at: date) { (result) in
-                switch result {
-                case .failure(let error):
-                    completion(.failure(error))
-                    break
-                case .success(let (newValue, lastValue, areStoredValuesContinuous)):
-                    self.evaluateReservoirAlerts(lastValue: lastValue, newValue: newValue, areStoredValuesContinuous: areStoredValuesContinuous)
+            guard let delegate else {
+                return
+            }
+            do {
+                let (newValue, lastValue, areStoredValuesContinuous) = try await delegate.pumpManager(self, didReadReservoirValue: units, at: date)
+                self.evaluateReservoirAlerts(lastValue: lastValue, newValue: newValue, areStoredValuesContinuous: areStoredValuesContinuous)
 
-                    if areStoredValuesContinuous {
-                        self.recents.lastContinuousReservoir = date
-                    }
-                    completion(.success(areStoredValuesContinuous))
+                if areStoredValuesContinuous {
+                    self.recents.lastContinuousReservoir = date
                 }
+                completion(.success(areStoredValuesContinuous))
+            } catch {
+                completion(.failure(error))
             }
         }
 
@@ -608,9 +602,7 @@ extension MinimedPumpManager {
         if let previousVolume = lastValue?.unitVolume {
             guard newValue.unitVolume > 0 else {
                 pumpDelegate.notify { (delegate) in
-                    Task {
-                        await delegate?.issueAlert(self.pumpReservoirEmptyAlert)
-                    }
+                    await delegate?.issueAlert(self.pumpReservoirEmptyAlert)
                 }
                 return
             }
@@ -620,9 +612,7 @@ extension MinimedPumpManager {
             for threshold in warningThresholds {
                 if newValue.unitVolume <= threshold && previousVolume > threshold {
                     pumpDelegate.notify { (delegate) in
-                        Task {
-                            await delegate?.issueAlert(self.pumpReservoirLowAlertForAmount(newValue.unitVolume, andTimeRemaining: nil))
-                        }
+                        await delegate?.issueAlert(self.pumpReservoirLowAlertForAmount(newValue.unitVolume, andTimeRemaining: nil))
                     }
                     break
                 }
@@ -632,9 +622,7 @@ extension MinimedPumpManager {
                 // TODO: report this as a pump event, or?                //self.analyticsServicesManager.reservoirWasRewound()
 
                 pumpDelegate.notify { (delegate) in
-                    Task {
-                        await delegate?.retractAlert(identifier: Self.pumpReservoirLowAlertIdentifier)
-                    }
+                    await delegate?.retractAlert(identifier: Self.pumpReservoirLowAlertIdentifier)
                 }
             }
         }
@@ -793,28 +781,29 @@ extension MinimedPumpManager {
 
                             self.log.default("Reporting new pump events: %{public}@", String(describing: remainingHistoryEvents + pendingEvents))
 
-                            delegate.pumpManager(self, hasNewPumpEvents: remainingHistoryEvents + pendingEvents, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true) { (error) in
-                                // Called on an unknown queue by the delegate
-                                if error == nil {
-                                    self.recents.lastAddedPumpEvents = self.dateGenerator()
-                                    self.setState({ (state) in
-                                        // Remove any pending doses that have been reconciled and are finished
-                                        if let bolus = state.unfinalizedBolus, bolus.isReconciledWithHistory, bolus.isFinished {
-                                            state.unfinalizedBolus = nil
-                                        }
-                                        if let tempBasal = state.unfinalizedTempBasal, tempBasal.isReconciledWithHistory, tempBasal.isFinished {
-                                            state.unfinalizedTempBasal = nil
-                                        }
-                                        state.pendingDoses.removeAll(where: { (dose) -> Bool in
-                                            if dose.isReconciledWithHistory && dose.isFinished {
-                                                print("Removing stored, finished, reconciled dose: \(dose)")
-                                            }
-                                            return dose.isReconciledWithHistory && dose.isFinished
-                                        })
-                                    })
-                                }
+                            do {
+                                try await delegate.pumpManager(self, hasNewPumpEvents: remainingHistoryEvents + pendingEvents, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true)
+                            } catch {
                                 completion(error)
+                                return
                             }
+                            self.recents.lastAddedPumpEvents = self.dateGenerator()
+                            self.setState({ (state) in
+                                // Remove any pending doses that have been reconciled and are finished
+                                if let bolus = state.unfinalizedBolus, bolus.isReconciledWithHistory, bolus.isFinished {
+                                    state.unfinalizedBolus = nil
+                                }
+                                if let tempBasal = state.unfinalizedTempBasal, tempBasal.isReconciledWithHistory, tempBasal.isFinished {
+                                    state.unfinalizedTempBasal = nil
+                                }
+                                state.pendingDoses.removeAll(where: { (dose) -> Bool in
+                                    if dose.isReconciledWithHistory && dose.isFinished {
+                                        print("Removing stored, finished, reconciled dose: \(dose)")
+                                    }
+                                    return dose.isReconciledWithHistory && dose.isFinished
+                                })
+                            })
+                            completion(nil)
                         })
                     } catch let error {
                         self.troubleshootPumpComms(using: device)
@@ -871,14 +860,12 @@ extension MinimedPumpManager {
                 preconditionFailure("pumpManagerDelegate cannot be nil")
             }
 
-            delegate.pumpManager(self, hasNewPumpEvents: events, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true) { (error) in
-                // Called on an unknown queue by the delegate
-                if let error = error {
-                    self.log.error("Pump event storage failed: %{public}@", String(describing: error))
-                    completion(MinimedPumpManagerError.storageFailure)
-                } else {
-                    completion(nil)
-                }
+            do {
+                try await delegate.pumpManager(self, hasNewPumpEvents: events, lastReconciliation: self.state.lastReconciliation, replacePendingEvents: true)
+                completion(nil)
+            } catch {
+                self.log.error("Pump event storage failed: %{public}@", String(describing: error))
+                completion(MinimedPumpManagerError.storageFailure)
             }
         })
     }
@@ -908,10 +895,10 @@ extension MinimedPumpManager {
     }
 
     private func updateBLEHeartbeatPreference() {
-        // Must not be called on the delegate's queue
-        rileyLinkDeviceProvider.timerTickEnabled = isPumpDataStale || pumpDelegate.call({ (delegate) -> Bool in
-            return delegate?.pumpManagerMustProvideBLEHeartbeat(self) == true
-        })
+        Task {
+            let mustProvideBLEHeartbeat = await pumpDelegate.call { await $0?.pumpManagerMustProvideBLEHeartbeat(self) } == true
+            rileyLinkDeviceProvider.timerTickEnabled = isPumpDataStale || mustProvideBLEHeartbeat
+        }
     }
 
     // MARK: - Configuration
@@ -1131,16 +1118,6 @@ extension MinimedPumpManager: PumpManager {
         }
     }
 
-    public var delegateQueue: DispatchQueue! {
-        get {
-            return pumpDelegate.queue
-        }
-        set {
-            pumpDelegate.queue = newValue
-            cgmDelegate.queue = newValue
-        }
-    }
-
     // MARK: Methods
 
     public func completeOnboard() {
@@ -1201,7 +1178,7 @@ extension MinimedPumpManager: PumpManager {
                 let error = PumpManagerError.connection(MinimedPumpManagerError.noRileyLink)
                 self.log.error("No devices found while fetching pump data")
                 self.pumpDelegate.notify({ (delegate) in
-                    delegate?.pumpManager(self, didError: error)
+                    await delegate?.pumpManager(self, didError: error)
                     completion?(self.lastSync)
                 })
                 return
@@ -1227,7 +1204,7 @@ extension MinimedPumpManager: PumpManager {
                     if abs(date.timeIntervalSince(self.dateGenerator())) > .seconds(20) {
                         self.log.error("Pump clock is more than 20 seconds off. Resetting.")
                         self.pumpDelegate.notify({ (delegate) in
-                            delegate?.pumpManager(self, didAdjustPumpClockBy: date.timeIntervalSinceNow)
+                            await delegate?.pumpManager(self, didAdjustPumpClockBy: date.timeIntervalSinceNow)
                         })
                         try session.setTimeToNow()
 
@@ -1257,7 +1234,7 @@ extension MinimedPumpManager: PumpManager {
                 } catch let error {
                     self.log.error("Failed to fetch pump status: %{public}@", String(describing: error))
                     self.pumpDelegate.notify({ (delegate) in
-                        delegate?.pumpManager(self, didError: PumpManagerError.communication(error as? LocalizedError))
+                        await delegate?.pumpManager(self, didError: PumpManagerError.communication(error as? LocalizedError))
                     })
                     self.troubleshootPumpComms(using: device)
                     completion?(self.lastSync)
@@ -1608,15 +1585,18 @@ extension MinimedPumpManager: CGMManager {
     }
 
     public func fetchNewDataIfNeeded(_ completion: @escaping (CGMReadingResult) -> Void) {
+        Task {
+            let latestGlucoseDate = await cgmDelegate.call { await $0?.startDateToFilterNewData(for: self) } ?? Date(timeIntervalSinceNow: TimeInterval(hours: -24))
+            fetchEnliteHistory(since: latestGlucoseDate, completion: completion)
+        }
+    }
+
+    private func fetchEnliteHistory(since latestGlucoseDate: Date, completion: @escaping (CGMReadingResult) -> Void) {
         rileyLinkDeviceProvider.getDevices { (devices) in
             guard let device = devices.firstConnected else {
                 completion(.error(PumpManagerError.connection(MinimedPumpManagerError.noRileyLink)))
                 return
             }
-
-            let latestGlucoseDate = self.cgmDelegate.call({ (delegate) -> Date in
-                return delegate?.startDateToFilterNewData(for: self) ?? Date(timeIntervalSinceNow: TimeInterval(hours: -24))
-            })
 
             guard latestGlucoseDate.timeIntervalSinceNow <= TimeInterval(minutes: -4.5) else {
                 completion(.noData)

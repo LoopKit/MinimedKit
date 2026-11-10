@@ -32,9 +32,8 @@ class MockPumpManagerDelegate: PumpManagerDelegate {
 
     var reportedPumpEvents: [(events: [NewPumpEvent], lastReconciliation: Date?)] = []
     
-    func pumpManager(_ pumpManager: PumpManager, hasNewPumpEvents events: [NewPumpEvent], lastReconciliation: Date?, replacePendingEvents: Bool, completion: @escaping (Error?) -> Void) {
+    func pumpManager(_ pumpManager: PumpManager, hasNewPumpEvents events: [NewPumpEvent], lastReconciliation: Date?, replacePendingEvents: Bool) async throws {
         reportedPumpEvents.append((events: events, lastReconciliation: lastReconciliation))
-        completion(nil)
     }
 
     struct MockReservoirValue: ReservoirValue {
@@ -42,19 +41,16 @@ class MockPumpManagerDelegate: PumpManagerDelegate {
         let unitVolume: Double
     }
 
-    func pumpManager(_ pumpManager: PumpManager, didReadReservoirValue units: Double, at date: Date, completion: @escaping (Result<(newValue: ReservoirValue, lastValue: ReservoirValue?, areStoredValuesContinuous: Bool), Error>) -> Void)
-    {
+    func pumpManager(_ pumpManager: PumpManager, didReadReservoirValue units: Double, at date: Date) async throws -> (newValue: ReservoirValue, lastValue: ReservoirValue?, areStoredValuesContinuous: Bool) {
         let reservoirValue = MockReservoirValue(startDate: date, unitVolume: units)
-        DispatchQueue.main.async {
-            completion(.success((newValue: reservoirValue, lastValue: nil, areStoredValuesContinuous: true)))
-        }
+        return (newValue: reservoirValue, lastValue: nil, areStoredValuesContinuous: true)
     }
 
     func pumpManager(_ pumpManager: PumpManager, didAdjustPumpClockBy adjustment: TimeInterval) {}
 
     func pumpManagerDidUpdateState(_ pumpManager: PumpManager) {}
-    
-    func pumpManager(_ pumpManager: PumpManager, didRequestBasalRateScheduleChange basalRateSchedule: BasalRateSchedule, completion: @escaping (Error?) -> Void) { }
+
+    func pumpManager(_ pumpManager: PumpManager, didRequestBasalRateScheduleChange basalRateSchedule: BasalRateSchedule) async throws { }
 
     func startDateToFilterNewPumpEvents(for manager: PumpManager) -> Date {
         return historyFetchStartDate
