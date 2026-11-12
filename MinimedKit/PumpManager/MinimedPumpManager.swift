@@ -1247,7 +1247,7 @@ extension MinimedPumpManager: PumpManager {
         self.state.pumpModel.bolusDeliveryTime(units: units)
     }
     
-    public func enactBolus(decisionId: UUID?, units: Double, activationType: BolusActivationType, completion: @escaping (PumpManagerError?) -> Void) {
+    public func enactBolus(doseId: UUID, units: Double, activationType: BolusActivationType, completion: @escaping (PumpManagerError?) -> Void) {
         let enactUnits = roundToSupportedBolusVolume(units: units)
 
         guard enactUnits > 0 else {
@@ -1325,7 +1325,7 @@ extension MinimedPumpManager: PumpManager {
             let commsOffset = TimeInterval(seconds: -2)
             let doseStart = self.dateGenerator().addingTimeInterval(commsOffset)
 
-            let dose = UnfinalizedDose(decisionId: decisionId, bolusAmount: enactUnits, startTime: doseStart, duration: deliveryTime, insulinType: insulinType, automatic: activationType.isAutomatic)
+            let dose = UnfinalizedDose(doseId: doseId, bolusAmount: enactUnits, startTime: doseStart, duration: deliveryTime, insulinType: insulinType, automatic: activationType.isAutomatic)
             self.setState({ (state) in
                 state.unfinalizedBolus = dose
             })
@@ -1355,7 +1355,7 @@ extension MinimedPumpManager: PumpManager {
         }
     }
     
-    public func enactTempBasal(decisionId: UUID?, unitsPerHour: Double, for duration: TimeInterval, completion: @escaping (PumpManagerError?) -> Void) {
+    public func enactTempBasal(doseId: UUID, unitsPerHour: Double, for duration: TimeInterval, completion: @escaping (PumpManagerError?) -> Void) {
         guard let insulinType = insulinType else {
             completion(.configuration(MinimedPumpManagerError.insulinTypeNotConfigured))
             return
@@ -1378,7 +1378,7 @@ extension MinimedPumpManager: PumpManager {
             case .success:
                 let now = self.dateGenerator()
 
-                let dose = UnfinalizedDose(decisionId: decisionId, tempBasalRate: unitsPerHour, startTime: now, duration: duration, insulinType: insulinType, automatic: true)
+                let dose = UnfinalizedDose(doseId: doseId, tempBasalRate: unitsPerHour, startTime: now, duration: duration, insulinType: insulinType, automatic: true)
                 
                 self.recents.tempBasalEngageState = .stable
                 
