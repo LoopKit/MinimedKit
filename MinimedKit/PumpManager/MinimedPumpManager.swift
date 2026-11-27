@@ -1066,7 +1066,8 @@ extension MinimedPumpManager: PumpManager {
             pumpBatteryChargeRemaining: state.batteryPercentage,
             basalDeliveryState: basalDeliveryState,
             bolusState: bolusState,
-            insulinType: state.insulinType
+            insulinType: state.insulinType,
+            reservoirLevel: state.lastReservoirReading.map { .measured(units: $0.units) }
         )
     }
     

@@ -95,12 +95,6 @@ class MinimedPumpSettingsViewModel: ObservableObject {
         return numberFormatter
     }()
 
-    let reservoirVolumeFormatter = {
-        let formatter = QuantityFormatter(for: .internationalUnit)
-        formatter.numberFormatter.maximumFractionDigits = 1
-        return formatter
-    }()
-
     init(pumpManager: MinimedPumpManager) {
         self.pumpManager = pumpManager
         self.basalDeliveryState = pumpManager.status.basalDeliveryState
@@ -231,8 +225,7 @@ class MinimedPumpSettingsViewModel: ObservableObject {
     }
 
     func reservoirText(for units: Double) -> String {
-        let quantity = LoopQuantity(unit: .internationalUnit, doubleValue: units)
-        return reservoirVolumeFormatter.string(from: quantity) ?? ""
+        ReservoirLevel.measured(units: units).formatted()
     }
 
     var isClockOffset: Bool {
